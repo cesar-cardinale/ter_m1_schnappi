@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<session>
+  <version>Schnappi Editor:0.0.1</version>
+  <id>1</id>
+  <base_id>0</base_id>
+  <start_date>13.04.2021 15:37:18</start_date>
+  <proj_name>TER</proj_name>
+  <user_name>César</user_name>
+  <user_comment />
+  <start_text />
+  <end_text>SAlut&amp;#xa;Comment ça va ?</end_text>
+  <event_log>
+    <event id="0" type="ins">
+      <time>13.04.2021 15:37:19:964091</time>
+      <pos>0</pos>
+      <idx>1.0</idx>
+      <text>S</text>
+    </event>
+    <event id="1" type="ins">
+      <time>13.04.2021 15:37:20:046237</time>
+      <pos>1</pos>
+      <idx>1.1</idx>
+      <text>A</text>
+    </event>
+    <event id="2" type="ins">
+      <time>13.04.2021 15:37:20:163043</time>
+      <pos>2</pos>
+      <idx>1.2</idx>
+      <text>l</text>
+    </event>
+    <event id="3" type="ins">
+      <time>13.04.2021 15:37:20:355393</time>
+      <pos>3</pos>
+      <idx>1.3</idx>
+      <text>u</text>
+    </event>
+    <event id="4" type="ins">
+      <time>13.04.2021 15:37:20:426187</time>
+      <pos>4</pos>
+      <idx>1.4</idx>
+      <text>t</text>
+    </event>
+    <event id="5" type="ins">
+      <time>13.04.2021 15:37:20:602410</time>
+      <pos>5</pos>
+      <idx>1.5</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="6" type="ins">
+      <time>13.04.2021 15:37:21:098426</time>
+      <pos>6</pos>
+      <idx>2.0</idx>
+      <text>C</text>
+    </event>
+    <event id="7" type="ins">
+      <time>13.04.2021 15:37:21:283846</time>
+      <pos>7</pos>
+      <idx>2.1</idx>
+      <text>o</text>
+    </event>
+    <event id="8" type="ins">
+      <time>13.04.2021 15:37:21:450942</time>
+      <pos>8</pos>
+      <idx>2.2</idx>
+      <text>m</text>
+    </event>
+    <event id="9" type="ins">
+      <time>13.04.2021 15:37:21:547040</time>
+      <pos>9</pos>
+      <idx>2.3</idx>
+      <text>m</text>
+    </event>
+    <event id="10" type="ins">
+      <time>13.04.2021 15:37:21:639885</time>
+      <pos>10</pos>
+      <idx>2.4</idx>
+      <text>e</text>
+    </event>
+    <event id="11" type="ins">
+      <time>13.04.2021 15:37:21:754844</time>
+      <pos>11</pos>
+      <idx>2.5</idx>
+      <text>n</text>
+    </event>
+    <event id="12" type="ins">
+      <time>13.04.2021 15:37:21:861811</time>
+      <pos>12</pos>
+      <idx>2.6</idx>
+      <text>t</text>
+    </event>
+    <event id="13" type="ins">
+      <time>13.04.2021 15:37:21:989855</time>
+      <pos>13</pos>
+      <idx>2.7</idx>
+      <text> </text>
+    </event>
+    <event id="14" type="ins">
+      <time>13.04.2021 15:37:22:326988</time>
+      <pos>14</pos>
+      <idx>2.8</idx>
+      <text>ç</text>
+    </event>
+    <event id="15" type="ins">
+      <time>13.04.2021 15:37:22:413691</time>
+      <pos>15</pos>
+      <idx>2.9</idx>
+      <text>a</text>
+    </event>
+    <event id="16" type="ins">
+      <time>13.04.2021 15:37:22:474078</time>
+      <pos>16</pos>
+      <idx>2.10</idx>
+      <text> </text>
+    </event>
+    <event id="17" type="ins">
+      <time>13.04.2021 15:37:22:624836</time>
+      <pos>17</pos>
+      <idx>2.11</idx>
+      <text>v</text>
+    </event>
+    <event id="18" type="ins">
+      <time>13.04.2021 15:37:22:766860</time>
+      <pos>18</pos>
+      <idx>2.12</idx>
+      <text>a</text>
+    </event>
+    <event id="19" type="ins">
+      <time>13.04.2021 15:37:22:906792</time>
+      <pos>19</pos>
+      <idx>2.13</idx>
+      <text> </text>
+    </event>
+    <event id="20" type="ins">
+      <time>13.04.2021 15:37:23:139067</time>
+      <pos>20</pos>
+      <idx>2.14</idx>
+      <text>?</text>
+    </event>
+    <event id="21" type="ins">
+      <time>13.04.2021 15:37:23:310783</time>
+      <pos>21</pos>
+      <idx>2.15</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="22" type="ins">
+      <time>13.04.2021 15:37:53:773984</time>
+      <pos>22</pos>
+      <idx>3.0</idx>
+      <text>J</text>
+    </event>
+    <event id="23" type="ins">
+      <time>13.04.2021 15:37:53:974713</time>
+      <pos>23</pos>
+      <idx>3.1</idx>
+      <text>e</text>
+    </event>
+    <event id="24" type="ins">
+      <time>13.04.2021 15:37:54:095496</time>
+      <pos>24</pos>
+      <idx>3.2</idx>
+      <text> </text>
+    </event>
+    <event id="25" type="ins">
+      <time>13.04.2021 15:37:54:151451</time>
+      <pos>25</pos>
+      <idx>3.3</idx>
+      <text>s</text>
+    </event>
+    <event id="26" type="ins">
+      <time>13.04.2021 15:37:54:206588</time>
+      <pos>26</pos>
+      <idx>3.4</idx>
+      <text>a</text>
+    </event>
+    <event id="27" type="ins">
+      <time>13.04.2021 15:37:54:295383</time>
+      <pos>27</pos>
+      <idx>3.5</idx>
+      <text>i</text>
+    </event>
+    <event id="28" type="ins">
+      <time>13.04.2021 15:37:54:379561</time>
+      <pos>28</pos>
+      <idx>3.6</idx>
+      <text>s</text>
+    </event>
+    <event id="29" type="ins">
+      <time>13.04.2021 15:37:54:423070</time>
+      <pos>29</pos>
+      <idx>3.7</idx>
+      <text> </text>
+    </event>
+    <event id="30" type="ins">
+      <time>13.04.2021 15:37:54:551323</time>
+      <pos>30</pos>
+      <idx>3.8</idx>
+      <text>p</text>
+    </event>
+    <event id="31" type="ins">
+      <time>13.04.2021 15:37:54:623463</time>
+      <pos>31</pos>
+      <idx>3.9</idx>
+      <text>a</text>
+    </event>
+    <event id="32" type="ins">
+      <time>13.04.2021 15:37:54:679372</time>
+      <pos>32</pos>
+      <idx>3.10</idx>
+      <text>s</text>
+    </event>
+    <event id="33" type="ins">
+      <time>13.04.2021 15:37:55:044212</time>
+      <pos>33</pos>
+      <idx>3.11</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="34" type="back">
+      <time>13.04.2021 15:37:55:758506</time>
+      <pos>33</pos>
+      <idx>3.11</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="35" type="back">
+      <time>13.04.2021 15:37:55:901830</time>
+      <pos>32</pos>
+      <idx>3.10</idx>
+      <text>s</text>
+    </event>
+    <event id="36" type="back">
+      <time>13.04.2021 15:37:56:042656</time>
+      <pos>31</pos>
+      <idx>3.9</idx>
+      <text>a</text>
+    </event>
+    <event id="37" type="back">
+      <time>13.04.2021 15:37:56:164533</time>
+      <pos>30</pos>
+      <idx>3.8</idx>
+      <text>p</text>
+    </event>
+    <event id="38" type="back">
+      <time>13.04.2021 15:37:56:281000</time>
+      <pos>29</pos>
+      <idx>3.7</idx>
+      <text> </text>
+    </event>
+    <event id="39" type="back">
+      <time>13.04.2021 15:37:56:396188</time>
+      <pos>28</pos>
+      <idx>3.6</idx>
+      <text>s</text>
+    </event>
+    <event id="40" type="back">
+      <time>13.04.2021 15:37:56:520561</time>
+      <pos>27</pos>
+      <idx>3.5</idx>
+      <text>i</text>
+    </event>
+    <event id="41" type="back">
+      <time>13.04.2021 15:37:56:646173</time>
+      <pos>26</pos>
+      <idx>3.4</idx>
+      <text>a</text>
+    </event>
+    <event id="42" type="back">
+      <time>13.04.2021 15:37:56:772955</time>
+      <pos>25</pos>
+      <idx>3.3</idx>
+      <text>s</text>
+    </event>
+    <event id="43" type="back">
+      <time>13.04.2021 15:37:57:019908</time>
+      <pos>24</pos>
+      <idx>3.2</idx>
+      <text> </text>
+    </event>
+    <event id="44" type="back">
+      <time>13.04.2021 15:37:57:139932</time>
+      <pos>23</pos>
+      <idx>3.1</idx>
+      <text>e</text>
+    </event>
+    <event id="45" type="back">
+      <time>13.04.2021 15:37:57:532537</time>
+      <pos>22</pos>
+      <idx>3.0</idx>
+      <text>J</text>
+    </event>
+    <event id="46" type="back">
+      <time>13.04.2021 15:37:57:722491</time>
+      <pos>21</pos>
+      <idx>2.15</idx>
+      <text>&amp;#xa;</text>
+    </event>
+  </event_log>
+</session>
