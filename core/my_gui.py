@@ -4,13 +4,15 @@ import tkinter as tk
 class App(object):
 
     def __init__(self, parent):
-        parent.geometry("400x600")
+        parent.geometry("400x300")
         self.root = parent
         self.root.title("Schnappi viewer")
         self.frame = tk.Frame(parent)
         self.label = tk.Label()
-        self.frame.pack()
-        self.label.pack()
+        self.fileInput = tk.Text(parent, height = 1,width = 20,bg = "light yellow")
+        
+    def getFile(self):
+        return self.fileInput.get("1.0","end")
 
     def insert(self, char, position):
         print("Ajout : "+char)
@@ -32,3 +34,11 @@ class App(object):
         if len(char_list) > int(position) and char_list[int(position)] == char:
             char_list.pop(int(position))
             self.label.configure(text="".join(char_list))
+    
+    def reset(self):
+        self.label.configure(text="")
+
+    def init(self):
+        self.frame.pack()
+        self.fileInput.pack()
+        self.label.pack()
