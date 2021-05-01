@@ -1,31 +1,26 @@
-from core import my_gui, my_parser
+from core import my_gui, my_parser, gui_action
 import tkinter as tk
 from time import sleep
-
+import threading
 
 def main():
-	fileName = 'schnappi.ses'
 
-	root = tk.Tk()
-
-	app = my_gui.App(root)
-	file = app.getFile
-	B = tk.Button(root, text ="Run", command = lambda: start(root, app, file))
-	B.pack()
+	app = my_gui.App(gui_action)
+	
 	app.init()
-	root.mainloop()
+	app.root.mainloop()
 
 
 
 
-def start(root, app, file):
-	actions_list = my_parser.parse(file().strip())
-	app.reset()
-	for action in actions_list:
-		if action.type == "ins":
-			app.insert(action.text, action.position)
-		elif action.type == "back":
-			app.delete(action.text, action.position)
+
+
+# def getReaderThread():
+# 	for t in threading.enumerate():
+# 		if t.name == "reader":
+# 			return t
+
+
 
 
 if __name__ == "__main__":

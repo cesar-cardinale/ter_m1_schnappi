@@ -1,18 +1,24 @@
 import tkinter as tk
 
 
+
 class App(object):
 
-    def __init__(self, parent):
+    def __init__(self,gui_action):
+        parent = tk.Tk()
         parent.geometry("400x300")
         self.root = parent
+        self.startingpoint = tk.Text(self.root, height = 1,width = 20,bg = "light yellow")
         self.root.title("Schnappi viewer")
-        self.frame = tk.Frame(parent)
-        self.label = tk.Label()
-        self.fileInput = tk.Text(parent, height = 1,width = 20,bg = "light yellow")
+        self.frame = tk.Frame(self.root)
+        self.label = tk.Label(self.root)
+        self.fileLabel = tk.Label(self.root)
+        self.chooseFile = tk.Button(self.root, text ="Open file", command = lambda: gui_action.openFile(self))
+        self.start = tk.Button(self.root, text ="Run", command = lambda: gui_action.start(self))
+        
         
     def getFile(self):
-        return self.fileInput.get("1.0","end")
+        return self.fileInput.strip()
 
     def insert(self, char, position):
         print("Ajout : "+char)
@@ -33,12 +39,22 @@ class App(object):
             char = "\n"
         if len(char_list) > int(position) and char_list[int(position)] == char:
             char_list.pop(int(position))
-            self.label.configure(text="".join(char_list))
+            self.label.configure(text = "".join(char_list))
     
     def reset(self):
-        self.label.configure(text="")
+        self.label.configure(text = "")
+
+    def displayFile(self):
+        self.fileLabel.configure(text = self.fileInput)
+
+    def getStart(self):
+        return int(self.startingpoint.get("1.0" ,"end").strip())
+
 
     def init(self):
+        self.chooseFile.pack()
+        self.fileLabel.pack()
         self.frame.pack()
-        self.fileInput.pack()
+        self.startingpoint.pack()
+        self.start.pack()
         self.label.pack()
