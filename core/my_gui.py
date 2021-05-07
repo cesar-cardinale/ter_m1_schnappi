@@ -10,7 +10,7 @@ class App(object):
         self.root = parent
         self.root.title("Schnappi viewer")
         self.frame = tk.Frame(self.root)
-        self.mainText = tk.Label(self.root,bg = "white", justify="left")
+        self.mainText = tk.Label(self.root,bg = "white", justify="left", fg = 'black')
         self.fileLabel = tk.Label(self.root)
         self.chooseFile = tk.Button(self.root, text ="Open file", command = lambda: gui_action.openFile(self))
         self.start = tk.Button(self.root, text ="Run", command = lambda: gui_action.start(self))
