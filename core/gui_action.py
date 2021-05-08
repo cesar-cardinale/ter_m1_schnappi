@@ -3,50 +3,58 @@ import threading
 from time import sleep
 from tkinter import filedialog
 
-def start(appGui):
-	run = threading.Event()
-	reader = threading.Thread(target=readAction,args=(appGui,appGui.actions_list,run),name="reader", daemon=True)
-	reader.start()
-	appGui.start.configure(text = 'Stop', command = lambda : pause(appGui,run))
+
+def start(app_gui):
+    run = threading.Event()
+    reader = threading.Thread(target=read_action, args=(app_gui, app_gui.actions_list, run), name="reader", daemon=True)
+    reader.start()
+    app_gui.start.configure(text='Stop', command=lambda: pause(app_gui, run))
 
 
-def pause(appGui, run):
-	run.set()
-	changeButton(appGui)
-
-def changeButton(appGui):
-	appGui.start.configure(text = 'Run', command = lambda : start(appGui))
-
-def readAction(appGui, actions_list, run):
-	print("thread")
-	appGui.reset()
-	start = appGui.getStart()
-	for action in actions_list[:start]:
-		if action.type == "ins":
-			appGui.insert(action.text, action.position)
-		elif action.type == "back":
-			appGui.delete(action.text, action.position)
-
-	for action in actions_list[start:]:
-		if run.is_set():
-			updateSlider(appGui, actions_list.index(action))
-			return
-		if action.type == "ins":
-			appGui.insert(action.text, action.position)
-		elif action.type == "back":
-			appGui.delete(action.text, action.position)
-		sleep(0.1)
-	updateSlider(appGui, len(actions_list))
-	changeButton(appGui)
-
-def updateSlider(appGui, value):
-	appGui.updateStart(value)
+def pause(app_gui, run):
+    run.set()
+    change_button(app_gui)
 
 
-def openFile(appGui):
-	appGui.reset()
-	updateSlider(appGui, 0)
-	appGui.fileInput = filedialog.askopenfilename(initialdir = "./",title = "Select file",filetypes = (("ses files","*.ses"),("all files","*.*")))
-	appGui.displayFile()
-	appGui.actions_list = my_parser.parse(appGui.getFile().strip())
-	appGui.setSliderMax(len(appGui.actions_list))
+def change_button(app_gui):
+    app_gui.start.configure(text='Run', command=lambda: start(app_gui))
+
+
+def read_action(app_gui, actions_list, run):
+    print("thread")
+    app_gui.reset()
+    gui_start = app_gui.get_start()
+    for action in actions_list[:gui_start]:
+        if action.type == "ins":
+            app_gui.insert(action.text, action.position)
+        elif action.type == "back":
+            app_gui.delete(action.text, action.position)
+
+    for action in actions_list[gui_start:]:
+        update_slider(app_gui, actions_list.index(action))
+        if run.is_set():
+            update_slider(app_gui, actions_list.index(action))
+            return
+        if action.type == "ins":
+            app_gui.insert(action.text, action.position)
+        elif action.type == "back":
+            app_gui.delete(action.text, action.position)
+        sleep(0.1)
+    update_slider(app_gui, len(actions_list))
+    change_button(app_gui)
+
+
+def update_slider(app_gui, value):
+    app_gui.update_start(value)
+
+
+def open_file(app_gui):
+    app_gui.reset()
+    update_slider(app_gui, 0)
+    app_gui.file_input = filedialog.askopenfilename(initialdir="./", title="Select file",
+                                                    filetypes=(("ses files", "*.ses"), ("all files", "*.*")))
+    if app_gui.file_input:
+        app_gui.display_file()
+        app_gui.start.configure(state="normal")
+        app_gui.actions_list = my_parser.parse(app_gui.get_file().strip())
+        app_gui.set_slider_max(len(app_gui.actions_list))
