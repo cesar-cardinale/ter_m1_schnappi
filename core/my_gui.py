@@ -19,7 +19,7 @@ class App(object):
         self.file_label.grid(row=1, column=0, sticky="nsew", columnspan=2)
         self.choose_file = tk.Button(self.root, text="Open file", command=lambda: gui_action.open_file(self))
         self.choose_file.grid(row=0, column=0, columnspan=2)
-        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(self), height=2, width=1)
+        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(self), height=2, width=6)
         self.start.grid(row=3, column=0)
         self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal", sliderrelief='flat', highlightthickness=0)
         self.slider.grid(row=3, column=1, sticky="nsew")
@@ -56,7 +56,7 @@ class App(object):
 
     def display_file(self):
         name = self.file_input.split('/')
-        self.choose_file.configure(text=name[len(name)-1])
+        self.choose_file.configure(text=name[-1])
         # self.file_label.configure(text=name[len(name)-1])
 
     def get_start(self):
