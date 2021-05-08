@@ -8,7 +8,7 @@ def start(app_gui):
     run = threading.Event()
     reader = threading.Thread(target=read_action, args=(app_gui, app_gui.actions_list, run), name="reader", daemon=True)
     reader.start()
-    app_gui.start.configure(text='Stop', command=lambda: pause(app_gui, run))
+    app_gui.start.configure(text='PAUSE', command=lambda: pause(app_gui, run))
 
 
 def pause(app_gui, run):
@@ -17,7 +17,7 @@ def pause(app_gui, run):
 
 
 def change_button(app_gui):
-    app_gui.start.configure(text='Run', command=lambda: start(app_gui))
+    app_gui.start.configure(text='PLAY', command=lambda: start(app_gui))
 
 
 def read_action(app_gui, actions_list, run):

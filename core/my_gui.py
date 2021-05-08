@@ -19,9 +19,9 @@ class App(object):
         self.file_label.grid(row=1, column=0, sticky="nsew", columnspan=2)
         self.choose_file = tk.Button(self.root, text="Open file", command=lambda: gui_action.open_file(self))
         self.choose_file.grid(row=0, column=0, columnspan=2)
-        self.start = tk.Button(self.root, text="Run", state="disabled", command=lambda: gui_action.start(self))
+        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(self), height=2, width=1)
         self.start.grid(row=3, column=0)
-        self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal")
+        self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal", sliderrelief='flat', highlightthickness=0)
         self.slider.grid(row=3, column=1, sticky="nsew")
 
     def get_file(self):
