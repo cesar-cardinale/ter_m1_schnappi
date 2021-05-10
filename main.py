@@ -3,16 +3,12 @@ import tkinter as tk
 from time import sleep
 import threading
 
+
 def main():
+    app = my_gui.App(gui_action)
 
-	app = my_gui.App(gui_action)
-	
-	app.init()
-	app.root.mainloop()
-
-
-
-
+    app.init()
+    app.root.mainloop()
 
 
 # def getReaderThread():
@@ -21,7 +17,5 @@ def main():
 # 			return t
 
 
-
-
 if __name__ == "__main__":
-	main()
+    main()

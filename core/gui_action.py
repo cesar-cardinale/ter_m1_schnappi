@@ -3,6 +3,8 @@ import threading
 from time import sleep
 from tkinter import filedialog
 
+rate = 0.1
+
 
 def start(app_gui):
     run = threading.Event()
@@ -39,7 +41,7 @@ def read_action(app_gui, actions_list, run):
             app_gui.insert(action.text, action.position)
         elif action.type == "back":
             app_gui.delete(action.text, action.position)
-        sleep(0.1)
+        sleep(app_gui.speed.get())
     update_slider(app_gui, len(actions_list))
     change_button(app_gui)
 
