@@ -20,7 +20,7 @@ class App(object):
         self.choose_file = tk.Button(self.root, text="Open file", command=lambda: gui_action.open_file(self))
         self.choose_file.grid(row=0, column=0, columnspan=4)
 
-        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(self), height=2, width=5)
+        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(), height=2, width=5)
         self.start.grid(row=3, column=1)
 
         self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal", sliderrelief='flat', highlightthickness=0)
@@ -61,6 +61,9 @@ class App(object):
 
     def set_slider_max(self, value):
         self.slider.configure(to=value)
+
+    def set_slider_callback(self, function):
+        self.slider.configure(command=function)
 
     def delete(self, char, position):
         print("Suppression : " + char)
