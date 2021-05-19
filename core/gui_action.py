@@ -46,6 +46,9 @@ def jump():
             app_gui.insert(action.text, action.position)
         elif action.type == "back":
             app_gui.delete(action.text, action.position)
+        elif action.type == "del":
+            for c in action.text:
+                app_gui.delete(c,action.position)
 
 
 def read_action():
@@ -59,6 +62,9 @@ def read_action():
             app_gui.insert(action.text, action.position)
         elif action.type == "back":
             app_gui.delete(action.text, action.position)
+        elif action.type == "del":
+            for c in action.text:
+                app_gui.delete(c,action.position)
         sleep(app_gui.speed.get())
     update_slider(len(app_gui.actions_list))
     run.set()

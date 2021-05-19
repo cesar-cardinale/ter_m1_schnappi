@@ -1,7 +1,5 @@
 import xml.dom.minidom as xml
-from bs4 import BeautifulSoup
 from model.action import Action
-from html.parser import HTMLParser
 
 
 def parse(file_path):

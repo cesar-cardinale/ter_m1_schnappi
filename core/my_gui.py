@@ -53,9 +53,10 @@ class App(object):
 
     def insert(self, char, position):
         print("Ajout : " + char)
-        char_list = list(self.text)
+        char_list = self.text
         if len(char_list) > position:
-            char_list[position] = char
+            char_list = self.text[:int(position)]+char+self.text[int(position):]
+            #char_list[int(position)] = char
             self.text = "".join(char_list)
             self.main_text.delete(1.0, tk.END)
             self.main_text.insert(1.0, self.text)
