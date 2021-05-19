@@ -1,6 +1,4 @@
-import tkinter
-
-from core import my_parser, my_gui
+from core import my_parser
 import threading
 from time import sleep
 from tkinter import filedialog

@@ -33,14 +33,14 @@ class App(object):
         menubar = tk.Menu(self.root)
         self.root.config(menu=menubar)
 
-        file_menu = tk.Menu(menubar)
+        file_menu = tk.Menu(menubar,tearoff=0)
         file_menu.add_command(label="Open file ...", command=lambda: gui_action.open_file(self))
         file_menu.add_command(label="Exit", command=self.on_exit)
         menubar.add_cascade(label="File", menu=file_menu)
 
         self.speed = tk.DoubleVar()
         self.speed.set(.05)
-        submenu = tk.Menu(menubar)
+        submenu = tk.Menu(menubar,tearoff=0)
         submenu.add_radiobutton(label="25ms", value=.025, variable=self.speed)
         submenu.add_radiobutton(label="50ms", value=.05, variable=self.speed)
         submenu.add_radiobutton(label="100ms", value=.1, variable=self.speed)
