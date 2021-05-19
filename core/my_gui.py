@@ -59,7 +59,7 @@ class App(object):
         if len(char_list) > int(position):
             char_list[int(position)] = char
             self.text = "".join(char_list)
-            self.reset()
+            self.main_text.delete(1.0, tk.END)
             self.main_text.insert(1.0, self.text)
             # char_list[int(position)] = char
             # self.reset()
@@ -82,7 +82,7 @@ class App(object):
         if len(char_list) > int(position) and char_list[int(position)] == char:
             char_list.pop(int(position))
             self.text = "".join(char_list)
-            self.reset()
+            self.main_text.delete(1.0, tk.END)
             self.main_text.insert(1.0, self.text)
 
     def reset(self):
