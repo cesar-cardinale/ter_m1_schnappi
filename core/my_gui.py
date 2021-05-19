@@ -9,11 +9,12 @@ class App(object):
         self.file_input = None
         parent = tk.Tk()
         parent.geometry("500x700")
+        parent.minsize("500", "700")
         self.root = parent
         self.root.title("Schnappi viewer")
         self.root.rowconfigure(4, weight=1)
         self.root.columnconfigure(3, weight=1)
-        self.root.grid_rowconfigure(2, minsize=550, weight=1)
+        self.root.grid_rowconfigure(2, minsize=600, weight=1)
 
         self.frame = tk.Frame(self.root, height=800, width=500, bg="#b3a38e", pady=5, padx=5)
         self.frame.grid(row=2, column=0, sticky="nsew", columnspan=4)
