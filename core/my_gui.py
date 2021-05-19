@@ -12,24 +12,24 @@ class App(object):
         parent.minsize("500", "700")
         self.root = parent
         self.root.title("Schnappi viewer")
-        self.root.rowconfigure(4, weight=1)
-        self.root.columnconfigure(3, weight=1)
-        self.root.grid_rowconfigure(2, minsize=600, weight=1)
+
+        self.root.grid_rowconfigure(2, weight=1)
+        self.root.grid_columnconfigure(1, weight=1)
+
 
         self.frame = tk.Frame(self.root, height=800, width=500, bg="#b3a38e", pady=5, padx=5)
-        self.frame.grid(row=2, column=0, sticky="nsew", columnspan=4)
+        self.frame.grid(row=2, column=0, columnspan=2, sticky="nsew")
         self.main_text = tk.Text(self.frame, fg="black", bg="#b3a38e")
         self.file_label = tk.Label(self.root)
-        self.file_label.grid(row=1, column=0, sticky="nsew", columnspan=4)
+        self.file_label.grid(row=1, column=0, sticky="nsew", columnspan=2)
         self.choose_file = tk.Button(self.root, text="Open file", command=lambda: gui_action.open_file(self))
-        self.choose_file.grid(row=0, column=0, columnspan=4)
+        self.choose_file.grid(row=0, column=0, columnspan=2)
 
-        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(), height=2,
-                               width=5)
-        self.start.grid(row=3, column=1)
+        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(), height=2, width=5)
+        self.start.grid(row=3, column=0,sticky="nsew")
 
         self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal", sliderrelief='flat', highlightthickness=0)
-        self.slider.grid(row=3, column=3, sticky="nsew")
+        self.slider.grid(row=3, column=1, sticky="nsew")
 
         menubar = tk.Menu(self.root)
         self.root.config(menu=menubar)
