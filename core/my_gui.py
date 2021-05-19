@@ -18,7 +18,11 @@ class App(object):
 
         self.frame = tk.Frame(self.root, height=800, width=500, bg="#b3a38e", pady=5, padx=5)
         self.frame.grid(row=2, column=0, sticky="nsew", columnspan=4)
-        self.main_text = tk.Text(self.frame, fg="black", bg="#b3a38e")
+        scrollbar = tk.Scrollbar(self.frame)
+        self.main_text = tk.Text(self.frame, fg="black", bg="#b3a38e", yscrollcommand=scrollbar.set)
+        scrollbar.config(command=self.main_text.yview)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
         self.file_label = tk.Label(self.root)
         self.file_label.grid(row=1, column=0, sticky="nsew", columnspan=4)
         self.choose_file = tk.Button(self.root, text="Open file", command=lambda: gui_action.open_file(self))
@@ -28,7 +32,7 @@ class App(object):
                                width=5)
         self.start.grid(row=3, column=1)
 
-        self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal", sliderrelief='flat', highlightthickness=0)
+        self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal", sliderrelief='flat', highlightthickness=0, bd=-2)
         self.slider.grid(row=3, column=3, sticky="nsew")
 
         menubar = tk.Menu(self.root)
