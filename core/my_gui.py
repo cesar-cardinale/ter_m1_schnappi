@@ -4,6 +4,8 @@ import tkinter as tk
 class App(object):
 
     def __init__(self, gui_action):
+        self.text = ""
+
         self.file_input = None
         parent = tk.Tk()
         parent.geometry("500x700")
@@ -39,10 +41,9 @@ class App(object):
         self.speed = tk.DoubleVar()
         self.speed.set(.05)
         submenu = tk.Menu(menubar)
+        submenu.add_radiobutton(label="25ms", value=.025, variable=self.speed)
         submenu.add_radiobutton(label="50ms", value=.05, variable=self.speed)
         submenu.add_radiobutton(label="100ms", value=.1, variable=self.speed)
-        submenu.add_radiobutton(label="200ms", value=.2, variable=self.speed)
-        submenu.add_radiobutton(label="300ms", value=.3, variable=self.speed)
         submenu.add_radiobutton(label="500ms", value=.5, variable=self.speed)
         menubar.add_cascade(label="Speed", menu=submenu, underline=0)
 
@@ -51,15 +52,20 @@ class App(object):
 
     def insert(self, char, position):
         print("Ajout : " + char)
-        char_list = list(self.main_text.get("1.0", tk.END))
+        char_list = list(self.text)
         if char == "&#xa;":
             char = "\n"
 
         if len(char_list) > int(position):
             char_list[int(position)] = char
+            self.text = "".join(char_list)
             self.reset()
-            self.main_text.insert(1.0, "".join(char_list))
+            self.main_text.insert(1.0, self.text)
+            # char_list[int(position)] = char
+            # self.reset()
+            # self.main_text.insert(1.0, "".join(char_list))
         else:
+            self.text += char
             self.main_text.insert(tk.END, char)
 
     def set_slider_max(self, value):
@@ -70,16 +76,17 @@ class App(object):
 
     def delete(self, char, position):
         print("Suppression : " + char)
-        char_list = list(self.main_text.get("1.0", tk.END))
+        char_list = list(self.text)
         if char == "&#xa;":
             char = "\n"
         if len(char_list) > int(position) and char_list[int(position)] == char:
             char_list.pop(int(position))
+            self.text = "".join(char_list)
             self.reset()
-            self.main_text.insert(1.0, "".join(char_list))
+            self.main_text.insert(1.0, self.text)
 
     def reset(self):
-        self.main_text.delete("1.0", tk.END)
+        self.main_text.delete(1.0, tk.END)
 
     def display_file(self):
         name = self.file_input.split('/')

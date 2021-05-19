@@ -1,12 +1,15 @@
-from core import my_gui, my_parser
+import tkinter
+
+from core import my_parser, my_gui
 import threading
 from time import sleep
 from tkinter import filedialog
 
 global app_gui
-global run 
+global run
 run = threading.Event()
 run.set()
+
 
 def start():
     global run
@@ -20,16 +23,20 @@ def pause():
     run.set()
     change_button()
 
+
 def change_button():
     app_gui.set_slider_callback(slider_callback)
     app_gui.start.configure(text='PLAY', command=lambda: start())
 
+
 def thread_read():
     read_action()
 
-def slider_callback(event):
+
+def slider_callback(_):
     if run.is_set():
         jump()
+
 
 def jump():
     app_gui.reset()
@@ -39,6 +46,7 @@ def jump():
             app_gui.insert(action.text, action.position)
         elif action.type == "back":
             app_gui.delete(action.text, action.position)
+
 
 def read_action():
     gui_start = app_gui.get_start()

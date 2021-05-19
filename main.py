@@ -1,7 +1,4 @@
-from core import my_gui, my_parser, gui_action
-import tkinter as tk
-from time import sleep
-import threading
+from core import my_gui, gui_action
 
 
 def main():
