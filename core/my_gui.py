@@ -4,6 +4,7 @@ import tkinter as tk
 class App(object):
 
     def __init__(self, gui_action):
+        self.file_input = None
         parent = tk.Tk()
         parent.geometry("500x700")
         self.root = parent
