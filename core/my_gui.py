@@ -14,7 +14,7 @@ class App(object):
 
         self.frame = tk.Frame(self.root, height=300, width=425, bg="#b3a38e", pady=5, padx=5)
         self.frame.grid(row=2, column=0, sticky="nsew", columnspan=4)
-        self.main_text = tk.Label(self.frame, justify="left", fg="black", bg="#b3a38e", anchor="nw")
+        self.main_text = tk.Text(self.frame, fg="black", bg="#b3a38e")
         self.file_label = tk.Label(self.root)
         self.file_label.grid(row=1, column=0, sticky="nsew", columnspan=4)
         self.choose_file = tk.Button(self.root, text="Open file", command=lambda: gui_action.open_file(self))
@@ -49,15 +49,15 @@ class App(object):
 
     def insert(self, char, position):
         print("Ajout : " + char)
-        char_list = list(self.main_text.cget("text"))
+        char_list = list(self.main_text.get("1.0",tk.END))
         if char == "&#xa;":
             char = "\n"
 
         if len(char_list) > int(position):
             char_list[int(position)] = char
-            self.main_text.configure(text="".join(char_list))
+            self.main_text.insert(1.0, "".join(char_list))
         else:
-            self.main_text.configure(text=self.main_text.cget("text") + char)
+            self.main_text.configure(text=self.main_text.get("1.0",tk.END) + char)
 
     def set_slider_max(self, value):
         self.slider.configure(to=value)
@@ -75,7 +75,7 @@ class App(object):
             self.main_text.configure(text="".join(char_list))
 
     def reset(self):
-        self.main_text.configure(text="")
+        self.main_text.delete("1.0",tk.END)
 
     def display_file(self):
         name = self.file_input.split('/')
