@@ -20,7 +20,8 @@ class App(object):
         self.choose_file = tk.Button(self.root, text="Open file", command=lambda: gui_action.open_file(self))
         self.choose_file.grid(row=0, column=0, columnspan=4)
 
-        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(), height=2, width=5)
+        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(), height=2,
+                               width=5)
         self.start.grid(row=3, column=1)
 
         self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal", sliderrelief='flat', highlightthickness=0)
@@ -37,11 +38,11 @@ class App(object):
         self.speed = tk.DoubleVar()
         self.speed.set(.05)
         submenu = tk.Menu(menubar)
-        submenu.add_radiobutton(label="50ms",  value=.05, variable=self.speed)
-        submenu.add_radiobutton(label="100ms",  value=.1, variable=self.speed)
-        submenu.add_radiobutton(label="200ms",  value=.2, variable=self.speed)
-        submenu.add_radiobutton(label="300ms",  value=.3, variable=self.speed)
-        submenu.add_radiobutton(label="500ms",  value=.5, variable=self.speed)
+        submenu.add_radiobutton(label="50ms", value=.05, variable=self.speed)
+        submenu.add_radiobutton(label="100ms", value=.1, variable=self.speed)
+        submenu.add_radiobutton(label="200ms", value=.2, variable=self.speed)
+        submenu.add_radiobutton(label="300ms", value=.3, variable=self.speed)
+        submenu.add_radiobutton(label="500ms", value=.5, variable=self.speed)
         menubar.add_cascade(label="Speed", menu=submenu, underline=0)
 
     def get_file(self):
@@ -49,15 +50,16 @@ class App(object):
 
     def insert(self, char, position):
         print("Ajout : " + char)
-        char_list = list(self.main_text.get("1.0",tk.END))
+        char_list = list(self.main_text.get("1.0", tk.END))
         if char == "&#xa;":
             char = "\n"
 
         if len(char_list) > int(position):
             char_list[int(position)] = char
+            self.reset()
             self.main_text.insert(1.0, "".join(char_list))
         else:
-            self.main_text.configure(text=self.main_text.get("1.0",tk.END) + char)
+            self.main_text.insert(tk.END, char)
 
     def set_slider_max(self, value):
         self.slider.configure(to=value)
@@ -67,15 +69,16 @@ class App(object):
 
     def delete(self, char, position):
         print("Suppression : " + char)
-        char_list = list(self.main_text.cget("text"))
+        char_list = list(self.main_text.get("1.0", tk.END))
         if char == "&#xa;":
             char = "\n"
         if len(char_list) > int(position) and char_list[int(position)] == char:
             char_list.pop(int(position))
-            self.main_text.configure(text="".join(char_list))
+            self.reset()
+            self.main_text.insert(1.0, "".join(char_list))
 
     def reset(self):
-        self.main_text.delete("1.0",tk.END)
+        self.main_text.delete("1.0", tk.END)
 
     def display_file(self):
         name = self.file_input.split('/')
