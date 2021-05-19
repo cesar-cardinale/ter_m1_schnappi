@@ -6,4 +6,4 @@ class Action:
         self.position = position
 
     def to_cli(self):
-        return print("Action : " + self.type + " / " + self.time + " / (" + self.position + ") " + self.text)
+        return print("Action : " + self.type + " / " + self.time + " / (" + str(self.position) + ") " + self.text)

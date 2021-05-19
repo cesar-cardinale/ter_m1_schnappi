@@ -54,15 +54,12 @@ class App(object):
     def insert(self, char, position):
         print("Ajout : " + char)
         char_list = list(self.text)
-        if char == "&#xa;":
-            char = "\n"
-
-        if len(char_list) > int(position):
-            char_list[int(position)] = char
+        if len(char_list) > position:
+            char_list[position] = char
             self.text = "".join(char_list)
             self.main_text.delete(1.0, tk.END)
             self.main_text.insert(1.0, self.text)
-            # char_list[int(position)] = char
+            # char_list[position] = char
             # self.reset()
             # self.main_text.insert(1.0, "".join(char_list))
         else:
@@ -78,10 +75,8 @@ class App(object):
     def delete(self, char, position):
         print("Suppression : " + char)
         char_list = list(self.text)
-        if char == "&#xa;":
-            char = "\n"
-        if len(char_list) > int(position) and char_list[int(position)] == char:
-            char_list.pop(int(position))
+        if len(char_list) > position and char_list[position] == char:
+            char_list.pop(position)
             self.text = "".join(char_list)
             self.main_text.delete(1.0, tk.END)
             self.main_text.insert(1.0, self.text)
