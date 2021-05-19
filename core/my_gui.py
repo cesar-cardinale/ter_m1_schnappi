@@ -48,6 +48,7 @@ class App(object):
         menubar.add_cascade(label="Speed", menu=submenu, underline=0)
 
     def get_file(self):
+        self.reset()
         return self.file_input.strip()
 
     def insert(self, char, position):
@@ -86,6 +87,7 @@ class App(object):
             self.main_text.insert(1.0, self.text)
 
     def reset(self):
+        self.text = ""
         self.main_text.delete(1.0, tk.END)
 
     def display_file(self):
