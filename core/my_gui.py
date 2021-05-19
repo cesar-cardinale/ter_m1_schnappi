@@ -5,14 +5,14 @@ class App(object):
 
     def __init__(self, gui_action):
         parent = tk.Tk()
-        parent.geometry("300x450")
+        parent.geometry("500x700")
         self.root = parent
         self.root.title("Schnappi viewer")
         self.root.rowconfigure(4, weight=1)
         self.root.columnconfigure(3, weight=1)
-        self.root.grid_rowconfigure(2, minsize=300, weight=1)
+        self.root.grid_rowconfigure(2, minsize=550, weight=1)
 
-        self.frame = tk.Frame(self.root, height=300, width=425, bg="#b3a38e", pady=5, padx=5)
+        self.frame = tk.Frame(self.root, height=800, width=500, bg="#b3a38e", pady=5, padx=5)
         self.frame.grid(row=2, column=0, sticky="nsew", columnspan=4)
         self.main_text = tk.Label(self.frame, justify="left", fg="black", bg="#b3a38e", anchor="nw")
         self.file_label = tk.Label(self.root)
@@ -35,7 +35,7 @@ class App(object):
         menubar.add_cascade(label="File", menu=file_menu)
 
         self.speed = tk.DoubleVar()
-        self.speed.set(.1)
+        self.speed.set(.05)
         submenu = tk.Menu(menubar)
         submenu.add_radiobutton(label="50ms",  value=.05, variable=self.speed)
         submenu.add_radiobutton(label="100ms",  value=.1, variable=self.speed)
