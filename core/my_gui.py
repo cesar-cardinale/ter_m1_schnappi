@@ -5,6 +5,7 @@ class App(object):
 
     def __init__(self, gui_action):
         self.text = ""
+        self.text_deleted = []
 
         self.file_input = None
         parent = tk.Tk()
@@ -65,8 +66,10 @@ class App(object):
             char_list = self.text[:int(position)]+char+self.text[int(position):]
             #char_list[int(position)] = char
             self.text = "".join(char_list)
-            self.main_text.delete(1.0, tk.END)
-            self.main_text.insert(1.0, self.text)
+            for item in self.text_deleted:
+                if item[0] > position:
+                    item[0] += 1
+            self.display_text()
             # char_list[position] = char
             # self.reset()
             # self.main_text.insert(1.0, "".join(char_list))
@@ -84,14 +87,23 @@ class App(object):
         print("Suppression : " + char)
         char_list = list(self.text)
         if len(char_list) > position and char_list[position] == char:
+            new_position = position
+            for item in self.text_deleted:
+                if item[0] == new_position:
+                    new_position += 1
+            self.text_deleted.append([new_position, char])
             char_list.pop(position)
             self.text = "".join(char_list)
-            self.main_text.delete(1.0, tk.END)
-            self.main_text.insert(1.0, self.text)
+            self.display_text()
+        if len(char_list) > position:
+            for item in self.text_deleted:
+                if item[0] > position:
+                    item[0] -= 1
 
     def reset(self):
         self.text = ""
         self.main_text.delete(1.0, tk.END)
+        self.text_deleted = []
 
     def display_file(self):
         name = self.file_input.split('/')
@@ -109,6 +121,43 @@ class App(object):
 
     def on_exit(self):
         self.root.quit()
+
+    def display_text(self):
+        words = []
+        self.text_deleted.reverse()
+        first_deleted = 0
+        last_deleted = 0
+        last_word = ""
+        for i, char in enumerate(self.text_deleted):
+            if i == len(self.text_deleted) - 1:
+                last_word += char[1]
+                words.append([first_deleted, last_word])
+            elif char[0] == last_deleted + 1:
+                last_deleted = char[0]
+                last_word += char[1]
+            else:
+                words.append([first_deleted, last_word])
+                first_deleted = char[0]
+                last_word = char[1]
+                last_deleted = char[0]
+
+        # print(JSONEncoder.encode(JSONEncoder(), self.text_deleted))
+        final_text = []
+        last_deleted = 0
+        for i, char in enumerate(self.text):
+            for word in words:
+                if i == word[0] - 1:
+                    final_text.append("[" + word[1] + "]")
+            # for char2 in self.text_deleted:
+            #     # print(i, last_deleted)
+            #     if i == char2[0]-1 or last_deleted+1 == char2[0]:
+            #         final_text.append('|'+char2[1]+'|')
+            #         last_deleted = char2[0]
+            final_text.append(char)
+        self.text_deleted.reverse()
+        self.main_text.delete(1.0, tk.END)
+        self.main_text.insert(1.0, "".join(final_text))
+
     # self.chooseFile.pack()
     # self.fileLabel.pack()
     # self.frame.pack()
