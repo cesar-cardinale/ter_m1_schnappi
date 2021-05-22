@@ -17,11 +17,9 @@ class App(object):
         self.root.grid_rowconfigure(2, weight=1)
         self.root.grid_columnconfigure(1, weight=1)
 
-
         self.frame = tk.Frame(self.root, height=800, width=500, bg="#b3a38e", pady=5, padx=5)
         self.frame.grid(row=2, column=0, columnspan=2, sticky="nsew")
         self.frame.grid(row=2, column=0, sticky="nsew", columnspan=4)
-
 
         scrollbar = tk.Scrollbar(self.frame)
         self.main_text = tk.Text(self.frame, fg="black", bg="#b3a38e", yscrollcommand=scrollbar.set)
@@ -34,8 +32,9 @@ class App(object):
         self.choose_file = tk.Button(self.root, text="Open file", command=lambda: gui_action.open_file(self))
         self.choose_file.grid(row=0, column=0, columnspan=2)
 
-        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(), height=2, width=5)
-        self.start.grid(row=3, column=0,sticky="nsew")
+        self.start = tk.Button(self.root, text="PLAY", state="disabled", command=lambda: gui_action.start(), height=2,
+                               width=5)
+        self.start.grid(row=3, column=0, sticky="nsew")
 
         self.slider = tk.Scale(self.root, from_=0, to=0, orient="horizontal", sliderrelief='flat', highlightthickness=0)
         self.slider.grid(row=3, column=1, sticky="nsew")
@@ -43,14 +42,14 @@ class App(object):
         menubar = tk.Menu(self.root)
         self.root.config(menu=menubar)
 
-        file_menu = tk.Menu(menubar,tearoff=0)
+        file_menu = tk.Menu(menubar, tearoff=0)
         file_menu.add_command(label="Open file ...", command=lambda: gui_action.open_file(self))
         file_menu.add_command(label="Exit", command=self.on_exit)
         menubar.add_cascade(label="File", menu=file_menu)
 
         self.speed = tk.DoubleVar()
         self.speed.set(.05)
-        submenu = tk.Menu(menubar,tearoff=0)
+        submenu = tk.Menu(menubar, tearoff=0)
         submenu.add_radiobutton(label="25ms", value=.025, variable=self.speed)
         submenu.add_radiobutton(label="50ms", value=.05, variable=self.speed)
         submenu.add_radiobutton(label="100ms", value=.1, variable=self.speed)
@@ -67,41 +66,40 @@ class App(object):
     def set_slider_callback(self, function):
         self.slider.configure(command=function)
 
-    #insert in the text widget and self.text
+    # insert in the text widget and self.text
     def insert(self, char, position, direction):
         print("Ajout : " + char + " position : " + str(position))
         char_list = self.text.copy()
 
         if direction == 'forward':
             main_text_pos = self.position_forward(position)
-            element = text_element(char,[])
+            element = text_element(char, [])
             if len(char_list) > position:
                 char_list.insert(position, element)
-                self.main_text.insert(main_text_pos,element.char, 'normal')
+                self.main_text.insert(main_text_pos, element.char, 'normal')
             else:
                 char_list.append(element)
                 self.main_text.insert(main_text_pos, char, 'normal')
 
         elif direction == 'backward':
             main_text_pos = self.position_backward(position, False)
-            if char_list[position-1].del_after:
-               element = char_list[position-1].del_after[-1]
-               char_list[position-1].del_after.pop(-1)
+            if char_list[position - 1].del_after:
+                element = char_list[position - 1].del_after[-1]
+                char_list[position - 1].del_after.pop(-1)
             else:
-                element = text_element(char,())
+                element = text_element(char, ())
 
             if element.char == '\n':
                 self.main_text.delete(main_text_pos)
             self.main_text.delete(main_text_pos)
-            self.main_text.insert(main_text_pos,element.char,'normal')
+            self.main_text.insert(main_text_pos, element.char, 'normal')
             if len(char_list) > position:
                 char_list.insert(position, element)
             else:
                 char_list.append(element)
         self.text = char_list
 
-
-    #delete in the text widget and self.text
+    # delete in the text widget and self.text
     def delete(self, char, position, direction):
         print("Suppression : " + char + " position : " + str(position))
         char_list = self.text.copy()
@@ -114,7 +112,7 @@ class App(object):
                     self.main_text.insert(main_text_pos, '\\n', 'deleted')
                 else:
                     self.main_text.tag_add('deleted', main_text_pos)
-                char_list[position-1].append_all_after(char_list[position])
+                char_list[position - 1].append_all_after(char_list[position])
             elif direction == 'backward':
                 main_text_pos = self.position_backward(position, True)
                 self.main_text.delete(main_text_pos)
@@ -122,7 +120,7 @@ class App(object):
             char_list.pop(position)
             self.text = char_list.copy()
 
-    #give the position in the text widget when going forward
+    # give the position in the text widget when going forward
     def position_forward(self, pos):
         line = 1
         pos_last_new_line = 0
@@ -133,14 +131,13 @@ class App(object):
                 line += 1
                 pos_last_new_line = i
                 offset = -1
-        for i,c in enumerate(self.text[pos_last_new_line:pos]):
-            offset+= len(c.get_string())-1
-
+        for i, c in enumerate(self.text[pos_last_new_line:pos]):
+            offset += len(c.get_string()) - 1
 
         # print(str(line) + '.' + str(pos + offset - pos_last_new_line))
         return str(line) + '.' + str(pos + offset - pos_last_new_line)
 
-    #give the position in the text widget when going backward
+    # give the position in the text widget when going backward
     def position_backward(self, pos, sup):
         line = 1
         pos_last_new_line = 0
@@ -150,11 +147,10 @@ class App(object):
                 line += 1
                 pos_last_new_line = i
                 offset = -1
-        for i,c in enumerate(self.text[pos_last_new_line:pos]):
-            offset+= len(c.get_string())-1
-        if self.text[pos-1].del_after and not sup:
-            offset -= len(self.text[pos-1].del_after[-1].get_string())
-
+        for i, c in enumerate(self.text[pos_last_new_line:pos]):
+            offset += len(c.get_string()) - 1
+        if self.text[pos - 1].del_after and not sup:
+            offset -= len(self.text[pos - 1].del_after[-1].get_string())
 
         # print(str(line) + '.' + str(pos + offset - pos_last_new_line))
         return str(line) + '.' + str(pos + offset - pos_last_new_line)
@@ -175,11 +171,11 @@ class App(object):
         self.slider.set(value)
 
     def init(self):
-        self.main_text.pack(fill = "both", expand = 1)
+        self.main_text.pack(fill="both", expand=1)
 
     def text_tags_init(self):
-        self.main_text.tag_configure('normal', overstrike = 0)
-        self.main_text.tag_configure('deleted', overstrike = 1)
+        self.main_text.tag_configure('normal', overstrike=0, foreground="#000000")
+        self.main_text.tag_configure('deleted', overstrike=1, foreground="#CD5C5C")
 
     def print_text(self):
         for c in self.text:
@@ -190,4 +186,3 @@ class App(object):
 
     def on_exit(self):
         self.root.quit()
-

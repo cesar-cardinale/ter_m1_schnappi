@@ -1,0 +1,5570 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<session>
+  <version>Schnappi Editor:0.0.1</version>
+  <id>1</id>
+  <base_id>0</base_id>
+  <start_date>11.08.2020 14:49:26</start_date>
+  <proj_name>MicroNouvelle</proj_name>
+  <user_name>Natacha Trautmann</user_name>
+  <user_comment />
+  <start_text />
+  <end_text>"Composition suprématiste", Kasimir Malevic. &amp;#xa;&amp;#xa;11/08&amp;#xa;&amp;#xa;Ressenti: &amp;#xa;&amp;#xa;Sentiment de chaos organisé. Comme une chute organisée, volontaire. Malgré ce qui semble être une chute, formes sont quasiment toutes parralèles.  &amp;#xa;Qu'est ce que cette grande bande noire ? Base qui devait tout maintenir ? ==&amp;gt; recherches sur contexte socio-poilitique de l'époque. &amp;#xa;&amp;#xa;Niveau des couleurs, carré bleu attire l'attention -&amp;gt; centre toile. Lié au bleu de la noblesse ?-&amp;gt; marche pas, symbole souveraineté seulement France et Europe. Bleu lié aux rêves, sagesse et sérennité. Symbole de vérité. Signification négative : mélancolie. &amp;#xa;Couleur majoritaire = jaune. Jaune donne sentiment chaleur, lumière. Symbolisme : logique, pouvoir personnel et humour. Connotation négative associée =&amp;gt; traitrise, mensonge, tromperie. &amp;#xa;&amp;#xa;</end_text>
+  <event_log>
+    <event id="0" type="ins">
+      <time>11.08.2020 14:51:34:930069</time>
+      <pos>0</pos>
+      <idx>1.0</idx>
+      <text>"</text>
+    </event>
+    <event id="1" type="ins">
+      <time>11.08.2020 14:51:35:316285</time>
+      <pos>1</pos>
+      <idx>1.1</idx>
+      <text>C</text>
+    </event>
+    <event id="2" type="ins">
+      <time>11.08.2020 14:51:35:542990</time>
+      <pos>2</pos>
+      <idx>1.2</idx>
+      <text>o</text>
+    </event>
+    <event id="3" type="ins">
+      <time>11.08.2020 14:51:35:645185</time>
+      <pos>3</pos>
+      <idx>1.3</idx>
+      <text>m</text>
+    </event>
+    <event id="4" type="ins">
+      <time>11.08.2020 14:51:35:788724</time>
+      <pos>4</pos>
+      <idx>1.4</idx>
+      <text>p</text>
+    </event>
+    <event id="5" type="ins">
+      <time>11.08.2020 14:51:35:835809</time>
+      <pos>5</pos>
+      <idx>1.5</idx>
+      <text>o</text>
+    </event>
+    <event id="6" type="ins">
+      <time>11.08.2020 14:51:35:923971</time>
+      <pos>6</pos>
+      <idx>1.6</idx>
+      <text>s</text>
+    </event>
+    <event id="7" type="ins">
+      <time>11.08.2020 14:51:36:020729</time>
+      <pos>7</pos>
+      <idx>1.7</idx>
+      <text>i</text>
+    </event>
+    <event id="8" type="ins">
+      <time>11.08.2020 14:51:36:136724</time>
+      <pos>8</pos>
+      <idx>1.8</idx>
+      <text>t</text>
+    </event>
+    <event id="9" type="ins">
+      <time>11.08.2020 14:51:36:190724</time>
+      <pos>9</pos>
+      <idx>1.9</idx>
+      <text>i</text>
+    </event>
+    <event id="10" type="ins">
+      <time>11.08.2020 14:51:36:262663</time>
+      <pos>10</pos>
+      <idx>1.10</idx>
+      <text>o</text>
+    </event>
+    <event id="11" type="ins">
+      <time>11.08.2020 14:51:36:381730</time>
+      <pos>11</pos>
+      <idx>1.11</idx>
+      <text>n</text>
+    </event>
+    <event id="12" type="ins">
+      <time>11.08.2020 14:51:36:498335</time>
+      <pos>12</pos>
+      <idx>1.12</idx>
+      <text> </text>
+    </event>
+    <event id="13" type="ins">
+      <time>11.08.2020 14:51:37:942728</time>
+      <pos>13</pos>
+      <idx>1.13</idx>
+      <text>s</text>
+    </event>
+    <event id="14" type="ins">
+      <time>11.08.2020 14:51:38:019375</time>
+      <pos>14</pos>
+      <idx>1.14</idx>
+      <text>u</text>
+    </event>
+    <event id="15" type="ins">
+      <time>11.08.2020 14:51:38:158732</time>
+      <pos>15</pos>
+      <idx>1.15</idx>
+      <text>p</text>
+    </event>
+    <event id="16" type="ins">
+      <time>11.08.2020 14:51:38:258903</time>
+      <pos>16</pos>
+      <idx>1.16</idx>
+      <text>é</text>
+    </event>
+    <event id="17" type="back">
+      <time>11.08.2020 14:51:39:137054</time>
+      <pos>16</pos>
+      <idx>1.16</idx>
+      <text>é</text>
+    </event>
+    <event id="18" type="ins">
+      <time>11.08.2020 14:51:39:247195</time>
+      <pos>16</pos>
+      <idx>1.16</idx>
+      <text>r</text>
+    </event>
+    <event id="19" type="ins">
+      <time>11.08.2020 14:51:39:303768</time>
+      <pos>17</pos>
+      <idx>1.17</idx>
+      <text>é</text>
+    </event>
+    <event id="20" type="ins">
+      <time>11.08.2020 14:51:39:483700</time>
+      <pos>18</pos>
+      <idx>1.18</idx>
+      <text>m</text>
+    </event>
+    <event id="21" type="ins">
+      <time>11.08.2020 14:51:39:633322</time>
+      <pos>19</pos>
+      <idx>1.19</idx>
+      <text>a</text>
+    </event>
+    <event id="22" type="ins">
+      <time>11.08.2020 14:51:42:349806</time>
+      <pos>20</pos>
+      <idx>1.20</idx>
+      <text>t</text>
+    </event>
+    <event id="23" type="ins">
+      <time>11.08.2020 14:51:42:508721</time>
+      <pos>21</pos>
+      <idx>1.21</idx>
+      <text>i</text>
+    </event>
+    <event id="24" type="ins">
+      <time>11.08.2020 14:51:42:601722</time>
+      <pos>22</pos>
+      <idx>1.22</idx>
+      <text>s</text>
+    </event>
+    <event id="25" type="ins">
+      <time>11.08.2020 14:51:42:709556</time>
+      <pos>23</pos>
+      <idx>1.23</idx>
+      <text>t</text>
+    </event>
+    <event id="26" type="ins">
+      <time>11.08.2020 14:51:42:817721</time>
+      <pos>24</pos>
+      <idx>1.24</idx>
+      <text>e</text>
+    </event>
+    <event id="27" type="ins">
+      <time>11.08.2020 14:51:44:705721</time>
+      <pos>25</pos>
+      <idx>1.25</idx>
+      <text>"</text>
+    </event>
+    <event id="28" type="ins">
+      <time>11.08.2020 14:51:45:353499</time>
+      <pos>26</pos>
+      <idx>1.26</idx>
+      <text>,</text>
+    </event>
+    <event id="29" type="ins">
+      <time>11.08.2020 14:51:45:556729</time>
+      <pos>27</pos>
+      <idx>1.27</idx>
+      <text> </text>
+    </event>
+    <event id="30" type="ins">
+      <time>11.08.2020 14:51:47:408240</time>
+      <pos>28</pos>
+      <idx>1.28</idx>
+      <text>K</text>
+    </event>
+    <event id="31" type="ins">
+      <time>11.08.2020 14:51:47:579720</time>
+      <pos>29</pos>
+      <idx>1.29</idx>
+      <text>a</text>
+    </event>
+    <event id="32" type="ins">
+      <time>11.08.2020 14:51:47:732991</time>
+      <pos>30</pos>
+      <idx>1.30</idx>
+      <text>s</text>
+    </event>
+    <event id="33" type="ins">
+      <time>11.08.2020 14:51:47:884093</time>
+      <pos>31</pos>
+      <idx>1.31</idx>
+      <text>i</text>
+    </event>
+    <event id="34" type="ins">
+      <time>11.08.2020 14:51:47:980719</time>
+      <pos>32</pos>
+      <idx>1.32</idx>
+      <text>m</text>
+    </event>
+    <event id="35" type="ins">
+      <time>11.08.2020 14:51:48:114618</time>
+      <pos>33</pos>
+      <idx>1.33</idx>
+      <text>i</text>
+    </event>
+    <event id="36" type="ins">
+      <time>11.08.2020 14:51:48:308732</time>
+      <pos>34</pos>
+      <idx>1.34</idx>
+      <text>r</text>
+    </event>
+    <event id="37" type="ins">
+      <time>11.08.2020 14:51:50:511721</time>
+      <pos>35</pos>
+      <idx>1.35</idx>
+      <text> </text>
+    </event>
+    <event id="38" type="ins">
+      <time>11.08.2020 14:51:50:774718</time>
+      <pos>36</pos>
+      <idx>1.36</idx>
+      <text>M</text>
+    </event>
+    <event id="39" type="ins">
+      <time>11.08.2020 14:51:51:201718</time>
+      <pos>37</pos>
+      <idx>1.37</idx>
+      <text>a</text>
+    </event>
+    <event id="40" type="ins">
+      <time>11.08.2020 14:51:51:361717</time>
+      <pos>38</pos>
+      <idx>1.38</idx>
+      <text>l</text>
+    </event>
+    <event id="41" type="ins">
+      <time>11.08.2020 14:51:52:662718</time>
+      <pos>39</pos>
+      <idx>1.39</idx>
+      <text>e</text>
+    </event>
+    <event id="42" type="ins">
+      <time>11.08.2020 14:51:53:268718</time>
+      <pos>40</pos>
+      <idx>1.40</idx>
+      <text>v</text>
+    </event>
+    <event id="43" type="ins">
+      <time>11.08.2020 14:51:53:480718</time>
+      <pos>41</pos>
+      <idx>1.41</idx>
+      <text>i</text>
+    </event>
+    <event id="44" type="ins">
+      <time>11.08.2020 14:51:56:174182</time>
+      <pos>42</pos>
+      <idx>1.42</idx>
+      <text>c</text>
+    </event>
+    <event id="45" type="ins">
+      <time>11.08.2020 14:51:57:030716</time>
+      <pos>43</pos>
+      <idx>1.43</idx>
+      <text>.</text>
+    </event>
+    <event id="46" type="ins">
+      <time>11.08.2020 14:51:57:253716</time>
+      <pos>44</pos>
+      <idx>1.44</idx>
+      <text> </text>
+    </event>
+    <event id="47" type="ins">
+      <time>11.08.2020 14:51:57:755716</time>
+      <pos>45</pos>
+      <idx>1.45</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="48" type="ins">
+      <time>11.08.2020 14:51:57:898814</time>
+      <pos>46</pos>
+      <idx>2.0</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="49" type="ins">
+      <time>11.08.2020 14:51:58:771490</time>
+      <pos>47</pos>
+      <idx>3.0</idx>
+      <text>R</text>
+    </event>
+    <event id="50" type="ins">
+      <time>11.08.2020 14:51:59:041798</time>
+      <pos>48</pos>
+      <idx>3.1</idx>
+      <text>e</text>
+    </event>
+    <event id="51" type="ins">
+      <time>11.08.2020 14:51:59:236271</time>
+      <pos>49</pos>
+      <idx>3.2</idx>
+      <text>s</text>
+    </event>
+    <event id="52" type="ins">
+      <time>11.08.2020 14:51:59:359466</time>
+      <pos>50</pos>
+      <idx>3.3</idx>
+      <text>s</text>
+    </event>
+    <event id="53" type="ins">
+      <time>11.08.2020 14:51:59:548586</time>
+      <pos>51</pos>
+      <idx>3.4</idx>
+      <text>e</text>
+    </event>
+    <event id="54" type="ins">
+      <time>11.08.2020 14:51:59:680783</time>
+      <pos>52</pos>
+      <idx>3.5</idx>
+      <text>n</text>
+    </event>
+    <event id="55" type="ins">
+      <time>11.08.2020 14:51:59:769715</time>
+      <pos>53</pos>
+      <idx>3.6</idx>
+      <text>t</text>
+    </event>
+    <event id="56" type="ins">
+      <time>11.08.2020 14:51:59:881715</time>
+      <pos>54</pos>
+      <idx>3.7</idx>
+      <text>i</text>
+    </event>
+    <event id="57" type="ins">
+      <time>11.08.2020 14:52:01:026703</time>
+      <pos>55</pos>
+      <idx>3.8</idx>
+      <text>:</text>
+    </event>
+    <event id="58" type="ins">
+      <time>11.08.2020 14:52:01:193739</time>
+      <pos>56</pos>
+      <idx>3.9</idx>
+      <text> </text>
+    </event>
+    <event id="59" type="ins">
+      <time>11.08.2020 14:52:01:426801</time>
+      <pos>57</pos>
+      <idx>3.10</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="60" type="ins">
+      <time>11.08.2020 14:52:02:001720</time>
+      <pos>58</pos>
+      <idx>4.0</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="61" type="ins">
+      <time>11.08.2020 14:52:19:506277</time>
+      <pos>59</pos>
+      <idx>5.0</idx>
+      <text>S</text>
+    </event>
+    <event id="62" type="ins">
+      <time>11.08.2020 14:52:19:737648</time>
+      <pos>60</pos>
+      <idx>5.1</idx>
+      <text>e</text>
+    </event>
+    <event id="63" type="ins">
+      <time>11.08.2020 14:52:19:872714</time>
+      <pos>61</pos>
+      <idx>5.2</idx>
+      <text>n</text>
+    </event>
+    <event id="64" type="ins">
+      <time>11.08.2020 14:52:19:995660</time>
+      <pos>62</pos>
+      <idx>5.3</idx>
+      <text>t</text>
+    </event>
+    <event id="65" type="ins">
+      <time>11.08.2020 14:52:20:085708</time>
+      <pos>63</pos>
+      <idx>5.4</idx>
+      <text>i</text>
+    </event>
+    <event id="66" type="ins">
+      <time>11.08.2020 14:52:20:184375</time>
+      <pos>64</pos>
+      <idx>5.5</idx>
+      <text>m</text>
+    </event>
+    <event id="67" type="ins">
+      <time>11.08.2020 14:52:20:276708</time>
+      <pos>65</pos>
+      <idx>5.6</idx>
+      <text>e</text>
+    </event>
+    <event id="68" type="ins">
+      <time>11.08.2020 14:52:20:389641</time>
+      <pos>66</pos>
+      <idx>5.7</idx>
+      <text>n</text>
+    </event>
+    <event id="69" type="ins">
+      <time>11.08.2020 14:52:20:465791</time>
+      <pos>67</pos>
+      <idx>5.8</idx>
+      <text>t</text>
+    </event>
+    <event id="70" type="ins">
+      <time>11.08.2020 14:52:20:556710</time>
+      <pos>68</pos>
+      <idx>5.9</idx>
+      <text> </text>
+    </event>
+    <event id="71" type="ins">
+      <time>11.08.2020 14:52:20:672871</time>
+      <pos>69</pos>
+      <idx>5.10</idx>
+      <text>d</text>
+    </event>
+    <event id="72" type="ins">
+      <time>11.08.2020 14:52:20:704722</time>
+      <pos>70</pos>
+      <idx>5.11</idx>
+      <text>e</text>
+    </event>
+    <event id="73" type="ins">
+      <time>11.08.2020 14:52:20:820714</time>
+      <pos>71</pos>
+      <idx>5.12</idx>
+      <text> </text>
+    </event>
+    <event id="74" type="ins">
+      <time>11.08.2020 14:52:20:906708</time>
+      <pos>72</pos>
+      <idx>5.13</idx>
+      <text>c</text>
+    </event>
+    <event id="75" type="ins">
+      <time>11.08.2020 14:52:21:022707</time>
+      <pos>73</pos>
+      <idx>5.14</idx>
+      <text>h</text>
+    </event>
+    <event id="76" type="ins">
+      <time>11.08.2020 14:52:21:104790</time>
+      <pos>74</pos>
+      <idx>5.15</idx>
+      <text>a</text>
+    </event>
+    <event id="77" type="ins">
+      <time>11.08.2020 14:52:21:308295</time>
+      <pos>75</pos>
+      <idx>5.16</idx>
+      <text>o</text>
+    </event>
+    <event id="78" type="ins">
+      <time>11.08.2020 14:52:21:458714</time>
+      <pos>76</pos>
+      <idx>5.17</idx>
+      <text>s</text>
+    </event>
+    <event id="79" type="ins">
+      <time>11.08.2020 14:52:21:550713</time>
+      <pos>77</pos>
+      <idx>5.18</idx>
+      <text> </text>
+    </event>
+    <event id="80" type="ins">
+      <time>11.08.2020 14:52:21:864078</time>
+      <pos>78</pos>
+      <idx>5.19</idx>
+      <text>o</text>
+    </event>
+    <event id="81" type="ins">
+      <time>11.08.2020 14:52:21:997755</time>
+      <pos>79</pos>
+      <idx>5.20</idx>
+      <text>r</text>
+    </event>
+    <event id="82" type="ins">
+      <time>11.08.2020 14:52:22:097707</time>
+      <pos>80</pos>
+      <idx>5.21</idx>
+      <text>g</text>
+    </event>
+    <event id="83" type="ins">
+      <time>11.08.2020 14:52:22:213202</time>
+      <pos>81</pos>
+      <idx>5.22</idx>
+      <text>a</text>
+    </event>
+    <event id="84" type="ins">
+      <time>11.08.2020 14:52:22:326169</time>
+      <pos>82</pos>
+      <idx>5.23</idx>
+      <text>n</text>
+    </event>
+    <event id="85" type="ins">
+      <time>11.08.2020 14:52:22:376972</time>
+      <pos>83</pos>
+      <idx>5.24</idx>
+      <text>i</text>
+    </event>
+    <event id="86" type="ins">
+      <time>11.08.2020 14:52:22:444713</time>
+      <pos>84</pos>
+      <idx>5.25</idx>
+      <text>s</text>
+    </event>
+    <event id="87" type="ins">
+      <time>11.08.2020 14:52:22:589080</time>
+      <pos>85</pos>
+      <idx>5.26</idx>
+      <text>é</text>
+    </event>
+    <event id="88" type="ins">
+      <time>11.08.2020 14:52:22:796713</time>
+      <pos>86</pos>
+      <idx>5.27</idx>
+      <text>.</text>
+    </event>
+    <event id="89" type="ins">
+      <time>11.08.2020 14:52:22:986018</time>
+      <pos>87</pos>
+      <idx>5.28</idx>
+      <text> </text>
+    </event>
+    <event id="90" type="ins">
+      <time>11.08.2020 14:52:33:512651</time>
+      <pos>88</pos>
+      <idx>5.29</idx>
+      <text>C</text>
+    </event>
+    <event id="91" type="ins">
+      <time>11.08.2020 14:52:33:794718</time>
+      <pos>89</pos>
+      <idx>5.30</idx>
+      <text>o</text>
+    </event>
+    <event id="92" type="ins">
+      <time>11.08.2020 14:52:33:964703</time>
+      <pos>90</pos>
+      <idx>5.31</idx>
+      <text>m</text>
+    </event>
+    <event id="93" type="ins">
+      <time>11.08.2020 14:52:34:110294</time>
+      <pos>91</pos>
+      <idx>5.32</idx>
+      <text>m</text>
+    </event>
+    <event id="94" type="ins">
+      <time>11.08.2020 14:52:34:202942</time>
+      <pos>92</pos>
+      <idx>5.33</idx>
+      <text>e</text>
+    </event>
+    <event id="95" type="ins">
+      <time>11.08.2020 14:52:34:294703</time>
+      <pos>93</pos>
+      <idx>5.34</idx>
+      <text> </text>
+    </event>
+    <event id="96" type="ins">
+      <time>11.08.2020 14:52:34:381703</time>
+      <pos>94</pos>
+      <idx>5.35</idx>
+      <text>u</text>
+    </event>
+    <event id="97" type="ins">
+      <time>11.08.2020 14:52:34:438708</time>
+      <pos>95</pos>
+      <idx>5.36</idx>
+      <text>n</text>
+    </event>
+    <event id="98" type="ins">
+      <time>11.08.2020 14:52:34:521708</time>
+      <pos>96</pos>
+      <idx>5.37</idx>
+      <text>e</text>
+    </event>
+    <event id="99" type="ins">
+      <time>11.08.2020 14:52:34:638132</time>
+      <pos>97</pos>
+      <idx>5.38</idx>
+      <text> </text>
+    </event>
+    <event id="100" type="ins">
+      <time>11.08.2020 14:52:34:775703</time>
+      <pos>98</pos>
+      <idx>5.39</idx>
+      <text>c</text>
+    </event>
+    <event id="101" type="ins">
+      <time>11.08.2020 14:52:34:890192</time>
+      <pos>99</pos>
+      <idx>5.40</idx>
+      <text>h</text>
+    </event>
+    <event id="102" type="ins">
+      <time>11.08.2020 14:52:34:982154</time>
+      <pos>100</pos>
+      <idx>5.41</idx>
+      <text>u</text>
+    </event>
+    <event id="103" type="ins">
+      <time>11.08.2020 14:52:35:130047</time>
+      <pos>101</pos>
+      <idx>5.42</idx>
+      <text>t</text>
+    </event>
+    <event id="104" type="ins">
+      <time>11.08.2020 14:52:35:225029</time>
+      <pos>102</pos>
+      <idx>5.43</idx>
+      <text>e</text>
+    </event>
+    <event id="105" type="ins">
+      <time>11.08.2020 14:52:35:300702</time>
+      <pos>103</pos>
+      <idx>5.44</idx>
+      <text> </text>
+    </event>
+    <event id="106" type="ins">
+      <time>11.08.2020 14:52:35:414885</time>
+      <pos>104</pos>
+      <idx>5.45</idx>
+      <text>p</text>
+    </event>
+    <event id="107" type="ins">
+      <time>11.08.2020 14:52:35:478042</time>
+      <pos>105</pos>
+      <idx>5.46</idx>
+      <text>r</text>
+    </event>
+    <event id="108" type="back">
+      <time>11.08.2020 14:52:35:888708</time>
+      <pos>105</pos>
+      <idx>5.46</idx>
+      <text>r</text>
+    </event>
+    <event id="109" type="back">
+      <time>11.08.2020 14:52:36:070548</time>
+      <pos>104</pos>
+      <idx>5.45</idx>
+      <text>p</text>
+    </event>
+    <event id="110" type="ins">
+      <time>11.08.2020 14:52:36:766787</time>
+      <pos>104</pos>
+      <idx>5.45</idx>
+      <text>o</text>
+    </event>
+    <event id="111" type="ins">
+      <time>11.08.2020 14:52:36:889117</time>
+      <pos>105</pos>
+      <idx>5.46</idx>
+      <text>r</text>
+    </event>
+    <event id="112" type="ins">
+      <time>11.08.2020 14:52:37:067702</time>
+      <pos>106</pos>
+      <idx>5.47</idx>
+      <text>g</text>
+    </event>
+    <event id="113" type="ins">
+      <time>11.08.2020 14:52:37:205670</time>
+      <pos>107</pos>
+      <idx>5.48</idx>
+      <text>a</text>
+    </event>
+    <event id="114" type="ins">
+      <time>11.08.2020 14:52:37:308292</time>
+      <pos>108</pos>
+      <idx>5.49</idx>
+      <text>n</text>
+    </event>
+    <event id="115" type="ins">
+      <time>11.08.2020 14:52:37:396957</time>
+      <pos>109</pos>
+      <idx>5.50</idx>
+      <text>i</text>
+    </event>
+    <event id="116" type="ins">
+      <time>11.08.2020 14:52:37:466702</time>
+      <pos>110</pos>
+      <idx>5.51</idx>
+      <text>s</text>
+    </event>
+    <event id="117" type="ins">
+      <time>11.08.2020 14:52:37:577321</time>
+      <pos>111</pos>
+      <idx>5.52</idx>
+      <text>é</text>
+    </event>
+    <event id="118" type="ins">
+      <time>11.08.2020 14:52:37:700761</time>
+      <pos>112</pos>
+      <idx>5.53</idx>
+      <text>e</text>
+    </event>
+    <event id="119" type="ins">
+      <time>11.08.2020 14:52:39:117701</time>
+      <pos>113</pos>
+      <idx>5.54</idx>
+      <text>,</text>
+    </event>
+    <event id="120" type="ins">
+      <time>11.08.2020 14:52:39:275728</time>
+      <pos>114</pos>
+      <idx>5.55</idx>
+      <text> </text>
+    </event>
+    <event id="121" type="ins">
+      <time>11.08.2020 14:52:39:473703</time>
+      <pos>115</pos>
+      <idx>5.56</idx>
+      <text>v</text>
+    </event>
+    <event id="122" type="ins">
+      <time>11.08.2020 14:52:39:573196</time>
+      <pos>116</pos>
+      <idx>5.57</idx>
+      <text>o</text>
+    </event>
+    <event id="123" type="ins">
+      <time>11.08.2020 14:52:39:723702</time>
+      <pos>117</pos>
+      <idx>5.58</idx>
+      <text>l</text>
+    </event>
+    <event id="124" type="ins">
+      <time>11.08.2020 14:52:39:898665</time>
+      <pos>118</pos>
+      <idx>5.59</idx>
+      <text>o</text>
+    </event>
+    <event id="125" type="ins">
+      <time>11.08.2020 14:52:39:989931</time>
+      <pos>119</pos>
+      <idx>5.60</idx>
+      <text>n</text>
+    </event>
+    <event id="126" type="ins">
+      <time>11.08.2020 14:52:40:132295</time>
+      <pos>120</pos>
+      <idx>5.61</idx>
+      <text>t</text>
+    </event>
+    <event id="127" type="ins">
+      <time>11.08.2020 14:52:40:318145</time>
+      <pos>121</pos>
+      <idx>5.62</idx>
+      <text>a</text>
+    </event>
+    <event id="128" type="ins">
+      <time>11.08.2020 14:52:40:423701</time>
+      <pos>122</pos>
+      <idx>5.63</idx>
+      <text>i</text>
+    </event>
+    <event id="129" type="ins">
+      <time>11.08.2020 14:52:40:617769</time>
+      <pos>123</pos>
+      <idx>5.64</idx>
+      <text>r</text>
+    </event>
+    <event id="130" type="ins">
+      <time>11.08.2020 14:52:40:659703</time>
+      <pos>124</pos>
+      <idx>5.65</idx>
+      <text>e</text>
+    </event>
+    <event id="131" type="ins">
+      <time>11.08.2020 14:52:40:846696</time>
+      <pos>125</pos>
+      <idx>5.66</idx>
+      <text>.</text>
+    </event>
+    <event id="132" type="ins">
+      <time>11.08.2020 14:52:41:042217</time>
+      <pos>126</pos>
+      <idx>5.67</idx>
+      <text> </text>
+    </event>
+    <event id="133" type="ins">
+      <time>11.08.2020 14:52:42:109215</time>
+      <pos>127</pos>
+      <idx>5.68</idx>
+      <text>N</text>
+    </event>
+    <event id="134" type="ins">
+      <time>11.08.2020 14:52:42:198700</time>
+      <pos>128</pos>
+      <idx>5.69</idx>
+      <text>i</text>
+    </event>
+    <event id="135" type="ins">
+      <time>11.08.2020 14:52:42:372700</time>
+      <pos>129</pos>
+      <idx>5.70</idx>
+      <text>v</text>
+    </event>
+    <event id="136" type="ins">
+      <time>11.08.2020 14:52:42:447700</time>
+      <pos>130</pos>
+      <idx>5.71</idx>
+      <text>e</text>
+    </event>
+    <event id="137" type="ins">
+      <time>11.08.2020 14:52:42:556700</time>
+      <pos>131</pos>
+      <idx>5.72</idx>
+      <text>a</text>
+    </event>
+    <event id="138" type="ins">
+      <time>11.08.2020 14:52:42:655700</time>
+      <pos>132</pos>
+      <idx>5.73</idx>
+      <text>u</text>
+    </event>
+    <event id="139" type="ins">
+      <time>11.08.2020 14:52:42:761566</time>
+      <pos>133</pos>
+      <idx>5.74</idx>
+      <text> </text>
+    </event>
+    <event id="140" type="ins">
+      <time>11.08.2020 14:52:42:843685</time>
+      <pos>134</pos>
+      <idx>5.75</idx>
+      <text>d</text>
+    </event>
+    <event id="141" type="ins">
+      <time>11.08.2020 14:52:42:881709</time>
+      <pos>135</pos>
+      <idx>5.76</idx>
+      <text>e</text>
+    </event>
+    <event id="142" type="ins">
+      <time>11.08.2020 14:52:43:033753</time>
+      <pos>136</pos>
+      <idx>5.77</idx>
+      <text>s</text>
+    </event>
+    <event id="143" type="ins">
+      <time>11.08.2020 14:52:43:137990</time>
+      <pos>137</pos>
+      <idx>5.78</idx>
+      <text> </text>
+    </event>
+    <event id="144" type="ins">
+      <time>11.08.2020 14:52:43:229672</time>
+      <pos>138</pos>
+      <idx>5.79</idx>
+      <text>c</text>
+    </event>
+    <event id="145" type="ins">
+      <time>11.08.2020 14:52:43:256699</time>
+      <pos>139</pos>
+      <idx>5.80</idx>
+      <text>o</text>
+    </event>
+    <event id="146" type="ins">
+      <time>11.08.2020 14:52:43:324692</time>
+      <pos>140</pos>
+      <idx>5.81</idx>
+      <text>u</text>
+    </event>
+    <event id="147" type="ins">
+      <time>11.08.2020 14:52:43:416699</time>
+      <pos>141</pos>
+      <idx>5.82</idx>
+      <text>l</text>
+    </event>
+    <event id="148" type="ins">
+      <time>11.08.2020 14:52:43:515040</time>
+      <pos>142</pos>
+      <idx>5.83</idx>
+      <text>e</text>
+    </event>
+    <event id="149" type="ins">
+      <time>11.08.2020 14:52:43:601699</time>
+      <pos>143</pos>
+      <idx>5.84</idx>
+      <text>u</text>
+    </event>
+    <event id="150" type="ins">
+      <time>11.08.2020 14:52:43:704699</time>
+      <pos>144</pos>
+      <idx>5.85</idx>
+      <text>r</text>
+    </event>
+    <event id="151" type="ins">
+      <time>11.08.2020 14:52:43:900552</time>
+      <pos>145</pos>
+      <idx>5.86</idx>
+      <text>s</text>
+    </event>
+    <event id="152" type="ins">
+      <time>11.08.2020 14:52:43:984527</time>
+      <pos>146</pos>
+      <idx>5.87</idx>
+      <text>,</text>
+    </event>
+    <event id="153" type="ins">
+      <time>11.08.2020 14:52:44:146045</time>
+      <pos>147</pos>
+      <idx>5.88</idx>
+      <text> </text>
+    </event>
+    <event id="154" type="ins">
+      <time>11.08.2020 14:53:00:491671</time>
+      <pos>148</pos>
+      <idx>5.89</idx>
+      <text>c</text>
+    </event>
+    <event id="155" type="ins">
+      <time>11.08.2020 14:53:00:651498</time>
+      <pos>149</pos>
+      <idx>5.90</idx>
+      <text>a</text>
+    </event>
+    <event id="156" type="ins">
+      <time>11.08.2020 14:53:00:788700</time>
+      <pos>150</pos>
+      <idx>5.91</idx>
+      <text>r</text>
+    </event>
+    <event id="157" type="ins">
+      <time>11.08.2020 14:53:00:921702</time>
+      <pos>151</pos>
+      <idx>5.92</idx>
+      <text>r</text>
+    </event>
+    <event id="158" type="ins">
+      <time>11.08.2020 14:53:00:990137</time>
+      <pos>152</pos>
+      <idx>5.93</idx>
+      <text>é</text>
+    </event>
+    <event id="159" type="ins">
+      <time>11.08.2020 14:53:01:111693</time>
+      <pos>153</pos>
+      <idx>5.94</idx>
+      <text> </text>
+    </event>
+    <event id="160" type="ins">
+      <time>11.08.2020 14:53:01:391987</time>
+      <pos>154</pos>
+      <idx>5.95</idx>
+      <text>b</text>
+    </event>
+    <event id="161" type="ins">
+      <time>11.08.2020 14:53:01:518740</time>
+      <pos>155</pos>
+      <idx>5.96</idx>
+      <text>l</text>
+    </event>
+    <event id="162" type="ins">
+      <time>11.08.2020 14:53:01:633928</time>
+      <pos>156</pos>
+      <idx>5.97</idx>
+      <text>e</text>
+    </event>
+    <event id="163" type="ins">
+      <time>11.08.2020 14:53:01:718679</time>
+      <pos>157</pos>
+      <idx>5.98</idx>
+      <text>u</text>
+    </event>
+    <event id="164" type="ins">
+      <time>11.08.2020 14:53:01:799706</time>
+      <pos>158</pos>
+      <idx>5.99</idx>
+      <text> </text>
+    </event>
+    <event id="165" type="ins">
+      <time>11.08.2020 14:53:01:871163</time>
+      <pos>159</pos>
+      <idx>5.100</idx>
+      <text>a</text>
+    </event>
+    <event id="166" type="ins">
+      <time>11.08.2020 14:53:01:989693</time>
+      <pos>160</pos>
+      <idx>5.101</idx>
+      <text>t</text>
+    </event>
+    <event id="167" type="ins">
+      <time>11.08.2020 14:53:02:104264</time>
+      <pos>161</pos>
+      <idx>5.102</idx>
+      <text>t</text>
+    </event>
+    <event id="168" type="ins">
+      <time>11.08.2020 14:53:02:275695</time>
+      <pos>162</pos>
+      <idx>5.103</idx>
+      <text>i</text>
+    </event>
+    <event id="169" type="ins">
+      <time>11.08.2020 14:53:02:417690</time>
+      <pos>163</pos>
+      <idx>5.104</idx>
+      <text>r</text>
+    </event>
+    <event id="170" type="ins">
+      <time>11.08.2020 14:53:02:459711</time>
+      <pos>164</pos>
+      <idx>5.105</idx>
+      <text>e</text>
+    </event>
+    <event id="171" type="ins">
+      <time>11.08.2020 14:53:03:590698</time>
+      <pos>165</pos>
+      <idx>5.106</idx>
+      <text> </text>
+    </event>
+    <event id="172" type="ins">
+      <time>11.08.2020 14:53:03:786676</time>
+      <pos>166</pos>
+      <idx>5.107</idx>
+      <text>l</text>
+    </event>
+    <event id="173" type="ins">
+      <time>11.08.2020 14:53:03:885125</time>
+      <pos>167</pos>
+      <idx>5.108</idx>
+      <text>'</text>
+    </event>
+    <event id="174" type="ins">
+      <time>11.08.2020 14:53:04:085695</time>
+      <pos>168</pos>
+      <idx>5.109</idx>
+      <text>a</text>
+    </event>
+    <event id="175" type="ins">
+      <time>11.08.2020 14:53:04:179811</time>
+      <pos>169</pos>
+      <idx>5.110</idx>
+      <text>t</text>
+    </event>
+    <event id="176" type="ins">
+      <time>11.08.2020 14:53:04:271692</time>
+      <pos>170</pos>
+      <idx>5.111</idx>
+      <text>t</text>
+    </event>
+    <event id="177" type="ins">
+      <time>11.08.2020 14:53:04:360954</time>
+      <pos>171</pos>
+      <idx>5.112</idx>
+      <text>e</text>
+    </event>
+    <event id="178" type="ins">
+      <time>11.08.2020 14:53:04:474694</time>
+      <pos>172</pos>
+      <idx>5.113</idx>
+      <text>n</text>
+    </event>
+    <event id="179" type="ins">
+      <time>11.08.2020 14:53:04:604816</time>
+      <pos>173</pos>
+      <idx>5.114</idx>
+      <text>t</text>
+    </event>
+    <event id="180" type="ins">
+      <time>11.08.2020 14:53:04:699207</time>
+      <pos>174</pos>
+      <idx>5.115</idx>
+      <text>i</text>
+    </event>
+    <event id="181" type="ins">
+      <time>11.08.2020 14:53:04:763749</time>
+      <pos>175</pos>
+      <idx>5.116</idx>
+      <text>o</text>
+    </event>
+    <event id="182" type="ins">
+      <time>11.08.2020 14:53:04:929985</time>
+      <pos>176</pos>
+      <idx>5.117</idx>
+      <text>n</text>
+    </event>
+    <event id="183" type="ins">
+      <time>11.08.2020 14:53:06:173691</time>
+      <pos>177</pos>
+      <idx>5.118</idx>
+      <text> </text>
+    </event>
+    <event id="184" type="ins">
+      <time>11.08.2020 14:53:09:621229</time>
+      <pos>178</pos>
+      <idx>5.119</idx>
+      <text>-</text>
+    </event>
+    <event id="185" type="ins">
+      <time>11.08.2020 14:53:10:100690</time>
+      <pos>179</pos>
+      <idx>5.120</idx>
+      <text>&amp;gt;</text>
+    </event>
+    <event id="186" type="ins">
+      <time>11.08.2020 14:53:10:894689</time>
+      <pos>180</pos>
+      <idx>5.121</idx>
+      <text> </text>
+    </event>
+    <event id="187" type="ins">
+      <time>11.08.2020 14:53:11:036690</time>
+      <pos>181</pos>
+      <idx>5.122</idx>
+      <text>c</text>
+    </event>
+    <event id="188" type="ins">
+      <time>11.08.2020 14:53:11:111692</time>
+      <pos>182</pos>
+      <idx>5.123</idx>
+      <text>e</text>
+    </event>
+    <event id="189" type="ins">
+      <time>11.08.2020 14:53:11:212689</time>
+      <pos>183</pos>
+      <idx>5.124</idx>
+      <text>n</text>
+    </event>
+    <event id="190" type="ins">
+      <time>11.08.2020 14:53:11:408689</time>
+      <pos>184</pos>
+      <idx>5.125</idx>
+      <text>t</text>
+    </event>
+    <event id="191" type="ins">
+      <time>11.08.2020 14:53:11:526060</time>
+      <pos>185</pos>
+      <idx>5.126</idx>
+      <text>r</text>
+    </event>
+    <event id="192" type="ins">
+      <time>11.08.2020 14:53:11:602511</time>
+      <pos>186</pos>
+      <idx>5.127</idx>
+      <text>e</text>
+    </event>
+    <event id="193" type="ins">
+      <time>11.08.2020 14:53:11:687228</time>
+      <pos>187</pos>
+      <idx>5.128</idx>
+      <text> </text>
+    </event>
+    <event id="194" type="ins">
+      <time>11.08.2020 14:53:11:826729</time>
+      <pos>188</pos>
+      <idx>5.129</idx>
+      <text>t</text>
+    </event>
+    <event id="195" type="ins">
+      <time>11.08.2020 14:53:11:915361</time>
+      <pos>189</pos>
+      <idx>5.130</idx>
+      <text>o</text>
+    </event>
+    <event id="196" type="ins">
+      <time>11.08.2020 14:53:11:975700</time>
+      <pos>190</pos>
+      <idx>5.131</idx>
+      <text>i</text>
+    </event>
+    <event id="197" type="ins">
+      <time>11.08.2020 14:53:12:094887</time>
+      <pos>191</pos>
+      <idx>5.132</idx>
+      <text>l</text>
+    </event>
+    <event id="198" type="ins">
+      <time>11.08.2020 14:53:12:221695</time>
+      <pos>192</pos>
+      <idx>5.133</idx>
+      <text>e</text>
+    </event>
+    <event id="199" type="ins">
+      <time>11.08.2020 14:53:12:392883</time>
+      <pos>193</pos>
+      <idx>5.134</idx>
+      <text>.</text>
+    </event>
+    <event id="200" type="ins">
+      <time>11.08.2020 14:53:12:572689</time>
+      <pos>194</pos>
+      <idx>5.135</idx>
+      <text> </text>
+    </event>
+    <event id="201" type="ins">
+      <time>11.08.2020 14:53:13:309247</time>
+      <pos>195</pos>
+      <idx>5.136</idx>
+      <text>L</text>
+    </event>
+    <event id="202" type="ins">
+      <time>11.08.2020 14:53:13:423777</time>
+      <pos>196</pos>
+      <idx>5.137</idx>
+      <text>i</text>
+    </event>
+    <event id="203" type="ins">
+      <time>11.08.2020 14:53:13:685691</time>
+      <pos>197</pos>
+      <idx>5.138</idx>
+      <text>é</text>
+    </event>
+    <event id="204" type="ins">
+      <time>11.08.2020 14:53:13:805747</time>
+      <pos>198</pos>
+      <idx>5.139</idx>
+      <text> </text>
+    </event>
+    <event id="205" type="ins">
+      <time>11.08.2020 14:53:14:622674</time>
+      <pos>199</pos>
+      <idx>5.140</idx>
+      <text>a</text>
+    </event>
+    <event id="206" type="ins">
+      <time>11.08.2020 14:53:14:698688</time>
+      <pos>200</pos>
+      <idx>5.141</idx>
+      <text>u</text>
+    </event>
+    <event id="207" type="ins">
+      <time>11.08.2020 14:53:14:787688</time>
+      <pos>201</pos>
+      <idx>5.142</idx>
+      <text> </text>
+    </event>
+    <event id="208" type="ins">
+      <time>11.08.2020 14:53:14:920725</time>
+      <pos>202</pos>
+      <idx>5.143</idx>
+      <text>b</text>
+    </event>
+    <event id="209" type="ins">
+      <time>11.08.2020 14:53:15:079513</time>
+      <pos>203</pos>
+      <idx>5.144</idx>
+      <text>l</text>
+    </event>
+    <event id="210" type="ins">
+      <time>11.08.2020 14:53:15:172926</time>
+      <pos>204</pos>
+      <idx>5.145</idx>
+      <text>u</text>
+    </event>
+    <event id="211" type="ins">
+      <time>11.08.2020 14:53:15:240072</time>
+      <pos>205</pos>
+      <idx>5.146</idx>
+      <text>e</text>
+    </event>
+    <event id="212" type="ins">
+      <time>11.08.2020 14:53:15:374735</time>
+      <pos>206</pos>
+      <idx>5.147</idx>
+      <text> </text>
+    </event>
+    <event id="213" type="back">
+      <time>11.08.2020 14:53:16:084430</time>
+      <pos>206</pos>
+      <idx>5.147</idx>
+      <text> </text>
+    </event>
+    <event id="214" type="back">
+      <time>11.08.2020 14:53:16:200584</time>
+      <pos>205</pos>
+      <idx>5.146</idx>
+      <text>e</text>
+    </event>
+    <event id="215" type="back">
+      <time>11.08.2020 14:53:16:333596</time>
+      <pos>204</pos>
+      <idx>5.145</idx>
+      <text>u</text>
+    </event>
+    <event id="216" type="ins">
+      <time>11.08.2020 14:53:16:713687</time>
+      <pos>204</pos>
+      <idx>5.145</idx>
+      <text>e</text>
+    </event>
+    <event id="217" type="ins">
+      <time>11.08.2020 14:53:16:803262</time>
+      <pos>205</pos>
+      <idx>5.146</idx>
+      <text>u</text>
+    </event>
+    <event id="218" type="ins">
+      <time>11.08.2020 14:53:16:880987</time>
+      <pos>206</pos>
+      <idx>5.147</idx>
+      <text> </text>
+    </event>
+    <event id="219" type="ins">
+      <time>11.08.2020 14:53:17:014362</time>
+      <pos>207</pos>
+      <idx>5.148</idx>
+      <text>d</text>
+    </event>
+    <event id="220" type="ins">
+      <time>11.08.2020 14:53:17:052691</time>
+      <pos>208</pos>
+      <idx>5.149</idx>
+      <text>e</text>
+    </event>
+    <event id="221" type="ins">
+      <time>11.08.2020 14:53:17:150226</time>
+      <pos>209</pos>
+      <idx>5.150</idx>
+      <text> </text>
+    </event>
+    <event id="222" type="ins">
+      <time>11.08.2020 14:53:17:221770</time>
+      <pos>210</pos>
+      <idx>5.151</idx>
+      <text>l</text>
+    </event>
+    <event id="223" type="ins">
+      <time>11.08.2020 14:53:17:306810</time>
+      <pos>211</pos>
+      <idx>5.152</idx>
+      <text>a</text>
+    </event>
+    <event id="224" type="ins">
+      <time>11.08.2020 14:53:17:452479</time>
+      <pos>212</pos>
+      <idx>5.153</idx>
+      <text> </text>
+    </event>
+    <event id="225" type="ins">
+      <time>11.08.2020 14:53:18:957687</time>
+      <pos>213</pos>
+      <idx>5.154</idx>
+      <text>n</text>
+    </event>
+    <event id="226" type="ins">
+      <time>11.08.2020 14:53:19:042692</time>
+      <pos>214</pos>
+      <idx>5.155</idx>
+      <text>o</text>
+    </event>
+    <event id="227" type="ins">
+      <time>11.08.2020 14:53:19:206601</time>
+      <pos>215</pos>
+      <idx>5.156</idx>
+      <text>b</text>
+    </event>
+    <event id="228" type="ins">
+      <time>11.08.2020 14:53:19:361407</time>
+      <pos>216</pos>
+      <idx>5.157</idx>
+      <text>l</text>
+    </event>
+    <event id="229" type="ins">
+      <time>11.08.2020 14:53:19:368034</time>
+      <pos>217</pos>
+      <idx>5.158</idx>
+      <text>m</text>
+    </event>
+    <event id="230" type="ins">
+      <time>11.08.2020 14:53:19:442686</time>
+      <pos>218</pos>
+      <idx>5.159</idx>
+      <text>e</text>
+    </event>
+    <event id="231" type="ins">
+      <time>11.08.2020 14:53:19:637350</time>
+      <pos>219</pos>
+      <idx>5.160</idx>
+      <text>s</text>
+    </event>
+    <event id="232" type="ins">
+      <time>11.08.2020 14:53:19:794708</time>
+      <pos>220</pos>
+      <idx>5.161</idx>
+      <text>s</text>
+    </event>
+    <event id="233" type="ins">
+      <time>11.08.2020 14:53:19:801696</time>
+      <pos>221</pos>
+      <idx>5.162</idx>
+      <text>q</text>
+    </event>
+    <event id="234" type="ins">
+      <time>11.08.2020 14:53:19:941059</time>
+      <pos>222</pos>
+      <idx>5.163</idx>
+      <text>e</text>
+    </event>
+    <event id="235" type="ins">
+      <time>11.08.2020 14:53:20:044428</time>
+      <pos>223</pos>
+      <idx>5.164</idx>
+      <text> </text>
+    </event>
+    <event id="236" type="back">
+      <time>11.08.2020 14:53:20:419689</time>
+      <pos>223</pos>
+      <idx>5.164</idx>
+      <text> </text>
+    </event>
+    <event id="237" type="back">
+      <time>11.08.2020 14:53:20:565895</time>
+      <pos>222</pos>
+      <idx>5.163</idx>
+      <text>e</text>
+    </event>
+    <event id="238" type="back">
+      <time>11.08.2020 14:53:20:702333</time>
+      <pos>221</pos>
+      <idx>5.162</idx>
+      <text>q</text>
+    </event>
+    <event id="239" type="back">
+      <time>11.08.2020 14:53:20:846706</time>
+      <pos>220</pos>
+      <idx>5.161</idx>
+      <text>s</text>
+    </event>
+    <event id="240" type="back">
+      <time>11.08.2020 14:53:21:025691</time>
+      <pos>219</pos>
+      <idx>5.160</idx>
+      <text>s</text>
+    </event>
+    <event id="241" type="back">
+      <time>11.08.2020 14:53:21:228955</time>
+      <pos>218</pos>
+      <idx>5.159</idx>
+      <text>e</text>
+    </event>
+    <event id="242" type="back">
+      <time>11.08.2020 14:53:21:405270</time>
+      <pos>217</pos>
+      <idx>5.158</idx>
+      <text>m</text>
+    </event>
+    <event id="243" type="ins">
+      <time>11.08.2020 14:53:21:776732</time>
+      <pos>217</pos>
+      <idx>5.158</idx>
+      <text>s</text>
+    </event>
+    <event id="244" type="back">
+      <time>11.08.2020 14:53:22:024470</time>
+      <pos>217</pos>
+      <idx>5.158</idx>
+      <text>s</text>
+    </event>
+    <event id="245" type="ins">
+      <time>11.08.2020 14:53:22:122685</time>
+      <pos>217</pos>
+      <idx>5.158</idx>
+      <text>e</text>
+    </event>
+    <event id="246" type="ins">
+      <time>11.08.2020 14:53:22:300685</time>
+      <pos>218</pos>
+      <idx>5.159</idx>
+      <text>s</text>
+    </event>
+    <event id="247" type="ins">
+      <time>11.08.2020 14:53:22:443351</time>
+      <pos>219</pos>
+      <idx>5.160</idx>
+      <text>s</text>
+    </event>
+    <event id="248" type="ins">
+      <time>11.08.2020 14:53:22:596069</time>
+      <pos>220</pos>
+      <idx>5.161</idx>
+      <text>e</text>
+    </event>
+    <event id="249" type="ins">
+      <time>11.08.2020 14:53:22:707541</time>
+      <pos>221</pos>
+      <idx>5.162</idx>
+      <text> </text>
+    </event>
+    <event id="250" type="ins">
+      <time>11.08.2020 14:53:23:466630</time>
+      <pos>222</pos>
+      <idx>5.163</idx>
+      <text>?</text>
+    </event>
+    <event id="251" type="ins">
+      <time>11.08.2020 14:53:23:627688</time>
+      <pos>223</pos>
+      <idx>5.164</idx>
+      <text> </text>
+    </event>
+    <event id="252" type="ins">
+      <time>11.08.2020 14:53:46:258677</time>
+      <pos>224</pos>
+      <idx>5.165</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="253" type="ins">
+      <time>11.08.2020 14:53:46:859379</time>
+      <pos>225</pos>
+      <idx>6.0</idx>
+      <text>C</text>
+    </event>
+    <event id="254" type="ins">
+      <time>11.08.2020 14:53:47:075115</time>
+      <pos>226</pos>
+      <idx>6.1</idx>
+      <text>o</text>
+    </event>
+    <event id="255" type="ins">
+      <time>11.08.2020 14:53:47:116676</time>
+      <pos>227</pos>
+      <idx>6.2</idx>
+      <text>u</text>
+    </event>
+    <event id="256" type="ins">
+      <time>11.08.2020 14:53:47:326677</time>
+      <pos>228</pos>
+      <idx>6.3</idx>
+      <text>l</text>
+    </event>
+    <event id="257" type="ins">
+      <time>11.08.2020 14:53:47:454677</time>
+      <pos>229</pos>
+      <idx>6.4</idx>
+      <text>e</text>
+    </event>
+    <event id="258" type="ins">
+      <time>11.08.2020 14:53:47:550676</time>
+      <pos>230</pos>
+      <idx>6.5</idx>
+      <text>u</text>
+    </event>
+    <event id="259" type="ins">
+      <time>11.08.2020 14:53:47:662231</time>
+      <pos>231</pos>
+      <idx>6.6</idx>
+      <text>r</text>
+    </event>
+    <event id="260" type="ins">
+      <time>11.08.2020 14:53:47:730508</time>
+      <pos>232</pos>
+      <idx>6.7</idx>
+      <text> </text>
+    </event>
+    <event id="261" type="ins">
+      <time>11.08.2020 14:53:48:566676</time>
+      <pos>233</pos>
+      <idx>6.8</idx>
+      <text>m</text>
+    </event>
+    <event id="262" type="ins">
+      <time>11.08.2020 14:53:48:676676</time>
+      <pos>234</pos>
+      <idx>6.9</idx>
+      <text>a</text>
+    </event>
+    <event id="263" type="ins">
+      <time>11.08.2020 14:53:48:771688</time>
+      <pos>235</pos>
+      <idx>6.10</idx>
+      <text>j</text>
+    </event>
+    <event id="264" type="ins">
+      <time>11.08.2020 14:53:48:846676</time>
+      <pos>236</pos>
+      <idx>6.11</idx>
+      <text>o</text>
+    </event>
+    <event id="265" type="ins">
+      <time>11.08.2020 14:53:48:971024</time>
+      <pos>237</pos>
+      <idx>6.12</idx>
+      <text>r</text>
+    </event>
+    <event id="266" type="ins">
+      <time>11.08.2020 14:53:49:045739</time>
+      <pos>238</pos>
+      <idx>6.13</idx>
+      <text>i</text>
+    </event>
+    <event id="267" type="ins">
+      <time>11.08.2020 14:53:49:272424</time>
+      <pos>239</pos>
+      <idx>6.14</idx>
+      <text>t</text>
+    </event>
+    <event id="268" type="ins">
+      <time>11.08.2020 14:53:49:312632</time>
+      <pos>240</pos>
+      <idx>6.15</idx>
+      <text>a</text>
+    </event>
+    <event id="269" type="ins">
+      <time>11.08.2020 14:53:49:440676</time>
+      <pos>241</pos>
+      <idx>6.16</idx>
+      <text>i</text>
+    </event>
+    <event id="270" type="ins">
+      <time>11.08.2020 14:53:49:548766</time>
+      <pos>242</pos>
+      <idx>6.17</idx>
+      <text>r</text>
+    </event>
+    <event id="271" type="ins">
+      <time>11.08.2020 14:53:49:595886</time>
+      <pos>243</pos>
+      <idx>6.18</idx>
+      <text>e</text>
+    </event>
+    <event id="272" type="ins">
+      <time>11.08.2020 14:53:49:707362</time>
+      <pos>244</pos>
+      <idx>6.19</idx>
+      <text> </text>
+    </event>
+    <event id="273" type="ins">
+      <time>11.08.2020 14:53:50:958480</time>
+      <pos>245</pos>
+      <idx>6.20</idx>
+      <text>=</text>
+    </event>
+    <event id="274" type="ins">
+      <time>11.08.2020 14:53:51:180676</time>
+      <pos>246</pos>
+      <idx>6.21</idx>
+      <text> </text>
+    </event>
+    <event id="275" type="ins">
+      <time>11.08.2020 14:53:51:405254</time>
+      <pos>247</pos>
+      <idx>6.22</idx>
+      <text>j</text>
+    </event>
+    <event id="276" type="ins">
+      <time>11.08.2020 14:53:51:586360</time>
+      <pos>248</pos>
+      <idx>6.23</idx>
+      <text>a</text>
+    </event>
+    <event id="277" type="ins">
+      <time>11.08.2020 14:53:51:681675</time>
+      <pos>249</pos>
+      <idx>6.24</idx>
+      <text>u</text>
+    </event>
+    <event id="278" type="ins">
+      <time>11.08.2020 14:53:51:742683</time>
+      <pos>250</pos>
+      <idx>6.25</idx>
+      <text>n</text>
+    </event>
+    <event id="279" type="ins">
+      <time>11.08.2020 14:53:51:901347</time>
+      <pos>251</pos>
+      <idx>6.26</idx>
+      <text>e</text>
+    </event>
+    <event id="280" type="ins">
+      <time>11.08.2020 14:53:58:387120</time>
+      <pos>252</pos>
+      <idx>6.27</idx>
+      <text>.</text>
+    </event>
+    <event id="281" type="ins">
+      <time>11.08.2020 14:53:58:620675</time>
+      <pos>253</pos>
+      <idx>6.28</idx>
+      <text> </text>
+    </event>
+    <event id="282" type="ins">
+      <time>11.08.2020 14:54:08:769673</time>
+      <pos>254</pos>
+      <idx>6.29</idx>
+      <text>J</text>
+    </event>
+    <event id="283" type="ins">
+      <time>11.08.2020 14:54:08:919694</time>
+      <pos>255</pos>
+      <idx>6.30</idx>
+      <text>z</text>
+    </event>
+    <event id="284" type="ins">
+      <time>11.08.2020 14:54:08:991346</time>
+      <pos>256</pos>
+      <idx>6.31</idx>
+      <text>u</text>
+    </event>
+    <event id="285" type="ins">
+      <time>11.08.2020 14:54:09:073356</time>
+      <pos>257</pos>
+      <idx>6.32</idx>
+      <text>n</text>
+    </event>
+    <event id="286" type="back">
+      <time>11.08.2020 14:54:09:378676</time>
+      <pos>257</pos>
+      <idx>6.32</idx>
+      <text>n</text>
+    </event>
+    <event id="287" type="back">
+      <time>11.08.2020 14:54:09:761676</time>
+      <pos>256</pos>
+      <idx>6.31</idx>
+      <text>u</text>
+    </event>
+    <event id="288" type="back">
+      <time>11.08.2020 14:54:09:982654</time>
+      <pos>255</pos>
+      <idx>6.30</idx>
+      <text>z</text>
+    </event>
+    <event id="289" type="ins">
+      <time>11.08.2020 14:54:10:399668</time>
+      <pos>255</pos>
+      <idx>6.30</idx>
+      <text>a</text>
+    </event>
+    <event id="290" type="ins">
+      <time>11.08.2020 14:54:10:498088</time>
+      <pos>256</pos>
+      <idx>6.31</idx>
+      <text>u</text>
+    </event>
+    <event id="291" type="ins">
+      <time>11.08.2020 14:54:10:654773</time>
+      <pos>257</pos>
+      <idx>6.32</idx>
+      <text>n</text>
+    </event>
+    <event id="292" type="ins">
+      <time>11.08.2020 14:54:10:762678</time>
+      <pos>258</pos>
+      <idx>6.33</idx>
+      <text>e</text>
+    </event>
+    <event id="293" type="ins">
+      <time>11.08.2020 14:54:10:844581</time>
+      <pos>259</pos>
+      <idx>6.34</idx>
+      <text> </text>
+    </event>
+    <event id="294" type="ins">
+      <time>11.08.2020 14:54:10:943673</time>
+      <pos>260</pos>
+      <idx>6.35</idx>
+      <text>d</text>
+    </event>
+    <event id="295" type="ins">
+      <time>11.08.2020 14:54:11:002974</time>
+      <pos>261</pos>
+      <idx>6.36</idx>
+      <text>o</text>
+    </event>
+    <event id="296" type="ins">
+      <time>11.08.2020 14:54:11:154517</time>
+      <pos>262</pos>
+      <idx>6.37</idx>
+      <text>n</text>
+    </event>
+    <event id="297" type="ins">
+      <time>11.08.2020 14:54:11:272689</time>
+      <pos>263</pos>
+      <idx>6.38</idx>
+      <text>n</text>
+    </event>
+    <event id="298" type="ins">
+      <time>11.08.2020 14:54:11:317490</time>
+      <pos>264</pos>
+      <idx>6.39</idx>
+      <text>e</text>
+    </event>
+    <event id="299" type="ins">
+      <time>11.08.2020 14:54:11:434847</time>
+      <pos>265</pos>
+      <idx>6.40</idx>
+      <text> </text>
+    </event>
+    <event id="300" type="ins">
+      <time>11.08.2020 14:54:11:496017</time>
+      <pos>266</pos>
+      <idx>6.41</idx>
+      <text>s</text>
+    </event>
+    <event id="301" type="ins">
+      <time>11.08.2020 14:54:11:654780</time>
+      <pos>267</pos>
+      <idx>6.42</idx>
+      <text>e</text>
+    </event>
+    <event id="302" type="ins">
+      <time>11.08.2020 14:54:11:729671</time>
+      <pos>268</pos>
+      <idx>6.43</idx>
+      <text>n</text>
+    </event>
+    <event id="303" type="ins">
+      <time>11.08.2020 14:54:11:852674</time>
+      <pos>269</pos>
+      <idx>6.44</idx>
+      <text>t</text>
+    </event>
+    <event id="304" type="ins">
+      <time>11.08.2020 14:54:11:900667</time>
+      <pos>270</pos>
+      <idx>6.45</idx>
+      <text>i</text>
+    </event>
+    <event id="305" type="ins">
+      <time>11.08.2020 14:54:11:970792</time>
+      <pos>271</pos>
+      <idx>6.46</idx>
+      <text>m</text>
+    </event>
+    <event id="306" type="ins">
+      <time>11.08.2020 14:54:12:075670</time>
+      <pos>272</pos>
+      <idx>6.47</idx>
+      <text>e</text>
+    </event>
+    <event id="307" type="ins">
+      <time>11.08.2020 14:54:12:176367</time>
+      <pos>273</pos>
+      <idx>6.48</idx>
+      <text>n</text>
+    </event>
+    <event id="308" type="ins">
+      <time>11.08.2020 14:54:12:258873</time>
+      <pos>274</pos>
+      <idx>6.49</idx>
+      <text>t</text>
+    </event>
+    <event id="309" type="ins">
+      <time>11.08.2020 14:54:12:348673</time>
+      <pos>275</pos>
+      <idx>6.50</idx>
+      <text> </text>
+    </event>
+    <event id="310" type="ins">
+      <time>11.08.2020 14:54:12:955768</time>
+      <pos>276</pos>
+      <idx>6.51</idx>
+      <text>c</text>
+    </event>
+    <event id="311" type="ins">
+      <time>11.08.2020 14:54:13:045047</time>
+      <pos>277</pos>
+      <idx>6.52</idx>
+      <text>h</text>
+    </event>
+    <event id="312" type="ins">
+      <time>11.08.2020 14:54:13:051039</time>
+      <pos>278</pos>
+      <idx>6.53</idx>
+      <text>y</text>
+    </event>
+    <event id="313" type="ins">
+      <time>11.08.2020 14:54:13:143671</time>
+      <pos>279</pos>
+      <idx>6.54</idx>
+      <text>a</text>
+    </event>
+    <event id="314" type="ins">
+      <time>11.08.2020 14:54:13:228448</time>
+      <pos>280</pos>
+      <idx>6.55</idx>
+      <text>l</text>
+    </event>
+    <event id="315" type="ins">
+      <time>11.08.2020 14:54:13:344898</time>
+      <pos>281</pos>
+      <idx>6.56</idx>
+      <text>e</text>
+    </event>
+    <event id="316" type="ins">
+      <time>11.08.2020 14:54:13:408673</time>
+      <pos>282</pos>
+      <idx>6.57</idx>
+      <text>u</text>
+    </event>
+    <event id="317" type="ins">
+      <time>11.08.2020 14:54:13:513900</time>
+      <pos>283</pos>
+      <idx>6.58</idx>
+      <text>r</text>
+    </event>
+    <event id="318" type="ins">
+      <time>11.08.2020 14:54:13:627631</time>
+      <pos>284</pos>
+      <idx>6.59</idx>
+      <text>,</text>
+    </event>
+    <event id="319" type="ins">
+      <time>11.08.2020 14:54:13:796327</time>
+      <pos>285</pos>
+      <idx>6.60</idx>
+      <text> </text>
+    </event>
+    <event id="320" type="back">
+      <time>11.08.2020 14:54:14:148649</time>
+      <pos>285</pos>
+      <idx>6.60</idx>
+      <text> </text>
+    </event>
+    <event id="321" type="back">
+      <time>11.08.2020 14:54:14:299700</time>
+      <pos>284</pos>
+      <idx>6.59</idx>
+      <text>,</text>
+    </event>
+    <event id="322" type="back">
+      <time>11.08.2020 14:54:14:440672</time>
+      <pos>283</pos>
+      <idx>6.58</idx>
+      <text>r</text>
+    </event>
+    <event id="323" type="back">
+      <time>11.08.2020 14:54:14:580672</time>
+      <pos>282</pos>
+      <idx>6.57</idx>
+      <text>u</text>
+    </event>
+    <event id="324" type="back">
+      <time>11.08.2020 14:54:14:722662</time>
+      <pos>281</pos>
+      <idx>6.56</idx>
+      <text>e</text>
+    </event>
+    <event id="325" type="back">
+      <time>11.08.2020 14:54:14:869800</time>
+      <pos>280</pos>
+      <idx>6.55</idx>
+      <text>l</text>
+    </event>
+    <event id="326" type="back">
+      <time>11.08.2020 14:54:14:996673</time>
+      <pos>279</pos>
+      <idx>6.54</idx>
+      <text>a</text>
+    </event>
+    <event id="327" type="back">
+      <time>11.08.2020 14:54:15:152672</time>
+      <pos>278</pos>
+      <idx>6.53</idx>
+      <text>y</text>
+    </event>
+    <event id="328" type="ins">
+      <time>11.08.2020 14:54:15:660666</time>
+      <pos>278</pos>
+      <idx>6.53</idx>
+      <text>a</text>
+    </event>
+    <event id="329" type="ins">
+      <time>11.08.2020 14:54:15:735977</time>
+      <pos>279</pos>
+      <idx>6.54</idx>
+      <text>l</text>
+    </event>
+    <event id="330" type="ins">
+      <time>11.08.2020 14:54:15:871581</time>
+      <pos>280</pos>
+      <idx>6.55</idx>
+      <text>e</text>
+    </event>
+    <event id="331" type="ins">
+      <time>11.08.2020 14:54:15:954688</time>
+      <pos>281</pos>
+      <idx>6.56</idx>
+      <text>u</text>
+    </event>
+    <event id="332" type="ins">
+      <time>11.08.2020 14:54:16:092666</time>
+      <pos>282</pos>
+      <idx>6.57</idx>
+      <text>r</text>
+    </event>
+    <event id="333" type="ins">
+      <time>11.08.2020 14:54:16:335672</time>
+      <pos>283</pos>
+      <idx>6.58</idx>
+      <text>,</text>
+    </event>
+    <event id="334" type="ins">
+      <time>11.08.2020 14:54:16:494114</time>
+      <pos>284</pos>
+      <idx>6.59</idx>
+      <text> </text>
+    </event>
+    <event id="335" type="ins">
+      <time>11.08.2020 14:54:16:668666</time>
+      <pos>285</pos>
+      <idx>6.60</idx>
+      <text>l</text>
+    </event>
+    <event id="336" type="ins">
+      <time>11.08.2020 14:54:16:849671</time>
+      <pos>286</pos>
+      <idx>6.61</idx>
+      <text>u</text>
+    </event>
+    <event id="337" type="ins">
+      <time>11.08.2020 14:54:17:024670</time>
+      <pos>287</pos>
+      <idx>6.62</idx>
+      <text>m</text>
+    </event>
+    <event id="338" type="ins">
+      <time>11.08.2020 14:54:17:118472</time>
+      <pos>288</pos>
+      <idx>6.63</idx>
+      <text>i</text>
+    </event>
+    <event id="339" type="ins">
+      <time>11.08.2020 14:54:17:283645</time>
+      <pos>289</pos>
+      <idx>6.64</idx>
+      <text>è</text>
+    </event>
+    <event id="340" type="ins">
+      <time>11.08.2020 14:54:17:430730</time>
+      <pos>290</pos>
+      <idx>6.65</idx>
+      <text>r</text>
+    </event>
+    <event id="341" type="ins">
+      <time>11.08.2020 14:54:17:470666</time>
+      <pos>291</pos>
+      <idx>6.66</idx>
+      <text>e</text>
+    </event>
+    <event id="342" type="ins">
+      <time>11.08.2020 14:54:17:808668</time>
+      <pos>292</pos>
+      <idx>6.67</idx>
+      <text> </text>
+    </event>
+    <event id="343" type="back">
+      <time>11.08.2020 14:54:18:235848</time>
+      <pos>292</pos>
+      <idx>6.67</idx>
+      <text> </text>
+    </event>
+    <event id="344" type="ins">
+      <time>11.08.2020 14:54:18:899665</time>
+      <pos>292</pos>
+      <idx>6.67</idx>
+      <text>/</text>
+    </event>
+    <event id="345" type="back">
+      <time>11.08.2020 14:54:19:548671</time>
+      <pos>292</pos>
+      <idx>6.67</idx>
+      <text>/</text>
+    </event>
+    <event id="346" type="ins">
+      <time>11.08.2020 14:54:20:337263</time>
+      <pos>292</pos>
+      <idx>6.67</idx>
+      <text>.</text>
+    </event>
+    <event id="347" type="ins">
+      <time>11.08.2020 14:54:20:516671</time>
+      <pos>293</pos>
+      <idx>6.68</idx>
+      <text> </text>
+    </event>
+    <event id="348" type="ins">
+      <time>11.08.2020 14:54:31:216571</time>
+      <pos>294</pos>
+      <idx>6.69</idx>
+      <text>S</text>
+    </event>
+    <event id="349" type="ins">
+      <time>11.08.2020 14:54:31:586640</time>
+      <pos>295</pos>
+      <idx>6.70</idx>
+      <text>y</text>
+    </event>
+    <event id="350" type="ins">
+      <time>11.08.2020 14:54:32:018882</time>
+      <pos>296</pos>
+      <idx>6.71</idx>
+      <text>m</text>
+    </event>
+    <event id="351" type="ins">
+      <time>11.08.2020 14:54:32:342648</time>
+      <pos>297</pos>
+      <idx>6.72</idx>
+      <text>b</text>
+    </event>
+    <event id="352" type="ins">
+      <time>11.08.2020 14:54:32:571778</time>
+      <pos>298</pos>
+      <idx>6.73</idx>
+      <text>o</text>
+    </event>
+    <event id="353" type="ins">
+      <time>11.08.2020 14:54:32:707699</time>
+      <pos>299</pos>
+      <idx>6.74</idx>
+      <text>l</text>
+    </event>
+    <event id="354" type="ins">
+      <time>11.08.2020 14:54:32:868225</time>
+      <pos>300</pos>
+      <idx>6.75</idx>
+      <text>i</text>
+    </event>
+    <event id="355" type="ins">
+      <time>11.08.2020 14:54:32:980116</time>
+      <pos>301</pos>
+      <idx>6.76</idx>
+      <text>s</text>
+    </event>
+    <event id="356" type="ins">
+      <time>11.08.2020 14:54:33:074468</time>
+      <pos>302</pos>
+      <idx>6.77</idx>
+      <text>m</text>
+    </event>
+    <event id="357" type="ins">
+      <time>11.08.2020 14:54:33:224660</time>
+      <pos>303</pos>
+      <idx>6.78</idx>
+      <text>e</text>
+    </event>
+    <event id="358" type="ins">
+      <time>11.08.2020 14:54:33:347789</time>
+      <pos>304</pos>
+      <idx>6.79</idx>
+      <text> </text>
+    </event>
+    <event id="359" type="ins">
+      <time>11.08.2020 14:54:33:870660</time>
+      <pos>305</pos>
+      <idx>6.80</idx>
+      <text>:</text>
+    </event>
+    <event id="360" type="ins">
+      <time>11.08.2020 14:54:34:065659</time>
+      <pos>306</pos>
+      <idx>6.81</idx>
+      <text> </text>
+    </event>
+    <event id="361" type="ins">
+      <time>11.08.2020 14:54:36:894576</time>
+      <pos>307</pos>
+      <idx>6.82</idx>
+      <text>l</text>
+    </event>
+    <event id="362" type="ins">
+      <time>11.08.2020 14:54:37:047888</time>
+      <pos>308</pos>
+      <idx>6.83</idx>
+      <text>o</text>
+    </event>
+    <event id="363" type="ins">
+      <time>11.08.2020 14:54:37:284658</time>
+      <pos>309</pos>
+      <idx>6.84</idx>
+      <text>g</text>
+    </event>
+    <event id="364" type="ins">
+      <time>11.08.2020 14:54:37:367658</time>
+      <pos>310</pos>
+      <idx>6.85</idx>
+      <text>i</text>
+    </event>
+    <event id="365" type="ins">
+      <time>11.08.2020 14:54:37:491849</time>
+      <pos>311</pos>
+      <idx>6.86</idx>
+      <text>q</text>
+    </event>
+    <event id="366" type="ins">
+      <time>11.08.2020 14:54:37:582658</time>
+      <pos>312</pos>
+      <idx>6.87</idx>
+      <text>u</text>
+    </event>
+    <event id="367" type="ins">
+      <time>11.08.2020 14:54:37:712971</time>
+      <pos>313</pos>
+      <idx>6.88</idx>
+      <text>e</text>
+    </event>
+    <event id="368" type="ins">
+      <time>11.08.2020 14:54:37:875661</time>
+      <pos>314</pos>
+      <idx>6.89</idx>
+      <text>,</text>
+    </event>
+    <event id="369" type="ins">
+      <time>11.08.2020 14:54:38:040300</time>
+      <pos>315</pos>
+      <idx>6.90</idx>
+      <text> </text>
+    </event>
+    <event id="370" type="ins">
+      <time>11.08.2020 14:54:46:655516</time>
+      <pos>316</pos>
+      <idx>6.91</idx>
+      <text>p</text>
+    </event>
+    <event id="371" type="ins">
+      <time>11.08.2020 14:54:46:714654</time>
+      <pos>317</pos>
+      <idx>6.92</idx>
+      <text>o</text>
+    </event>
+    <event id="372" type="ins">
+      <time>11.08.2020 14:54:46:911655</time>
+      <pos>318</pos>
+      <idx>6.93</idx>
+      <text>u</text>
+    </event>
+    <event id="373" type="ins">
+      <time>11.08.2020 14:54:47:013655</time>
+      <pos>319</pos>
+      <idx>6.94</idx>
+      <text>v</text>
+    </event>
+    <event id="374" type="ins">
+      <time>11.08.2020 14:54:47:112660</time>
+      <pos>320</pos>
+      <idx>6.95</idx>
+      <text>o</text>
+    </event>
+    <event id="375" type="ins">
+      <time>11.08.2020 14:54:47:180373</time>
+      <pos>321</pos>
+      <idx>6.96</idx>
+      <text>i</text>
+    </event>
+    <event id="376" type="ins">
+      <time>11.08.2020 14:54:47:215432</time>
+      <pos>322</pos>
+      <idx>6.97</idx>
+      <text>r</text>
+    </event>
+    <event id="377" type="ins">
+      <time>11.08.2020 14:54:47:310492</time>
+      <pos>323</pos>
+      <idx>6.98</idx>
+      <text> </text>
+    </event>
+    <event id="378" type="ins">
+      <time>11.08.2020 14:54:47:375629</time>
+      <pos>324</pos>
+      <idx>6.99</idx>
+      <text>p</text>
+    </event>
+    <event id="379" type="ins">
+      <time>11.08.2020 14:54:47:435921</time>
+      <pos>325</pos>
+      <idx>6.100</idx>
+      <text>e</text>
+    </event>
+    <event id="380" type="ins">
+      <time>11.08.2020 14:54:47:516668</time>
+      <pos>326</pos>
+      <idx>6.101</idx>
+      <text>r</text>
+    </event>
+    <event id="381" type="ins">
+      <time>11.08.2020 14:54:47:670768</time>
+      <pos>327</pos>
+      <idx>6.102</idx>
+      <text>s</text>
+    </event>
+    <event id="382" type="ins">
+      <time>11.08.2020 14:54:47:718014</time>
+      <pos>328</pos>
+      <idx>6.103</idx>
+      <text>o</text>
+    </event>
+    <event id="383" type="ins">
+      <time>11.08.2020 14:54:47:859657</time>
+      <pos>329</pos>
+      <idx>6.104</idx>
+      <text>n</text>
+    </event>
+    <event id="384" type="ins">
+      <time>11.08.2020 14:54:47:975711</time>
+      <pos>330</pos>
+      <idx>6.105</idx>
+      <text>n</text>
+    </event>
+    <event id="385" type="ins">
+      <time>11.08.2020 14:54:48:056510</time>
+      <pos>331</pos>
+      <idx>6.106</idx>
+      <text>e</text>
+    </event>
+    <event id="386" type="ins">
+      <time>11.08.2020 14:54:48:121654</time>
+      <pos>332</pos>
+      <idx>6.107</idx>
+      <text>l</text>
+    </event>
+    <event id="387" type="ins">
+      <time>11.08.2020 14:54:48:206660</time>
+      <pos>333</pos>
+      <idx>6.108</idx>
+      <text> </text>
+    </event>
+    <event id="388" type="ins">
+      <time>11.08.2020 14:54:48:324003</time>
+      <pos>334</pos>
+      <idx>6.109</idx>
+      <text>e</text>
+    </event>
+    <event id="389" type="ins">
+      <time>11.08.2020 14:54:48:411229</time>
+      <pos>335</pos>
+      <idx>6.110</idx>
+      <text>t</text>
+    </event>
+    <event id="390" type="ins">
+      <time>11.08.2020 14:54:48:491933</time>
+      <pos>336</pos>
+      <idx>6.111</idx>
+      <text> </text>
+    </event>
+    <event id="391" type="ins">
+      <time>11.08.2020 14:54:49:859025</time>
+      <pos>337</pos>
+      <idx>6.112</idx>
+      <text>h</text>
+    </event>
+    <event id="392" type="ins">
+      <time>11.08.2020 14:54:49:973473</time>
+      <pos>338</pos>
+      <idx>6.113</idx>
+      <text>u</text>
+    </event>
+    <event id="393" type="ins">
+      <time>11.08.2020 14:54:50:155512</time>
+      <pos>339</pos>
+      <idx>6.114</idx>
+      <text>m</text>
+    </event>
+    <event id="394" type="ins">
+      <time>11.08.2020 14:54:50:433374</time>
+      <pos>340</pos>
+      <idx>6.115</idx>
+      <text>o</text>
+    </event>
+    <event id="395" type="ins">
+      <time>11.08.2020 14:54:50:508654</time>
+      <pos>341</pos>
+      <idx>6.116</idx>
+      <text>u</text>
+    </event>
+    <event id="396" type="ins">
+      <time>11.08.2020 14:54:50:888177</time>
+      <pos>342</pos>
+      <idx>6.117</idx>
+      <text>r</text>
+    </event>
+    <event id="397" type="ins">
+      <time>11.08.2020 14:54:51:079653</time>
+      <pos>343</pos>
+      <idx>6.118</idx>
+      <text>.</text>
+    </event>
+    <event id="398" type="ins">
+      <time>11.08.2020 14:54:51:366431</time>
+      <pos>344</pos>
+      <idx>6.119</idx>
+      <text> </text>
+    </event>
+    <event id="399" type="ins">
+      <time>11.08.2020 14:55:03:195652</time>
+      <pos>345</pos>
+      <idx>6.120</idx>
+      <text>C</text>
+    </event>
+    <event id="400" type="ins">
+      <time>11.08.2020 14:55:03:371154</time>
+      <pos>346</pos>
+      <idx>6.121</idx>
+      <text>o</text>
+    </event>
+    <event id="401" type="ins">
+      <time>11.08.2020 14:55:03:538680</time>
+      <pos>347</pos>
+      <idx>6.122</idx>
+      <text>n</text>
+    </event>
+    <event id="402" type="ins">
+      <time>11.08.2020 14:55:03:689386</time>
+      <pos>348</pos>
+      <idx>6.123</idx>
+      <text>n</text>
+    </event>
+    <event id="403" type="ins">
+      <time>11.08.2020 14:55:03:816695</time>
+      <pos>349</pos>
+      <idx>6.124</idx>
+      <text>o</text>
+    </event>
+    <event id="404" type="ins">
+      <time>11.08.2020 14:55:04:800655</time>
+      <pos>350</pos>
+      <idx>6.125</idx>
+      <text>t</text>
+    </event>
+    <event id="405" type="ins">
+      <time>11.08.2020 14:55:04:874965</time>
+      <pos>351</pos>
+      <idx>6.126</idx>
+      <text>a</text>
+    </event>
+    <event id="406" type="ins">
+      <time>11.08.2020 14:55:04:955735</time>
+      <pos>352</pos>
+      <idx>6.127</idx>
+      <text>t</text>
+    </event>
+    <event id="407" type="ins">
+      <time>11.08.2020 14:55:05:153652</time>
+      <pos>353</pos>
+      <idx>6.128</idx>
+      <text>i</text>
+    </event>
+    <event id="408" type="ins">
+      <time>11.08.2020 14:55:05:197218</time>
+      <pos>354</pos>
+      <idx>6.129</idx>
+      <text>o</text>
+    </event>
+    <event id="409" type="ins">
+      <time>11.08.2020 14:55:05:394760</time>
+      <pos>355</pos>
+      <idx>6.130</idx>
+      <text>n</text>
+    </event>
+    <event id="410" type="ins">
+      <time>11.08.2020 14:55:05:582653</time>
+      <pos>356</pos>
+      <idx>6.131</idx>
+      <text> </text>
+    </event>
+    <event id="411" type="ins">
+      <time>11.08.2020 14:55:10:994278</time>
+      <pos>357</pos>
+      <idx>6.132</idx>
+      <text>n</text>
+    </event>
+    <event id="412" type="ins">
+      <time>11.08.2020 14:55:11:138697</time>
+      <pos>358</pos>
+      <idx>6.133</idx>
+      <text>é</text>
+    </event>
+    <event id="413" type="ins">
+      <time>11.08.2020 14:55:11:269679</time>
+      <pos>359</pos>
+      <idx>6.134</idx>
+      <text>g</text>
+    </event>
+    <event id="414" type="ins">
+      <time>11.08.2020 14:55:11:376992</time>
+      <pos>360</pos>
+      <idx>6.135</idx>
+      <text>a</text>
+    </event>
+    <event id="415" type="ins">
+      <time>11.08.2020 14:55:11:491695</time>
+      <pos>361</pos>
+      <idx>6.136</idx>
+      <text>t</text>
+    </event>
+    <event id="416" type="ins">
+      <time>11.08.2020 14:55:11:573652</time>
+      <pos>362</pos>
+      <idx>6.137</idx>
+      <text>i</text>
+    </event>
+    <event id="417" type="ins">
+      <time>11.08.2020 14:55:11:756665</time>
+      <pos>363</pos>
+      <idx>6.138</idx>
+      <text>v</text>
+    </event>
+    <event id="418" type="ins">
+      <time>11.08.2020 14:55:11:894651</time>
+      <pos>364</pos>
+      <idx>6.139</idx>
+      <text>e</text>
+    </event>
+    <event id="419" type="ins">
+      <time>11.08.2020 14:56:04:014634</time>
+      <pos>365</pos>
+      <idx>6.140</idx>
+      <text> </text>
+    </event>
+    <event id="420" type="ins">
+      <time>11.08.2020 14:56:04:228633</time>
+      <pos>366</pos>
+      <idx>6.141</idx>
+      <text>a</text>
+    </event>
+    <event id="421" type="ins">
+      <time>11.08.2020 14:56:04:842905</time>
+      <pos>367</pos>
+      <idx>6.142</idx>
+      <text>s</text>
+    </event>
+    <event id="422" type="ins">
+      <time>11.08.2020 14:56:04:987645</time>
+      <pos>368</pos>
+      <idx>6.143</idx>
+      <text>s</text>
+    </event>
+    <event id="423" type="ins">
+      <time>11.08.2020 14:56:05:131630</time>
+      <pos>369</pos>
+      <idx>6.144</idx>
+      <text>o</text>
+    </event>
+    <event id="424" type="ins">
+      <time>11.08.2020 14:56:05:209211</time>
+      <pos>370</pos>
+      <idx>6.145</idx>
+      <text>c</text>
+    </event>
+    <event id="425" type="ins">
+      <time>11.08.2020 14:56:05:318632</time>
+      <pos>371</pos>
+      <idx>6.146</idx>
+      <text>i</text>
+    </event>
+    <event id="426" type="ins">
+      <time>11.08.2020 14:56:05:411629</time>
+      <pos>372</pos>
+      <idx>6.147</idx>
+      <text>é</text>
+    </event>
+    <event id="427" type="ins">
+      <time>11.08.2020 14:56:05:623626</time>
+      <pos>373</pos>
+      <idx>6.148</idx>
+      <text>e</text>
+    </event>
+    <event id="428" type="ins">
+      <time>11.08.2020 14:56:07:228589</time>
+      <pos>374</pos>
+      <idx>6.149</idx>
+      <text> </text>
+    </event>
+    <event id="429" type="ins">
+      <time>11.08.2020 14:56:07:455626</time>
+      <pos>375</pos>
+      <idx>6.150</idx>
+      <text>=</text>
+    </event>
+    <event id="430" type="ins">
+      <time>11.08.2020 14:56:07:629167</time>
+      <pos>376</pos>
+      <idx>6.151</idx>
+      <text>&amp;gt;</text>
+    </event>
+    <event id="431" type="ins">
+      <time>11.08.2020 14:56:07:745601</time>
+      <pos>377</pos>
+      <idx>6.152</idx>
+      <text> </text>
+    </event>
+    <event id="432" type="ins">
+      <time>11.08.2020 14:56:11:542624</time>
+      <pos>378</pos>
+      <idx>6.153</idx>
+      <text>t</text>
+    </event>
+    <event id="433" type="ins">
+      <time>11.08.2020 14:56:11:664686</time>
+      <pos>379</pos>
+      <idx>6.154</idx>
+      <text>r</text>
+    </event>
+    <event id="434" type="ins">
+      <time>11.08.2020 14:56:11:751419</time>
+      <pos>380</pos>
+      <idx>6.155</idx>
+      <text>a</text>
+    </event>
+    <event id="435" type="ins">
+      <time>11.08.2020 14:56:12:162610</time>
+      <pos>381</pos>
+      <idx>6.156</idx>
+      <text>i</text>
+    </event>
+    <event id="436" type="ins">
+      <time>11.08.2020 14:56:12:334708</time>
+      <pos>382</pos>
+      <idx>6.157</idx>
+      <text>t</text>
+    </event>
+    <event id="437" type="ins">
+      <time>11.08.2020 14:56:12:583834</time>
+      <pos>383</pos>
+      <idx>6.158</idx>
+      <text>i</text>
+    </event>
+    <event id="438" type="back">
+      <time>11.08.2020 14:56:12:909629</time>
+      <pos>383</pos>
+      <idx>6.158</idx>
+      <text>i</text>
+    </event>
+    <event id="439" type="ins">
+      <time>11.08.2020 14:56:13:934752</time>
+      <pos>383</pos>
+      <idx>6.158</idx>
+      <text>r</text>
+    </event>
+    <event id="440" type="ins">
+      <time>11.08.2020 14:56:14:055682</time>
+      <pos>384</pos>
+      <idx>6.159</idx>
+      <text>i</text>
+    </event>
+    <event id="441" type="ins">
+      <time>11.08.2020 14:56:14:155560</time>
+      <pos>385</pos>
+      <idx>6.160</idx>
+      <text>s</text>
+    </event>
+    <event id="442" type="ins">
+      <time>11.08.2020 14:56:14:314840</time>
+      <pos>386</pos>
+      <idx>6.161</idx>
+      <text>e</text>
+    </event>
+    <event id="443" type="ins">
+      <time>11.08.2020 14:56:14:430720</time>
+      <pos>387</pos>
+      <idx>6.162</idx>
+      <text>,</text>
+    </event>
+    <event id="444" type="ins">
+      <time>11.08.2020 14:56:14:576686</time>
+      <pos>388</pos>
+      <idx>6.163</idx>
+      <text> </text>
+    </event>
+    <event id="445" type="ins">
+      <time>11.08.2020 14:56:14:727627</time>
+      <pos>389</pos>
+      <idx>6.164</idx>
+      <text>m</text>
+    </event>
+    <event id="446" type="ins">
+      <time>11.08.2020 14:56:14:798660</time>
+      <pos>390</pos>
+      <idx>6.165</idx>
+      <text>e</text>
+    </event>
+    <event id="447" type="ins">
+      <time>11.08.2020 14:56:14:882774</time>
+      <pos>391</pos>
+      <idx>6.166</idx>
+      <text>n</text>
+    </event>
+    <event id="448" type="ins">
+      <time>11.08.2020 14:56:14:986623</time>
+      <pos>392</pos>
+      <idx>6.167</idx>
+      <text>s</text>
+    </event>
+    <event id="449" type="ins">
+      <time>11.08.2020 14:56:15:141049</time>
+      <pos>393</pos>
+      <idx>6.168</idx>
+      <text>o</text>
+    </event>
+    <event id="450" type="ins">
+      <time>11.08.2020 14:56:15:218314</time>
+      <pos>394</pos>
+      <idx>6.169</idx>
+      <text>n</text>
+    </event>
+    <event id="451" type="ins">
+      <time>11.08.2020 14:56:15:384088</time>
+      <pos>395</pos>
+      <idx>6.170</idx>
+      <text>d</text>
+    </event>
+    <event id="452" type="ins">
+      <time>11.08.2020 14:56:15:508624</time>
+      <pos>396</pos>
+      <idx>6.171</idx>
+      <text>e</text>
+    </event>
+    <event id="453" type="back">
+      <time>11.08.2020 14:56:15:893628</time>
+      <pos>396</pos>
+      <idx>6.171</idx>
+      <text>e</text>
+    </event>
+    <event id="454" type="back">
+      <time>11.08.2020 14:56:16:021384</time>
+      <pos>395</pos>
+      <idx>6.170</idx>
+      <text>d</text>
+    </event>
+    <event id="455" type="ins">
+      <time>11.08.2020 14:56:16:611701</time>
+      <pos>395</pos>
+      <idx>6.170</idx>
+      <text>g</text>
+    </event>
+    <event id="456" type="ins">
+      <time>11.08.2020 14:56:16:693021</time>
+      <pos>396</pos>
+      <idx>6.171</idx>
+      <text>e</text>
+    </event>
+    <event id="457" type="ins">
+      <time>11.08.2020 14:56:20:851907</time>
+      <pos>397</pos>
+      <idx>6.172</idx>
+      <text>,</text>
+    </event>
+    <event id="458" type="ins">
+      <time>11.08.2020 14:56:20:970010</time>
+      <pos>398</pos>
+      <idx>6.173</idx>
+      <text> </text>
+    </event>
+    <event id="459" type="ins">
+      <time>11.08.2020 14:56:21:119629</time>
+      <pos>399</pos>
+      <idx>6.174</idx>
+      <text>t</text>
+    </event>
+    <event id="460" type="ins">
+      <time>11.08.2020 14:56:21:180316</time>
+      <pos>400</pos>
+      <idx>6.175</idx>
+      <text>r</text>
+    </event>
+    <event id="461" type="ins">
+      <time>11.08.2020 14:56:21:240626</time>
+      <pos>401</pos>
+      <idx>6.176</idx>
+      <text>o</text>
+    </event>
+    <event id="462" type="ins">
+      <time>11.08.2020 14:56:21:328844</time>
+      <pos>402</pos>
+      <idx>6.177</idx>
+      <text>m</text>
+    </event>
+    <event id="463" type="ins">
+      <time>11.08.2020 14:56:21:419296</time>
+      <pos>403</pos>
+      <idx>6.178</idx>
+      <text>p</text>
+    </event>
+    <event id="464" type="ins">
+      <time>11.08.2020 14:56:21:515623</time>
+      <pos>404</pos>
+      <idx>6.179</idx>
+      <text>e</text>
+    </event>
+    <event id="465" type="ins">
+      <time>11.08.2020 14:56:21:608839</time>
+      <pos>405</pos>
+      <idx>6.180</idx>
+      <text>r</text>
+    </event>
+    <event id="466" type="ins">
+      <time>11.08.2020 14:56:21:766639</time>
+      <pos>406</pos>
+      <idx>6.181</idx>
+      <text>i</text>
+    </event>
+    <event id="467" type="ins">
+      <time>11.08.2020 14:56:21:881956</time>
+      <pos>407</pos>
+      <idx>6.182</idx>
+      <text>e</text>
+    </event>
+    <event id="468" type="ins">
+      <time>11.08.2020 14:56:22:039634</time>
+      <pos>408</pos>
+      <idx>6.183</idx>
+      <text>.</text>
+    </event>
+    <event id="469" type="ins">
+      <time>11.08.2020 14:56:22:253626</time>
+      <pos>409</pos>
+      <idx>6.184</idx>
+      <text> </text>
+    </event>
+    <event id="470" type="back">
+      <time>11.08.2020 14:56:25:751625</time>
+      <pos>223</pos>
+      <idx>5.164</idx>
+      <text> </text>
+    </event>
+    <event id="471" type="ins">
+      <time>11.08.2020 14:56:26:333619</time>
+      <pos>223</pos>
+      <idx>5.164</idx>
+      <text> </text>
+    </event>
+    <event id="472" type="ins">
+      <time>11.08.2020 14:58:45:137055</time>
+      <pos>224</pos>
+      <idx>5.165</idx>
+      <text>B</text>
+    </event>
+    <event id="473" type="ins">
+      <time>11.08.2020 14:58:45:321520</time>
+      <pos>225</pos>
+      <idx>5.166</idx>
+      <text>l</text>
+    </event>
+    <event id="474" type="ins">
+      <time>11.08.2020 14:58:45:427551</time>
+      <pos>226</pos>
+      <idx>5.167</idx>
+      <text>e</text>
+    </event>
+    <event id="475" type="ins">
+      <time>11.08.2020 14:58:45:529573</time>
+      <pos>227</pos>
+      <idx>5.168</idx>
+      <text>u</text>
+    </event>
+    <event id="476" type="ins">
+      <time>11.08.2020 14:58:45:614144</time>
+      <pos>228</pos>
+      <idx>5.169</idx>
+      <text> </text>
+    </event>
+    <event id="477" type="ins">
+      <time>11.08.2020 14:58:45:718568</time>
+      <pos>229</pos>
+      <idx>5.170</idx>
+      <text>l</text>
+    </event>
+    <event id="478" type="ins">
+      <time>11.08.2020 14:58:45:801568</time>
+      <pos>230</pos>
+      <idx>5.171</idx>
+      <text>i</text>
+    </event>
+    <event id="479" type="ins">
+      <time>11.08.2020 14:58:45:936568</time>
+      <pos>231</pos>
+      <idx>5.172</idx>
+      <text>é</text>
+    </event>
+    <event id="480" type="ins">
+      <time>11.08.2020 14:58:46:028568</time>
+      <pos>232</pos>
+      <idx>5.173</idx>
+      <text> </text>
+    </event>
+    <event id="481" type="ins">
+      <time>11.08.2020 14:58:46:179429</time>
+      <pos>233</pos>
+      <idx>5.174</idx>
+      <text>a</text>
+    </event>
+    <event id="482" type="ins">
+      <time>11.08.2020 14:58:46:289828</time>
+      <pos>234</pos>
+      <idx>5.175</idx>
+      <text>u</text>
+    </event>
+    <event id="483" type="ins">
+      <time>11.08.2020 14:58:46:558395</time>
+      <pos>235</pos>
+      <idx>5.176</idx>
+      <text>x</text>
+    </event>
+    <event id="484" type="ins">
+      <time>11.08.2020 14:58:46:644574</time>
+      <pos>236</pos>
+      <idx>5.177</idx>
+      <text> </text>
+    </event>
+    <event id="485" type="ins">
+      <time>11.08.2020 14:58:46:833534</time>
+      <pos>237</pos>
+      <idx>5.178</idx>
+      <text>r</text>
+    </event>
+    <event id="486" type="ins">
+      <time>11.08.2020 14:58:47:072568</time>
+      <pos>238</pos>
+      <idx>5.179</idx>
+      <text>ê</text>
+    </event>
+    <event id="487" type="ins">
+      <time>11.08.2020 14:58:47:221850</time>
+      <pos>239</pos>
+      <idx>5.180</idx>
+      <text>v</text>
+    </event>
+    <event id="488" type="ins">
+      <time>11.08.2020 14:58:47:282434</time>
+      <pos>240</pos>
+      <idx>5.181</idx>
+      <text>e</text>
+    </event>
+    <event id="489" type="ins">
+      <time>11.08.2020 14:58:47:446615</time>
+      <pos>241</pos>
+      <idx>5.182</idx>
+      <text>s</text>
+    </event>
+    <event id="490" type="ins">
+      <time>11.08.2020 14:58:47:559163</time>
+      <pos>242</pos>
+      <idx>5.183</idx>
+      <text>,</text>
+    </event>
+    <event id="491" type="ins">
+      <time>11.08.2020 14:58:47:796568</time>
+      <pos>243</pos>
+      <idx>5.184</idx>
+      <text> </text>
+    </event>
+    <event id="492" type="ins">
+      <time>11.08.2020 14:58:50:093135</time>
+      <pos>244</pos>
+      <idx>5.185</idx>
+      <text>s</text>
+    </event>
+    <event id="493" type="ins">
+      <time>11.08.2020 14:58:50:171636</time>
+      <pos>245</pos>
+      <idx>5.186</idx>
+      <text>a</text>
+    </event>
+    <event id="494" type="ins">
+      <time>11.08.2020 14:58:50:259570</time>
+      <pos>246</pos>
+      <idx>5.187</idx>
+      <text>g</text>
+    </event>
+    <event id="495" type="ins">
+      <time>11.08.2020 14:58:50:360529</time>
+      <pos>247</pos>
+      <idx>5.188</idx>
+      <text>e</text>
+    </event>
+    <event id="496" type="ins">
+      <time>11.08.2020 14:58:50:544481</time>
+      <pos>248</pos>
+      <idx>5.189</idx>
+      <text>s</text>
+    </event>
+    <event id="497" type="ins">
+      <time>11.08.2020 14:58:50:682898</time>
+      <pos>249</pos>
+      <idx>5.190</idx>
+      <text>s</text>
+    </event>
+    <event id="498" type="ins">
+      <time>11.08.2020 14:58:50:876759</time>
+      <pos>250</pos>
+      <idx>5.191</idx>
+      <text>e</text>
+    </event>
+    <event id="499" type="ins">
+      <time>11.08.2020 14:58:53:043566</time>
+      <pos>251</pos>
+      <idx>5.192</idx>
+      <text> </text>
+    </event>
+    <event id="500" type="ins">
+      <time>11.08.2020 14:58:53:156578</time>
+      <pos>252</pos>
+      <idx>5.193</idx>
+      <text>e</text>
+    </event>
+    <event id="501" type="ins">
+      <time>11.08.2020 14:58:53:241738</time>
+      <pos>253</pos>
+      <idx>5.194</idx>
+      <text>t</text>
+    </event>
+    <event id="502" type="ins">
+      <time>11.08.2020 14:58:53:289566</time>
+      <pos>254</pos>
+      <idx>5.195</idx>
+      <text> </text>
+    </event>
+    <event id="503" type="ins">
+      <time>11.08.2020 14:58:53:406619</time>
+      <pos>255</pos>
+      <idx>5.196</idx>
+      <text>s</text>
+    </event>
+    <event id="504" type="ins">
+      <time>11.08.2020 14:58:54:083568</time>
+      <pos>256</pos>
+      <idx>5.197</idx>
+      <text>é</text>
+    </event>
+    <event id="505" type="ins">
+      <time>11.08.2020 14:58:54:163010</time>
+      <pos>257</pos>
+      <idx>5.198</idx>
+      <text>r</text>
+    </event>
+    <event id="506" type="ins">
+      <time>11.08.2020 14:58:54:340485</time>
+      <pos>258</pos>
+      <idx>5.199</idx>
+      <text>e</text>
+    </event>
+    <event id="507" type="ins">
+      <time>11.08.2020 14:58:54:553928</time>
+      <pos>259</pos>
+      <idx>5.200</idx>
+      <text>n</text>
+    </event>
+    <event id="508" type="ins">
+      <time>11.08.2020 14:58:54:695047</time>
+      <pos>260</pos>
+      <idx>5.201</idx>
+      <text>n</text>
+    </event>
+    <event id="509" type="ins">
+      <time>11.08.2020 14:58:54:775565</time>
+      <pos>261</pos>
+      <idx>5.202</idx>
+      <text>i</text>
+    </event>
+    <event id="510" type="ins">
+      <time>11.08.2020 14:58:54:945815</time>
+      <pos>262</pos>
+      <idx>5.203</idx>
+      <text>t</text>
+    </event>
+    <event id="511" type="ins">
+      <time>11.08.2020 14:58:55:072624</time>
+      <pos>263</pos>
+      <idx>5.204</idx>
+      <text>é</text>
+    </event>
+    <event id="512" type="ins">
+      <time>11.08.2020 14:58:55:324571</time>
+      <pos>264</pos>
+      <idx>5.205</idx>
+      <text>.</text>
+    </event>
+    <event id="513" type="ins">
+      <time>11.08.2020 14:58:55:508047</time>
+      <pos>265</pos>
+      <idx>5.206</idx>
+      <text> </text>
+    </event>
+    <event id="514" type="ins">
+      <time>11.08.2020 14:58:59:641563</time>
+      <pos>266</pos>
+      <idx>5.207</idx>
+      <text>S</text>
+    </event>
+    <event id="515" type="ins">
+      <time>11.08.2020 14:58:59:860945</time>
+      <pos>267</pos>
+      <idx>5.208</idx>
+      <text>y</text>
+    </event>
+    <event id="516" type="ins">
+      <time>11.08.2020 14:59:00:256569</time>
+      <pos>268</pos>
+      <idx>5.209</idx>
+      <text>m</text>
+    </event>
+    <event id="517" type="ins">
+      <time>11.08.2020 14:59:00:502563</time>
+      <pos>269</pos>
+      <idx>5.210</idx>
+      <text>b</text>
+    </event>
+    <event id="518" type="ins">
+      <time>11.08.2020 14:59:00:689560</time>
+      <pos>270</pos>
+      <idx>5.211</idx>
+      <text>o</text>
+    </event>
+    <event id="519" type="ins">
+      <time>11.08.2020 14:59:00:833568</time>
+      <pos>271</pos>
+      <idx>5.212</idx>
+      <text>l</text>
+    </event>
+    <event id="520" type="ins">
+      <time>11.08.2020 14:59:00:919642</time>
+      <pos>272</pos>
+      <idx>5.213</idx>
+      <text>e</text>
+    </event>
+    <event id="521" type="ins">
+      <time>11.08.2020 14:59:01:001572</time>
+      <pos>273</pos>
+      <idx>5.214</idx>
+      <text> </text>
+    </event>
+    <event id="522" type="ins">
+      <time>11.08.2020 14:59:01:098436</time>
+      <pos>274</pos>
+      <idx>5.215</idx>
+      <text>d</text>
+    </event>
+    <event id="523" type="ins">
+      <time>11.08.2020 14:59:01:157598</time>
+      <pos>275</pos>
+      <idx>5.216</idx>
+      <text>e</text>
+    </event>
+    <event id="524" type="ins">
+      <time>11.08.2020 14:59:01:213063</time>
+      <pos>276</pos>
+      <idx>5.217</idx>
+      <text> </text>
+    </event>
+    <event id="525" type="ins">
+      <time>11.08.2020 14:59:01:376024</time>
+      <pos>277</pos>
+      <idx>5.218</idx>
+      <text>v</text>
+    </event>
+    <event id="526" type="ins">
+      <time>11.08.2020 14:59:01:463563</time>
+      <pos>278</pos>
+      <idx>5.219</idx>
+      <text>é</text>
+    </event>
+    <event id="527" type="ins">
+      <time>11.08.2020 14:59:01:677250</time>
+      <pos>279</pos>
+      <idx>5.220</idx>
+      <text>r</text>
+    </event>
+    <event id="528" type="ins">
+      <time>11.08.2020 14:59:01:801621</time>
+      <pos>280</pos>
+      <idx>5.221</idx>
+      <text>i</text>
+    </event>
+    <event id="529" type="ins">
+      <time>11.08.2020 14:59:02:782562</time>
+      <pos>281</pos>
+      <idx>5.222</idx>
+      <text>t</text>
+    </event>
+    <event id="530" type="ins">
+      <time>11.08.2020 14:59:03:199562</time>
+      <pos>282</pos>
+      <idx>5.223</idx>
+      <text>é</text>
+    </event>
+    <event id="531" type="ins">
+      <time>11.08.2020 14:59:03:773773</time>
+      <pos>283</pos>
+      <idx>5.224</idx>
+      <text>/</text>
+    </event>
+    <event id="532" type="ins">
+      <time>11.08.2020 14:59:03:779754</time>
+      <pos>284</pos>
+      <idx>5.225</idx>
+      <text>.</text>
+    </event>
+    <event id="533" type="back">
+      <time>11.08.2020 14:59:04:463567</time>
+      <pos>284</pos>
+      <idx>5.225</idx>
+      <text>.</text>
+    </event>
+    <event id="534" type="back">
+      <time>11.08.2020 14:59:04:608536</time>
+      <pos>283</pos>
+      <idx>5.224</idx>
+      <text>/</text>
+    </event>
+    <event id="535" type="ins">
+      <time>11.08.2020 14:59:05:513561</time>
+      <pos>283</pos>
+      <idx>5.224</idx>
+      <text>.</text>
+    </event>
+    <event id="536" type="ins">
+      <time>11.08.2020 14:59:05:713561</time>
+      <pos>284</pos>
+      <idx>5.225</idx>
+      <text> </text>
+    </event>
+    <event id="537" type="ins">
+      <time>11.08.2020 15:00:15:377541</time>
+      <pos>285</pos>
+      <idx>5.226</idx>
+      <text>S</text>
+    </event>
+    <event id="538" type="ins">
+      <time>11.08.2020 15:00:15:576536</time>
+      <pos>286</pos>
+      <idx>5.227</idx>
+      <text>i</text>
+    </event>
+    <event id="539" type="ins">
+      <time>11.08.2020 15:00:15:818329</time>
+      <pos>287</pos>
+      <idx>5.228</idx>
+      <text>g</text>
+    </event>
+    <event id="540" type="ins">
+      <time>11.08.2020 15:00:15:948236</time>
+      <pos>288</pos>
+      <idx>5.229</idx>
+      <text>n</text>
+    </event>
+    <event id="541" type="ins">
+      <time>11.08.2020 15:00:16:064278</time>
+      <pos>289</pos>
+      <idx>5.230</idx>
+      <text>i</text>
+    </event>
+    <event id="542" type="ins">
+      <time>11.08.2020 15:00:16:251521</time>
+      <pos>290</pos>
+      <idx>5.231</idx>
+      <text>f</text>
+    </event>
+    <event id="543" type="ins">
+      <time>11.08.2020 15:00:16:378449</time>
+      <pos>291</pos>
+      <idx>5.232</idx>
+      <text>i</text>
+    </event>
+    <event id="544" type="ins">
+      <time>11.08.2020 15:00:16:460541</time>
+      <pos>292</pos>
+      <idx>5.233</idx>
+      <text>c</text>
+    </event>
+    <event id="545" type="ins">
+      <time>11.08.2020 15:00:16:622521</time>
+      <pos>293</pos>
+      <idx>5.234</idx>
+      <text>a</text>
+    </event>
+    <event id="546" type="ins">
+      <time>11.08.2020 15:00:16:713536</time>
+      <pos>294</pos>
+      <idx>5.235</idx>
+      <text>t</text>
+    </event>
+    <event id="547" type="ins">
+      <time>11.08.2020 15:00:16:953541</time>
+      <pos>295</pos>
+      <idx>5.236</idx>
+      <text>i</text>
+    </event>
+    <event id="548" type="ins">
+      <time>11.08.2020 15:00:17:016559</time>
+      <pos>296</pos>
+      <idx>5.237</idx>
+      <text>o</text>
+    </event>
+    <event id="549" type="ins">
+      <time>11.08.2020 15:00:17:231535</time>
+      <pos>297</pos>
+      <idx>5.238</idx>
+      <text>n</text>
+    </event>
+    <event id="550" type="ins">
+      <time>11.08.2020 15:00:17:428839</time>
+      <pos>298</pos>
+      <idx>5.239</idx>
+      <text> </text>
+    </event>
+    <event id="551" type="ins">
+      <time>11.08.2020 15:00:18:257535</time>
+      <pos>299</pos>
+      <idx>5.240</idx>
+      <text>n</text>
+    </event>
+    <event id="552" type="ins">
+      <time>11.08.2020 15:00:18:424535</time>
+      <pos>300</pos>
+      <idx>5.241</idx>
+      <text>é</text>
+    </event>
+    <event id="553" type="ins">
+      <time>11.08.2020 15:00:18:542373</time>
+      <pos>301</pos>
+      <idx>5.242</idx>
+      <text>g</text>
+    </event>
+    <event id="554" type="ins">
+      <time>11.08.2020 15:00:18:645534</time>
+      <pos>302</pos>
+      <idx>5.243</idx>
+      <text>a</text>
+    </event>
+    <event id="555" type="ins">
+      <time>11.08.2020 15:00:18:738915</time>
+      <pos>303</pos>
+      <idx>5.244</idx>
+      <text>t</text>
+    </event>
+    <event id="556" type="ins">
+      <time>11.08.2020 15:00:18:930469</time>
+      <pos>304</pos>
+      <idx>5.245</idx>
+      <text>i</text>
+    </event>
+    <event id="557" type="ins">
+      <time>11.08.2020 15:00:19:158943</time>
+      <pos>305</pos>
+      <idx>5.246</idx>
+      <text>v</text>
+    </event>
+    <event id="558" type="ins">
+      <time>11.08.2020 15:00:20:743593</time>
+      <pos>306</pos>
+      <idx>5.247</idx>
+      <text>e</text>
+    </event>
+    <event id="559" type="ins">
+      <time>11.08.2020 15:00:21:083282</time>
+      <pos>307</pos>
+      <idx>5.248</idx>
+      <text> </text>
+    </event>
+    <event id="560" type="ins">
+      <time>11.08.2020 15:00:21:291608</time>
+      <pos>308</pos>
+      <idx>5.249</idx>
+      <text>:</text>
+    </event>
+    <event id="561" type="ins">
+      <time>11.08.2020 15:00:21:522409</time>
+      <pos>309</pos>
+      <idx>5.250</idx>
+      <text> </text>
+    </event>
+    <event id="562" type="ins">
+      <time>11.08.2020 15:00:27:665531</time>
+      <pos>310</pos>
+      <idx>5.251</idx>
+      <text>m</text>
+    </event>
+    <event id="563" type="ins">
+      <time>11.08.2020 15:00:27:912487</time>
+      <pos>311</pos>
+      <idx>5.252</idx>
+      <text>é</text>
+    </event>
+    <event id="564" type="ins">
+      <time>11.08.2020 15:00:28:152531</time>
+      <pos>312</pos>
+      <idx>5.253</idx>
+      <text>l</text>
+    </event>
+    <event id="565" type="ins">
+      <time>11.08.2020 15:00:28:279172</time>
+      <pos>313</pos>
+      <idx>5.254</idx>
+      <text>a</text>
+    </event>
+    <event id="566" type="ins">
+      <time>11.08.2020 15:00:28:462837</time>
+      <pos>314</pos>
+      <idx>5.255</idx>
+      <text>n</text>
+    </event>
+    <event id="567" type="ins">
+      <time>11.08.2020 15:00:28:665094</time>
+      <pos>315</pos>
+      <idx>5.256</idx>
+      <text>c</text>
+    </event>
+    <event id="568" type="ins">
+      <time>11.08.2020 15:00:28:813578</time>
+      <pos>316</pos>
+      <idx>5.257</idx>
+      <text>o</text>
+    </event>
+    <event id="569" type="ins">
+      <time>11.08.2020 15:00:28:966537</time>
+      <pos>317</pos>
+      <idx>5.258</idx>
+      <text>l</text>
+    </event>
+    <event id="570" type="ins">
+      <time>11.08.2020 15:00:29:152047</time>
+      <pos>318</pos>
+      <idx>5.259</idx>
+      <text>i</text>
+    </event>
+    <event id="571" type="ins">
+      <time>11.08.2020 15:00:29:308537</time>
+      <pos>319</pos>
+      <idx>5.260</idx>
+      <text>e</text>
+    </event>
+    <event id="572" type="ins">
+      <time>11.08.2020 15:00:29:592458</time>
+      <pos>320</pos>
+      <idx>5.261</idx>
+      <text>.</text>
+    </event>
+    <event id="573" type="ins">
+      <time>11.08.2020 15:00:29:830553</time>
+      <pos>321</pos>
+      <idx>5.262</idx>
+      <text> </text>
+    </event>
+    <event id="574" type="ins">
+      <time>11.08.2020 15:00:45:334525</time>
+      <pos>127</pos>
+      <idx>5.68</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="575" type="ins">
+      <time>11.08.2020 15:02:17:634874</time>
+      <pos>224</pos>
+      <idx>6.96</idx>
+      <text>=</text>
+    </event>
+    <event id="576" type="ins">
+      <time>11.08.2020 15:02:17:803510</time>
+      <pos>225</pos>
+      <idx>6.97</idx>
+      <text>&amp;gt;</text>
+    </event>
+    <event id="577" type="back">
+      <time>11.08.2020 15:02:18:500497</time>
+      <pos>225</pos>
+      <idx>6.97</idx>
+      <text>&amp;gt;</text>
+    </event>
+    <event id="578" type="back">
+      <time>11.08.2020 15:02:18:658497</time>
+      <pos>224</pos>
+      <idx>6.96</idx>
+      <text>=</text>
+    </event>
+    <event id="579" type="ins">
+      <time>11.08.2020 15:02:19:458124</time>
+      <pos>224</pos>
+      <idx>6.96</idx>
+      <text>-</text>
+    </event>
+    <event id="580" type="ins">
+      <time>11.08.2020 15:02:19:622573</time>
+      <pos>225</pos>
+      <idx>6.97</idx>
+      <text>&amp;gt;</text>
+    </event>
+    <event id="581" type="ins">
+      <time>11.08.2020 15:02:21:427523</time>
+      <pos>226</pos>
+      <idx>6.98</idx>
+      <text> </text>
+    </event>
+    <event id="582" type="ins">
+      <time>11.08.2020 15:02:41:832445</time>
+      <pos>227</pos>
+      <idx>6.99</idx>
+      <text>m</text>
+    </event>
+    <event id="583" type="ins">
+      <time>11.08.2020 15:02:41:896952</time>
+      <pos>228</pos>
+      <idx>6.100</idx>
+      <text>a</text>
+    </event>
+    <event id="584" type="ins">
+      <time>11.08.2020 15:02:42:041735</time>
+      <pos>229</pos>
+      <idx>6.101</idx>
+      <text>r</text>
+    </event>
+    <event id="585" type="ins">
+      <time>11.08.2020 15:02:42:262298</time>
+      <pos>230</pos>
+      <idx>6.102</idx>
+      <text>c</text>
+    </event>
+    <event id="586" type="ins">
+      <time>11.08.2020 15:02:42:352489</time>
+      <pos>231</pos>
+      <idx>6.103</idx>
+      <text>h</text>
+    </event>
+    <event id="587" type="ins">
+      <time>11.08.2020 15:02:42:415660</time>
+      <pos>232</pos>
+      <idx>6.104</idx>
+      <text>e</text>
+    </event>
+    <event id="588" type="ins">
+      <time>11.08.2020 15:02:42:516483</time>
+      <pos>233</pos>
+      <idx>6.105</idx>
+      <text> </text>
+    </event>
+    <event id="589" type="ins">
+      <time>11.08.2020 15:02:42:634482</time>
+      <pos>234</pos>
+      <idx>6.106</idx>
+      <text>p</text>
+    </event>
+    <event id="590" type="ins">
+      <time>11.08.2020 15:02:42:681671</time>
+      <pos>235</pos>
+      <idx>6.107</idx>
+      <text>a</text>
+    </event>
+    <event id="591" type="ins">
+      <time>11.08.2020 15:02:42:768488</time>
+      <pos>236</pos>
+      <idx>6.108</idx>
+      <text>s</text>
+    </event>
+    <event id="592" type="ins">
+      <time>11.08.2020 15:02:43:064482</time>
+      <pos>237</pos>
+      <idx>6.109</idx>
+      <text>,</text>
+    </event>
+    <event id="593" type="ins">
+      <time>11.08.2020 15:02:43:185681</time>
+      <pos>238</pos>
+      <idx>6.110</idx>
+      <text> </text>
+    </event>
+    <event id="594" type="ins">
+      <time>11.08.2020 15:03:14:633477</time>
+      <pos>239</pos>
+      <idx>6.111</idx>
+      <text>s</text>
+    </event>
+    <event id="595" type="ins">
+      <time>11.08.2020 15:03:14:772529</time>
+      <pos>240</pos>
+      <idx>6.112</idx>
+      <text>o</text>
+    </event>
+    <event id="596" type="ins">
+      <time>11.08.2020 15:03:14:832498</time>
+      <pos>241</pos>
+      <idx>6.113</idx>
+      <text>u</text>
+    </event>
+    <event id="597" type="ins">
+      <time>11.08.2020 15:03:15:010730</time>
+      <pos>242</pos>
+      <idx>6.114</idx>
+      <text>v</text>
+    </event>
+    <event id="598" type="ins">
+      <time>11.08.2020 15:03:15:071042</time>
+      <pos>243</pos>
+      <idx>6.115</idx>
+      <text>e</text>
+    </event>
+    <event id="599" type="ins">
+      <time>11.08.2020 15:03:15:210627</time>
+      <pos>244</pos>
+      <idx>6.116</idx>
+      <text>r</text>
+    </event>
+    <event id="600" type="ins">
+      <time>11.08.2020 15:03:15:382729</time>
+      <pos>245</pos>
+      <idx>6.117</idx>
+      <text>a</text>
+    </event>
+    <event id="601" type="back">
+      <time>11.08.2020 15:03:15:848476</time>
+      <pos>245</pos>
+      <idx>6.117</idx>
+      <text>a</text>
+    </event>
+    <event id="602" type="back">
+      <time>11.08.2020 15:03:16:001451</time>
+      <pos>244</pos>
+      <idx>6.116</idx>
+      <text>r</text>
+    </event>
+    <event id="603" type="back">
+      <time>11.08.2020 15:03:16:143143</time>
+      <pos>243</pos>
+      <idx>6.115</idx>
+      <text>e</text>
+    </event>
+    <event id="604" type="back">
+      <time>11.08.2020 15:03:16:282518</time>
+      <pos>242</pos>
+      <idx>6.114</idx>
+      <text>v</text>
+    </event>
+    <event id="605" type="back">
+      <time>11.08.2020 15:03:16:430123</time>
+      <pos>241</pos>
+      <idx>6.113</idx>
+      <text>u</text>
+    </event>
+    <event id="606" type="back">
+      <time>11.08.2020 15:03:16:920477</time>
+      <pos>240</pos>
+      <idx>6.112</idx>
+      <text>o</text>
+    </event>
+    <event id="607" type="ins">
+      <time>11.08.2020 15:03:17:191326</time>
+      <pos>240</pos>
+      <idx>6.112</idx>
+      <text>y</text>
+    </event>
+    <event id="608" type="ins">
+      <time>11.08.2020 15:03:17:646470</time>
+      <pos>241</pos>
+      <idx>6.113</idx>
+      <text>m</text>
+    </event>
+    <event id="609" type="ins">
+      <time>11.08.2020 15:03:17:885936</time>
+      <pos>242</pos>
+      <idx>6.114</idx>
+      <text>b</text>
+    </event>
+    <event id="610" type="ins">
+      <time>11.08.2020 15:03:18:000529</time>
+      <pos>243</pos>
+      <idx>6.115</idx>
+      <text>o</text>
+    </event>
+    <event id="611" type="ins">
+      <time>11.08.2020 15:03:18:165946</time>
+      <pos>244</pos>
+      <idx>6.116</idx>
+      <text>l</text>
+    </event>
+    <event id="612" type="ins">
+      <time>11.08.2020 15:03:18:883472</time>
+      <pos>245</pos>
+      <idx>6.117</idx>
+      <text>e</text>
+    </event>
+    <event id="613" type="ins">
+      <time>11.08.2020 15:03:19:367653</time>
+      <pos>246</pos>
+      <idx>6.118</idx>
+      <text> </text>
+    </event>
+    <event id="614" type="ins">
+      <time>11.08.2020 15:03:19:551012</time>
+      <pos>247</pos>
+      <idx>6.119</idx>
+      <text>s</text>
+    </event>
+    <event id="615" type="ins">
+      <time>11.08.2020 15:03:19:608283</time>
+      <pos>248</pos>
+      <idx>6.120</idx>
+      <text>o</text>
+    </event>
+    <event id="616" type="ins">
+      <time>11.08.2020 15:03:19:660451</time>
+      <pos>249</pos>
+      <idx>6.121</idx>
+      <text>u</text>
+    </event>
+    <event id="617" type="ins">
+      <time>11.08.2020 15:03:19:868529</time>
+      <pos>250</pos>
+      <idx>6.122</idx>
+      <text>v</text>
+    </event>
+    <event id="618" type="ins">
+      <time>11.08.2020 15:03:19:925646</time>
+      <pos>251</pos>
+      <idx>6.123</idx>
+      <text>e</text>
+    </event>
+    <event id="619" type="ins">
+      <time>11.08.2020 15:03:20:081754</time>
+      <pos>252</pos>
+      <idx>6.124</idx>
+      <text>r</text>
+    </event>
+    <event id="620" type="ins">
+      <time>11.08.2020 15:03:20:240475</time>
+      <pos>253</pos>
+      <idx>6.125</idx>
+      <text>a</text>
+    </event>
+    <event id="621" type="ins">
+      <time>11.08.2020 15:03:20:304634</time>
+      <pos>254</pos>
+      <idx>6.126</idx>
+      <text>i</text>
+    </event>
+    <event id="622" type="ins">
+      <time>11.08.2020 15:03:20:353848</time>
+      <pos>255</pos>
+      <idx>6.127</idx>
+      <text>n</text>
+    </event>
+    <event id="623" type="ins">
+      <time>11.08.2020 15:03:20:513904</time>
+      <pos>256</pos>
+      <idx>6.128</idx>
+      <text>e</text>
+    </event>
+    <event id="624" type="ins">
+      <time>11.08.2020 15:03:20:623860</time>
+      <pos>257</pos>
+      <idx>6.129</idx>
+      <text>t</text>
+    </event>
+    <event id="625" type="ins">
+      <time>11.08.2020 15:03:20:694469</time>
+      <pos>258</pos>
+      <idx>6.130</idx>
+      <text>é</text>
+    </event>
+    <event id="626" type="ins">
+      <time>11.08.2020 15:03:20:815469</time>
+      <pos>259</pos>
+      <idx>6.131</idx>
+      <text> </text>
+    </event>
+    <event id="627" type="ins">
+      <time>11.08.2020 15:03:20:949469</time>
+      <pos>260</pos>
+      <idx>6.132</idx>
+      <text>s</text>
+    </event>
+    <event id="628" type="ins">
+      <time>11.08.2020 15:03:21:118474</time>
+      <pos>261</pos>
+      <idx>6.133</idx>
+      <text>e</text>
+    </event>
+    <event id="629" type="ins">
+      <time>11.08.2020 15:03:21:155184</time>
+      <pos>262</pos>
+      <idx>6.134</idx>
+      <text>u</text>
+    </event>
+    <event id="630" type="ins">
+      <time>11.08.2020 15:03:21:280474</time>
+      <pos>263</pos>
+      <idx>6.135</idx>
+      <text>l</text>
+    </event>
+    <event id="631" type="ins">
+      <time>11.08.2020 15:03:21:376896</time>
+      <pos>264</pos>
+      <idx>6.136</idx>
+      <text>e</text>
+    </event>
+    <event id="632" type="ins">
+      <time>11.08.2020 15:03:21:449826</time>
+      <pos>265</pos>
+      <idx>6.137</idx>
+      <text>m</text>
+    </event>
+    <event id="633" type="ins">
+      <time>11.08.2020 15:03:21:520481</time>
+      <pos>266</pos>
+      <idx>6.138</idx>
+      <text>e</text>
+    </event>
+    <event id="634" type="ins">
+      <time>11.08.2020 15:03:21:612535</time>
+      <pos>267</pos>
+      <idx>6.139</idx>
+      <text>n</text>
+    </event>
+    <event id="635" type="ins">
+      <time>11.08.2020 15:03:21:703648</time>
+      <pos>268</pos>
+      <idx>6.140</idx>
+      <text>t</text>
+    </event>
+    <event id="636" type="ins">
+      <time>11.08.2020 15:03:21:782233</time>
+      <pos>269</pos>
+      <idx>6.141</idx>
+      <text> </text>
+    </event>
+    <event id="637" type="ins">
+      <time>11.08.2020 15:03:22:033216</time>
+      <pos>270</pos>
+      <idx>6.142</idx>
+      <text>F</text>
+    </event>
+    <event id="638" type="ins">
+      <time>11.08.2020 15:03:22:180468</time>
+      <pos>271</pos>
+      <idx>6.143</idx>
+      <text>r</text>
+    </event>
+    <event id="639" type="ins">
+      <time>11.08.2020 15:03:22:280469</time>
+      <pos>272</pos>
+      <idx>6.144</idx>
+      <text>a</text>
+    </event>
+    <event id="640" type="ins">
+      <time>11.08.2020 15:03:22:418020</time>
+      <pos>273</pos>
+      <idx>6.145</idx>
+      <text>n</text>
+    </event>
+    <event id="641" type="ins">
+      <time>11.08.2020 15:03:22:512712</time>
+      <pos>274</pos>
+      <idx>6.146</idx>
+      <text>c</text>
+    </event>
+    <event id="642" type="ins">
+      <time>11.08.2020 15:03:22:555482</time>
+      <pos>275</pos>
+      <idx>6.147</idx>
+      <text>e</text>
+    </event>
+    <event id="643" type="ins">
+      <time>11.08.2020 15:03:22:641468</time>
+      <pos>276</pos>
+      <idx>6.148</idx>
+      <text> </text>
+    </event>
+    <event id="644" type="ins">
+      <time>11.08.2020 15:03:22:747471</time>
+      <pos>277</pos>
+      <idx>6.149</idx>
+      <text>e</text>
+    </event>
+    <event id="645" type="ins">
+      <time>11.08.2020 15:03:22:810673</time>
+      <pos>278</pos>
+      <idx>6.150</idx>
+      <text>t</text>
+    </event>
+    <event id="646" type="ins">
+      <time>11.08.2020 15:03:22:877559</time>
+      <pos>279</pos>
+      <idx>6.151</idx>
+      <text> </text>
+    </event>
+    <event id="647" type="ins">
+      <time>11.08.2020 15:03:23:393526</time>
+      <pos>280</pos>
+      <idx>6.152</idx>
+      <text>E</text>
+    </event>
+    <event id="648" type="ins">
+      <time>11.08.2020 15:03:23:553702</time>
+      <pos>281</pos>
+      <idx>6.153</idx>
+      <text>u</text>
+    </event>
+    <event id="649" type="ins">
+      <time>11.08.2020 15:03:23:621475</time>
+      <pos>282</pos>
+      <idx>6.154</idx>
+      <text>r</text>
+    </event>
+    <event id="650" type="ins">
+      <time>11.08.2020 15:03:23:701467</time>
+      <pos>283</pos>
+      <idx>6.155</idx>
+      <text>o</text>
+    </event>
+    <event id="651" type="ins">
+      <time>11.08.2020 15:03:23:807216</time>
+      <pos>284</pos>
+      <idx>6.156</idx>
+      <text>p</text>
+    </event>
+    <event id="652" type="ins">
+      <time>11.08.2020 15:03:23:895468</time>
+      <pos>285</pos>
+      <idx>6.157</idx>
+      <text>e</text>
+    </event>
+    <event id="653" type="ins">
+      <time>11.08.2020 15:03:24:128935</time>
+      <pos>286</pos>
+      <idx>6.158</idx>
+      <text>/</text>
+    </event>
+    <event id="654" type="ins">
+      <time>11.08.2020 15:03:24:134954</time>
+      <pos>287</pos>
+      <idx>6.159</idx>
+      <text>.</text>
+    </event>
+    <event id="655" type="back">
+      <time>11.08.2020 15:03:24:727473</time>
+      <pos>287</pos>
+      <idx>6.159</idx>
+      <text>.</text>
+    </event>
+    <event id="656" type="back">
+      <time>11.08.2020 15:03:24:863620</time>
+      <pos>286</pos>
+      <idx>6.158</idx>
+      <text>/</text>
+    </event>
+    <event id="657" type="ins">
+      <time>11.08.2020 15:03:25:643467</time>
+      <pos>286</pos>
+      <idx>6.158</idx>
+      <text>.</text>
+    </event>
+    <event id="658" type="ins">
+      <time>11.08.2020 15:04:04:268710</time>
+      <pos>127</pos>
+      <idx>5.68</idx>
+      <text>M</text>
+    </event>
+    <event id="659" type="ins">
+      <time>11.08.2020 15:04:04:535804</time>
+      <pos>128</pos>
+      <idx>5.69</idx>
+      <text>a</text>
+    </event>
+    <event id="660" type="ins">
+      <time>11.08.2020 15:04:04:678515</time>
+      <pos>129</pos>
+      <idx>5.70</idx>
+      <text>l</text>
+    </event>
+    <event id="661" type="ins">
+      <time>11.08.2020 15:04:04:989453</time>
+      <pos>130</pos>
+      <idx>5.71</idx>
+      <text>g</text>
+    </event>
+    <event id="662" type="ins">
+      <time>11.08.2020 15:04:05:175742</time>
+      <pos>131</pos>
+      <idx>5.72</idx>
+      <text>r</text>
+    </event>
+    <event id="663" type="ins">
+      <time>11.08.2020 15:04:05:345282</time>
+      <pos>132</pos>
+      <idx>5.73</idx>
+      <text>é</text>
+    </event>
+    <event id="664" type="ins">
+      <time>11.08.2020 15:04:05:415800</time>
+      <pos>133</pos>
+      <idx>5.74</idx>
+      <text> </text>
+    </event>
+    <event id="665" type="ins">
+      <time>11.08.2020 15:04:05:636315</time>
+      <pos>134</pos>
+      <idx>5.75</idx>
+      <text>c</text>
+    </event>
+    <event id="666" type="ins">
+      <time>11.08.2020 15:04:05:734726</time>
+      <pos>135</pos>
+      <idx>5.76</idx>
+      <text>e</text>
+    </event>
+    <event id="667" type="ins">
+      <time>11.08.2020 15:04:05:822026</time>
+      <pos>136</pos>
+      <idx>5.77</idx>
+      <text> </text>
+    </event>
+    <event id="668" type="ins">
+      <time>11.08.2020 15:04:07:483454</time>
+      <pos>137</pos>
+      <idx>5.78</idx>
+      <text>q</text>
+    </event>
+    <event id="669" type="ins">
+      <time>11.08.2020 15:04:07:573452</time>
+      <pos>138</pos>
+      <idx>5.79</idx>
+      <text>u</text>
+    </event>
+    <event id="670" type="ins">
+      <time>11.08.2020 15:04:07:631472</time>
+      <pos>139</pos>
+      <idx>5.80</idx>
+      <text>i</text>
+    </event>
+    <event id="671" type="ins">
+      <time>11.08.2020 15:04:07:741466</time>
+      <pos>140</pos>
+      <idx>5.81</idx>
+      <text> </text>
+    </event>
+    <event id="672" type="ins">
+      <time>11.08.2020 15:04:07:849150</time>
+      <pos>141</pos>
+      <idx>5.82</idx>
+      <text>s</text>
+    </event>
+    <event id="673" type="ins">
+      <time>11.08.2020 15:04:08:008263</time>
+      <pos>142</pos>
+      <idx>5.83</idx>
+      <text>e</text>
+    </event>
+    <event id="674" type="ins">
+      <time>11.08.2020 15:04:08:058175</time>
+      <pos>143</pos>
+      <idx>5.84</idx>
+      <text>m</text>
+    </event>
+    <event id="675" type="ins">
+      <time>11.08.2020 15:04:08:241451</time>
+      <pos>144</pos>
+      <idx>5.85</idx>
+      <text>b</text>
+    </event>
+    <event id="676" type="ins">
+      <time>11.08.2020 15:04:08:337241</time>
+      <pos>145</pos>
+      <idx>5.86</idx>
+      <text>l</text>
+    </event>
+    <event id="677" type="ins">
+      <time>11.08.2020 15:04:08:543552</time>
+      <pos>146</pos>
+      <idx>5.87</idx>
+      <text>e</text>
+    </event>
+    <event id="678" type="ins">
+      <time>11.08.2020 15:04:08:625731</time>
+      <pos>147</pos>
+      <idx>5.88</idx>
+      <text> </text>
+    </event>
+    <event id="679" type="ins">
+      <time>11.08.2020 15:04:08:839241</time>
+      <pos>148</pos>
+      <idx>5.89</idx>
+      <text>ê</text>
+    </event>
+    <event id="680" type="ins">
+      <time>11.08.2020 15:04:08:957677</time>
+      <pos>149</pos>
+      <idx>5.90</idx>
+      <text>t</text>
+    </event>
+    <event id="681" type="ins">
+      <time>11.08.2020 15:04:09:083455</time>
+      <pos>150</pos>
+      <idx>5.91</idx>
+      <text>r</text>
+    </event>
+    <event id="682" type="ins">
+      <time>11.08.2020 15:04:09:152336</time>
+      <pos>151</pos>
+      <idx>5.92</idx>
+      <text>e</text>
+    </event>
+    <event id="683" type="ins">
+      <time>11.08.2020 15:04:09:258152</time>
+      <pos>152</pos>
+      <idx>5.93</idx>
+      <text> </text>
+    </event>
+    <event id="684" type="ins">
+      <time>11.08.2020 15:04:09:331454</time>
+      <pos>153</pos>
+      <idx>5.94</idx>
+      <text>u</text>
+    </event>
+    <event id="685" type="ins">
+      <time>11.08.2020 15:04:09:394457</time>
+      <pos>154</pos>
+      <idx>5.95</idx>
+      <text>n</text>
+    </event>
+    <event id="686" type="ins">
+      <time>11.08.2020 15:04:09:451461</time>
+      <pos>155</pos>
+      <idx>5.96</idx>
+      <text>e</text>
+    </event>
+    <event id="687" type="ins">
+      <time>11.08.2020 15:04:09:543683</time>
+      <pos>156</pos>
+      <idx>5.97</idx>
+      <text> </text>
+    </event>
+    <event id="688" type="ins">
+      <time>11.08.2020 15:04:09:632428</time>
+      <pos>157</pos>
+      <idx>5.98</idx>
+      <text>c</text>
+    </event>
+    <event id="689" type="ins">
+      <time>11.08.2020 15:04:09:714596</time>
+      <pos>158</pos>
+      <idx>5.99</idx>
+      <text>h</text>
+    </event>
+    <event id="690" type="ins">
+      <time>11.08.2020 15:04:09:808451</time>
+      <pos>159</pos>
+      <idx>5.100</idx>
+      <text>u</text>
+    </event>
+    <event id="691" type="ins">
+      <time>11.08.2020 15:04:09:954451</time>
+      <pos>160</pos>
+      <idx>5.101</idx>
+      <text>t</text>
+    </event>
+    <event id="692" type="ins">
+      <time>11.08.2020 15:04:10:052387</time>
+      <pos>161</pos>
+      <idx>5.102</idx>
+      <text>e</text>
+    </event>
+    <event id="693" type="ins">
+      <time>11.08.2020 15:04:10:330562</time>
+      <pos>162</pos>
+      <idx>5.103</idx>
+      <text>,</text>
+    </event>
+    <event id="694" type="ins">
+      <time>11.08.2020 15:04:10:489066</time>
+      <pos>163</pos>
+      <idx>5.104</idx>
+      <text> </text>
+    </event>
+    <event id="695" type="ins">
+      <time>11.08.2020 15:04:18:431543</time>
+      <pos>164</pos>
+      <idx>5.105</idx>
+      <text>f</text>
+    </event>
+    <event id="696" type="ins">
+      <time>11.08.2020 15:04:18:540451</time>
+      <pos>165</pos>
+      <idx>5.106</idx>
+      <text>o</text>
+    </event>
+    <event id="697" type="ins">
+      <time>11.08.2020 15:04:18:647729</time>
+      <pos>166</pos>
+      <idx>5.107</idx>
+      <text>r</text>
+    </event>
+    <event id="698" type="ins">
+      <time>11.08.2020 15:04:18:748196</time>
+      <pos>167</pos>
+      <idx>5.108</idx>
+      <text>m</text>
+    </event>
+    <event id="699" type="ins">
+      <time>11.08.2020 15:04:18:866730</time>
+      <pos>168</pos>
+      <idx>5.109</idx>
+      <text>e</text>
+    </event>
+    <event id="700" type="ins">
+      <time>11.08.2020 15:04:19:048448</time>
+      <pos>169</pos>
+      <idx>5.110</idx>
+      <text>s</text>
+    </event>
+    <event id="701" type="ins">
+      <time>11.08.2020 15:04:19:142448</time>
+      <pos>170</pos>
+      <idx>5.111</idx>
+      <text> </text>
+    </event>
+    <event id="702" type="ins">
+      <time>11.08.2020 15:04:19:250448</time>
+      <pos>171</pos>
+      <idx>5.112</idx>
+      <text>s</text>
+    </event>
+    <event id="703" type="ins">
+      <time>11.08.2020 15:04:19:343447</time>
+      <pos>172</pos>
+      <idx>5.113</idx>
+      <text>o</text>
+    </event>
+    <event id="704" type="ins">
+      <time>11.08.2020 15:04:19:389461</time>
+      <pos>173</pos>
+      <idx>5.114</idx>
+      <text>n</text>
+    </event>
+    <event id="705" type="ins">
+      <time>11.08.2020 15:04:19:559450</time>
+      <pos>174</pos>
+      <idx>5.115</idx>
+      <text>t</text>
+    </event>
+    <event id="706" type="ins">
+      <time>11.08.2020 15:04:19:573453</time>
+      <pos>175</pos>
+      <idx>5.116</idx>
+      <text>r</text>
+    </event>
+    <event id="707" type="back">
+      <time>11.08.2020 15:04:20:031196</time>
+      <pos>175</pos>
+      <idx>5.116</idx>
+      <text>r</text>
+    </event>
+    <event id="708" type="ins">
+      <time>11.08.2020 15:04:20:493602</time>
+      <pos>175</pos>
+      <idx>5.116</idx>
+      <text> </text>
+    </event>
+    <event id="709" type="ins">
+      <time>11.08.2020 15:04:20:648812</time>
+      <pos>176</pos>
+      <idx>5.117</idx>
+      <text>q</text>
+    </event>
+    <event id="710" type="ins">
+      <time>11.08.2020 15:04:20:996534</time>
+      <pos>177</pos>
+      <idx>5.118</idx>
+      <text>u</text>
+    </event>
+    <event id="711" type="ins">
+      <time>11.08.2020 15:04:21:093447</time>
+      <pos>178</pos>
+      <idx>5.119</idx>
+      <text>a</text>
+    </event>
+    <event id="712" type="ins">
+      <time>11.08.2020 15:04:21:240423</time>
+      <pos>179</pos>
+      <idx>5.120</idx>
+      <text>s</text>
+    </event>
+    <event id="713" type="ins">
+      <time>11.08.2020 15:04:21:292447</time>
+      <pos>180</pos>
+      <idx>5.121</idx>
+      <text>i</text>
+    </event>
+    <event id="714" type="ins">
+      <time>11.08.2020 15:04:21:399690</time>
+      <pos>181</pos>
+      <idx>5.122</idx>
+      <text>m</text>
+    </event>
+    <event id="715" type="ins">
+      <time>11.08.2020 15:04:21:478752</time>
+      <pos>182</pos>
+      <idx>5.123</idx>
+      <text>e</text>
+    </event>
+    <event id="716" type="ins">
+      <time>11.08.2020 15:04:21:613447</time>
+      <pos>183</pos>
+      <idx>5.124</idx>
+      <text>n</text>
+    </event>
+    <event id="717" type="ins">
+      <time>11.08.2020 15:04:21:711447</time>
+      <pos>184</pos>
+      <idx>5.125</idx>
+      <text>t</text>
+    </event>
+    <event id="718" type="ins">
+      <time>11.08.2020 15:04:21:830380</time>
+      <pos>185</pos>
+      <idx>5.126</idx>
+      <text> </text>
+    </event>
+    <event id="719" type="ins">
+      <time>11.08.2020 15:04:21:991612</time>
+      <pos>186</pos>
+      <idx>5.127</idx>
+      <text>o</text>
+    </event>
+    <event id="720" type="ins">
+      <time>11.08.2020 15:04:22:077725</time>
+      <pos>187</pos>
+      <idx>5.128</idx>
+      <text>t</text>
+    </event>
+    <event id="721" type="back">
+      <time>11.08.2020 15:04:22:409452</time>
+      <pos>187</pos>
+      <idx>5.128</idx>
+      <text>t</text>
+    </event>
+    <event id="722" type="ins">
+      <time>11.08.2020 15:04:22:590453</time>
+      <pos>187</pos>
+      <idx>5.128</idx>
+      <text>t</text>
+    </event>
+    <event id="723" type="ins">
+      <time>11.08.2020 15:04:22:705142</time>
+      <pos>188</pos>
+      <idx>5.129</idx>
+      <text>o</text>
+    </event>
+    <event id="724" type="back">
+      <time>11.08.2020 15:04:22:970452</time>
+      <pos>188</pos>
+      <idx>5.129</idx>
+      <text>o</text>
+    </event>
+    <event id="725" type="back">
+      <time>11.08.2020 15:04:23:109675</time>
+      <pos>187</pos>
+      <idx>5.128</idx>
+      <text>t</text>
+    </event>
+    <event id="726" type="back">
+      <time>11.08.2020 15:04:23:239462</time>
+      <pos>186</pos>
+      <idx>5.127</idx>
+      <text>o</text>
+    </event>
+    <event id="727" type="ins">
+      <time>11.08.2020 15:04:23:578446</time>
+      <pos>186</pos>
+      <idx>5.127</idx>
+      <text>t</text>
+    </event>
+    <event id="728" type="ins">
+      <time>11.08.2020 15:04:23:700475</time>
+      <pos>187</pos>
+      <idx>5.128</idx>
+      <text>o</text>
+    </event>
+    <event id="729" type="ins">
+      <time>11.08.2020 15:04:23:773453</time>
+      <pos>188</pos>
+      <idx>5.129</idx>
+      <text>u</text>
+    </event>
+    <event id="730" type="ins">
+      <time>11.08.2020 15:04:23:966446</time>
+      <pos>189</pos>
+      <idx>5.130</idx>
+      <text>t</text>
+    </event>
+    <event id="731" type="ins">
+      <time>11.08.2020 15:04:24:060770</time>
+      <pos>190</pos>
+      <idx>5.131</idx>
+      <text>e</text>
+    </event>
+    <event id="732" type="ins">
+      <time>11.08.2020 15:04:24:273446</time>
+      <pos>191</pos>
+      <idx>5.132</idx>
+      <text>s</text>
+    </event>
+    <event id="733" type="ins">
+      <time>11.08.2020 15:04:24:584451</time>
+      <pos>192</pos>
+      <idx>5.133</idx>
+      <text> </text>
+    </event>
+    <event id="734" type="ins">
+      <time>11.08.2020 15:04:31:268115</time>
+      <pos>193</pos>
+      <idx>5.134</idx>
+      <text>p</text>
+    </event>
+    <event id="735" type="ins">
+      <time>11.08.2020 15:04:31:550449</time>
+      <pos>194</pos>
+      <idx>5.135</idx>
+      <text>e</text>
+    </event>
+    <event id="736" type="ins">
+      <time>11.08.2020 15:04:31:630443</time>
+      <pos>195</pos>
+      <idx>5.136</idx>
+      <text>r</text>
+    </event>
+    <event id="737" type="ins">
+      <time>11.08.2020 15:04:31:722100</time>
+      <pos>196</pos>
+      <idx>5.137</idx>
+      <text>p</text>
+    </event>
+    <event id="738" type="ins">
+      <time>11.08.2020 15:04:31:789443</time>
+      <pos>197</pos>
+      <idx>5.138</idx>
+      <text>e</text>
+    </event>
+    <event id="739" type="ins">
+      <time>11.08.2020 15:04:32:489475</time>
+      <pos>198</pos>
+      <idx>5.139</idx>
+      <text>n</text>
+    </event>
+    <event id="740" type="ins">
+      <time>11.08.2020 15:04:33:245442</time>
+      <pos>199</pos>
+      <idx>5.140</idx>
+      <text>d</text>
+    </event>
+    <event id="741" type="ins">
+      <time>11.08.2020 15:04:33:362438</time>
+      <pos>200</pos>
+      <idx>5.141</idx>
+      <text>i</text>
+    </event>
+    <event id="742" type="ins">
+      <time>11.08.2020 15:04:33:474483</time>
+      <pos>201</pos>
+      <idx>5.142</idx>
+      <text>c</text>
+    </event>
+    <event id="743" type="ins">
+      <time>11.08.2020 15:04:33:576443</time>
+      <pos>202</pos>
+      <idx>5.143</idx>
+      <text>u</text>
+    </event>
+    <event id="744" type="ins">
+      <time>11.08.2020 15:04:33:732074</time>
+      <pos>203</pos>
+      <idx>5.144</idx>
+      <text>l</text>
+    </event>
+    <event id="745" type="ins">
+      <time>11.08.2020 15:04:33:872950</time>
+      <pos>204</pos>
+      <idx>5.145</idx>
+      <text>a</text>
+    </event>
+    <event id="746" type="ins">
+      <time>11.08.2020 15:04:33:966334</time>
+      <pos>205</pos>
+      <idx>5.146</idx>
+      <text>i</text>
+    </event>
+    <event id="747" type="ins">
+      <time>11.08.2020 15:04:34:117141</time>
+      <pos>206</pos>
+      <idx>5.147</idx>
+      <text>r</text>
+    </event>
+    <event id="748" type="ins">
+      <time>11.08.2020 15:04:34:173471</time>
+      <pos>207</pos>
+      <idx>5.148</idx>
+      <text>e</text>
+    </event>
+    <event id="749" type="ins">
+      <time>11.08.2020 15:04:34:431442</time>
+      <pos>208</pos>
+      <idx>5.149</idx>
+      <text>s</text>
+    </event>
+    <event id="750" type="ins">
+      <time>11.08.2020 15:04:35:602448</time>
+      <pos>209</pos>
+      <idx>5.150</idx>
+      <text>.</text>
+    </event>
+    <event id="751" type="ins">
+      <time>11.08.2020 15:04:35:879441</time>
+      <pos>210</pos>
+      <idx>5.151</idx>
+      <text> </text>
+    </event>
+    <event id="752" type="ins">
+      <time>11.08.2020 15:04:37:147846</time>
+      <pos>211</pos>
+      <idx>5.152</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="753" type="ins">
+      <time>11.08.2020 15:05:55:618895</time>
+      <pos>211</pos>
+      <idx>5.152</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="754" type="ins">
+      <time>11.08.2020 15:05:55:948926</time>
+      <pos>212</pos>
+      <idx>6.0</idx>
+      <text>q</text>
+    </event>
+    <event id="755" type="back">
+      <time>11.08.2020 15:05:56:624901</time>
+      <pos>212</pos>
+      <idx>6.0</idx>
+      <text>q</text>
+    </event>
+    <event id="756" type="ins">
+      <time>11.08.2020 15:05:56:855910</time>
+      <pos>212</pos>
+      <idx>6.0</idx>
+      <text>Q</text>
+    </event>
+    <event id="757" type="ins">
+      <time>11.08.2020 15:05:57:024459</time>
+      <pos>213</pos>
+      <idx>6.1</idx>
+      <text>u</text>
+    </event>
+    <event id="758" type="ins">
+      <time>11.08.2020 15:05:57:316452</time>
+      <pos>214</pos>
+      <idx>6.2</idx>
+      <text>'</text>
+    </event>
+    <event id="759" type="ins">
+      <time>11.08.2020 15:05:57:452382</time>
+      <pos>215</pos>
+      <idx>6.3</idx>
+      <text>e</text>
+    </event>
+    <event id="760" type="ins">
+      <time>11.08.2020 15:05:57:520613</time>
+      <pos>216</pos>
+      <idx>6.4</idx>
+      <text>s</text>
+    </event>
+    <event id="761" type="ins">
+      <time>11.08.2020 15:05:57:624861</time>
+      <pos>217</pos>
+      <idx>6.5</idx>
+      <text>t</text>
+    </event>
+    <event id="762" type="ins">
+      <time>11.08.2020 15:05:57:754420</time>
+      <pos>218</pos>
+      <idx>6.6</idx>
+      <text> </text>
+    </event>
+    <event id="763" type="ins">
+      <time>11.08.2020 15:05:57:845495</time>
+      <pos>219</pos>
+      <idx>6.7</idx>
+      <text>c</text>
+    </event>
+    <event id="764" type="ins">
+      <time>11.08.2020 15:05:57:936412</time>
+      <pos>220</pos>
+      <idx>6.8</idx>
+      <text>e</text>
+    </event>
+    <event id="765" type="ins">
+      <time>11.08.2020 15:05:58:077412</time>
+      <pos>221</pos>
+      <idx>6.9</idx>
+      <text> </text>
+    </event>
+    <event id="766" type="ins">
+      <time>11.08.2020 15:05:58:144412</time>
+      <pos>222</pos>
+      <idx>6.10</idx>
+      <text>q</text>
+    </event>
+    <event id="767" type="ins">
+      <time>11.08.2020 15:05:58:224650</time>
+      <pos>223</pos>
+      <idx>6.11</idx>
+      <text>u</text>
+    </event>
+    <event id="768" type="ins">
+      <time>11.08.2020 15:05:58:353468</time>
+      <pos>224</pos>
+      <idx>6.12</idx>
+      <text>e</text>
+    </event>
+    <event id="769" type="ins">
+      <time>11.08.2020 15:05:59:340411</time>
+      <pos>225</pos>
+      <idx>6.13</idx>
+      <text> </text>
+    </event>
+    <event id="770" type="ins">
+      <time>11.08.2020 15:06:01:634417</time>
+      <pos>226</pos>
+      <idx>6.14</idx>
+      <text>c</text>
+    </event>
+    <event id="771" type="ins">
+      <time>11.08.2020 15:06:01:673767</time>
+      <pos>227</pos>
+      <idx>6.15</idx>
+      <text>e</text>
+    </event>
+    <event id="772" type="ins">
+      <time>11.08.2020 15:06:01:853490</time>
+      <pos>228</pos>
+      <idx>6.16</idx>
+      <text>t</text>
+    </event>
+    <event id="773" type="ins">
+      <time>11.08.2020 15:06:01:997215</time>
+      <pos>229</pos>
+      <idx>6.17</idx>
+      <text>t</text>
+    </event>
+    <event id="774" type="ins">
+      <time>11.08.2020 15:06:02:033410</time>
+      <pos>230</pos>
+      <idx>6.18</idx>
+      <text>e</text>
+    </event>
+    <event id="775" type="ins">
+      <time>11.08.2020 15:06:02:130025</time>
+      <pos>231</pos>
+      <idx>6.19</idx>
+      <text> </text>
+    </event>
+    <event id="776" type="ins">
+      <time>11.08.2020 15:06:02:236423</time>
+      <pos>232</pos>
+      <idx>6.20</idx>
+      <text>g</text>
+    </event>
+    <event id="777" type="ins">
+      <time>11.08.2020 15:06:02:308264</time>
+      <pos>233</pos>
+      <idx>6.21</idx>
+      <text>r</text>
+    </event>
+    <event id="778" type="ins">
+      <time>11.08.2020 15:06:02:476433</time>
+      <pos>234</pos>
+      <idx>6.22</idx>
+      <text>a</text>
+    </event>
+    <event id="779" type="ins">
+      <time>11.08.2020 15:06:02:577577</time>
+      <pos>235</pos>
+      <idx>6.23</idx>
+      <text>n</text>
+    </event>
+    <event id="780" type="ins">
+      <time>11.08.2020 15:06:02:712410</time>
+      <pos>236</pos>
+      <idx>6.24</idx>
+      <text>d</text>
+    </event>
+    <event id="781" type="ins">
+      <time>11.08.2020 15:06:02:754435</time>
+      <pos>237</pos>
+      <idx>6.25</idx>
+      <text>e</text>
+    </event>
+    <event id="782" type="ins">
+      <time>11.08.2020 15:06:02:881741</time>
+      <pos>238</pos>
+      <idx>6.26</idx>
+      <text> </text>
+    </event>
+    <event id="783" type="ins">
+      <time>11.08.2020 15:06:03:326246</time>
+      <pos>239</pos>
+      <idx>6.27</idx>
+      <text>b</text>
+    </event>
+    <event id="784" type="ins">
+      <time>11.08.2020 15:06:03:433570</time>
+      <pos>240</pos>
+      <idx>6.28</idx>
+      <text>a</text>
+    </event>
+    <event id="785" type="ins">
+      <time>11.08.2020 15:06:03:536410</time>
+      <pos>241</pos>
+      <idx>6.29</idx>
+      <text>n</text>
+    </event>
+    <event id="786" type="ins">
+      <time>11.08.2020 15:06:03:629411</time>
+      <pos>242</pos>
+      <idx>6.30</idx>
+      <text>d</text>
+    </event>
+    <event id="787" type="ins">
+      <time>11.08.2020 15:06:03:768410</time>
+      <pos>243</pos>
+      <idx>6.31</idx>
+      <text>e</text>
+    </event>
+    <event id="788" type="ins">
+      <time>11.08.2020 15:06:06:630409</time>
+      <pos>244</pos>
+      <idx>6.32</idx>
+      <text> </text>
+    </event>
+    <event id="789" type="ins">
+      <time>11.08.2020 15:06:06:960408</time>
+      <pos>245</pos>
+      <idx>6.33</idx>
+      <text>n</text>
+    </event>
+    <event id="790" type="ins">
+      <time>11.08.2020 15:06:07:167498</time>
+      <pos>246</pos>
+      <idx>6.34</idx>
+      <text>o</text>
+    </event>
+    <event id="791" type="ins">
+      <time>11.08.2020 15:06:07:237411</time>
+      <pos>247</pos>
+      <idx>6.35</idx>
+      <text>i</text>
+    </event>
+    <event id="792" type="ins">
+      <time>11.08.2020 15:06:07:482744</time>
+      <pos>248</pos>
+      <idx>6.36</idx>
+      <text>e</text>
+    </event>
+    <event id="793" type="ins">
+      <time>11.08.2020 15:06:07:491477</time>
+      <pos>249</pos>
+      <idx>6.37</idx>
+      <text>r</text>
+    </event>
+    <event id="794" type="ins">
+      <time>11.08.2020 15:06:07:656985</time>
+      <pos>250</pos>
+      <idx>6.38</idx>
+      <text> </text>
+    </event>
+    <event id="795" type="ins">
+      <time>11.08.2020 15:06:07:939650</time>
+      <pos>251</pos>
+      <idx>6.39</idx>
+      <text>?</text>
+    </event>
+    <event id="796" type="ins">
+      <time>11.08.2020 15:06:08:121408</time>
+      <pos>252</pos>
+      <idx>6.40</idx>
+      <text> </text>
+    </event>
+    <event id="797" type="back">
+      <time>11.08.2020 15:06:09:070576</time>
+      <pos>252</pos>
+      <idx>6.40</idx>
+      <text> </text>
+    </event>
+    <event id="798" type="back">
+      <time>11.08.2020 15:06:09:527466</time>
+      <pos>251</pos>
+      <idx>6.39</idx>
+      <text>?</text>
+    </event>
+    <event id="799" type="back">
+      <time>11.08.2020 15:06:09:686423</time>
+      <pos>250</pos>
+      <idx>6.38</idx>
+      <text> </text>
+    </event>
+    <event id="800" type="back">
+      <time>11.08.2020 15:06:09:833396</time>
+      <pos>249</pos>
+      <idx>6.37</idx>
+      <text>r</text>
+    </event>
+    <event id="801" type="back">
+      <time>11.08.2020 15:06:09:963785</time>
+      <pos>248</pos>
+      <idx>6.36</idx>
+      <text>e</text>
+    </event>
+    <event id="802" type="ins">
+      <time>11.08.2020 15:06:10:657076</time>
+      <pos>248</pos>
+      <idx>6.36</idx>
+      <text>r</text>
+    </event>
+    <event id="803" type="ins">
+      <time>11.08.2020 15:06:10:690046</time>
+      <pos>249</pos>
+      <idx>6.37</idx>
+      <text>e</text>
+    </event>
+    <event id="804" type="ins">
+      <time>11.08.2020 15:06:10:810818</time>
+      <pos>250</pos>
+      <idx>6.38</idx>
+      <text> </text>
+    </event>
+    <event id="805" type="ins">
+      <time>11.08.2020 15:06:11:021473</time>
+      <pos>251</pos>
+      <idx>6.39</idx>
+      <text>?</text>
+    </event>
+    <event id="806" type="ins">
+      <time>11.08.2020 15:06:11:165677</time>
+      <pos>252</pos>
+      <idx>6.40</idx>
+      <text> </text>
+    </event>
+    <event id="807" type="del">
+      <time>11.08.2020 15:23:45:685032</time>
+      <pos>193</pos>
+      <idx>5.134</idx>
+      <text>perpendiculaires.</text>
+    </event>
+    <event id="808" type="ins">
+      <time>11.08.2020 15:23:45:701983</time>
+      <pos>193</pos>
+      <idx>5.134</idx>
+      <text>p</text>
+    </event>
+    <event id="809" type="ins">
+      <time>11.08.2020 15:23:45:819391</time>
+      <pos>194</pos>
+      <idx>5.135</idx>
+      <text>a</text>
+    </event>
+    <event id="810" type="ins">
+      <time>11.08.2020 15:23:46:094025</time>
+      <pos>195</pos>
+      <idx>5.136</idx>
+      <text>r</text>
+    </event>
+    <event id="811" type="ins">
+      <time>11.08.2020 15:23:46:230914</time>
+      <pos>196</pos>
+      <idx>5.137</idx>
+      <text>r</text>
+    </event>
+    <event id="812" type="ins">
+      <time>11.08.2020 15:23:46:420025</time>
+      <pos>197</pos>
+      <idx>5.138</idx>
+      <text>a</text>
+    </event>
+    <event id="813" type="ins">
+      <time>11.08.2020 15:23:46:550561</time>
+      <pos>198</pos>
+      <idx>5.139</idx>
+      <text>l</text>
+    </event>
+    <event id="814" type="ins">
+      <time>11.08.2020 15:23:46:821192</time>
+      <pos>199</pos>
+      <idx>5.140</idx>
+      <text>è</text>
+    </event>
+    <event id="815" type="ins">
+      <time>11.08.2020 15:23:47:191269</time>
+      <pos>200</pos>
+      <idx>5.141</idx>
+      <text>l</text>
+    </event>
+    <event id="816" type="ins">
+      <time>11.08.2020 15:23:47:335050</time>
+      <pos>201</pos>
+      <idx>5.142</idx>
+      <text>e</text>
+    </event>
+    <event id="817" type="ins">
+      <time>11.08.2020 15:23:47:500587</time>
+      <pos>202</pos>
+      <idx>5.143</idx>
+      <text>s</text>
+    </event>
+    <event id="818" type="ins">
+      <time>11.08.2020 15:23:47:679373</time>
+      <pos>203</pos>
+      <idx>5.144</idx>
+      <text>.</text>
+    </event>
+    <event id="819" type="ins">
+      <time>11.08.2020 15:23:47:945024</time>
+      <pos>204</pos>
+      <idx>5.145</idx>
+      <text> </text>
+    </event>
+    <event id="820" type="ins">
+      <time>11.08.2020 15:24:02:421831</time>
+      <pos>248</pos>
+      <idx>6.41</idx>
+      <text>B</text>
+    </event>
+    <event id="821" type="ins">
+      <time>11.08.2020 15:24:02:657320</time>
+      <pos>249</pos>
+      <idx>6.42</idx>
+      <text>a</text>
+    </event>
+    <event id="822" type="ins">
+      <time>11.08.2020 15:24:02:819046</time>
+      <pos>250</pos>
+      <idx>6.43</idx>
+      <text>s</text>
+    </event>
+    <event id="823" type="ins">
+      <time>11.08.2020 15:24:03:022068</time>
+      <pos>251</pos>
+      <idx>6.44</idx>
+      <text>e</text>
+    </event>
+    <event id="824" type="ins">
+      <time>11.08.2020 15:24:03:097019</time>
+      <pos>252</pos>
+      <idx>6.45</idx>
+      <text> </text>
+    </event>
+    <event id="825" type="ins">
+      <time>11.08.2020 15:24:03:236991</time>
+      <pos>253</pos>
+      <idx>6.46</idx>
+      <text>q</text>
+    </event>
+    <event id="826" type="ins">
+      <time>11.08.2020 15:24:03:331371</time>
+      <pos>254</pos>
+      <idx>6.47</idx>
+      <text>u</text>
+    </event>
+    <event id="827" type="ins">
+      <time>11.08.2020 15:24:03:402032</time>
+      <pos>255</pos>
+      <idx>6.48</idx>
+      <text>i</text>
+    </event>
+    <event id="828" type="ins">
+      <time>11.08.2020 15:24:03:485482</time>
+      <pos>256</pos>
+      <idx>6.49</idx>
+      <text> </text>
+    </event>
+    <event id="829" type="ins">
+      <time>11.08.2020 15:24:03:655338</time>
+      <pos>257</pos>
+      <idx>6.50</idx>
+      <text>d</text>
+    </event>
+    <event id="830" type="ins">
+      <time>11.08.2020 15:24:03:684019</time>
+      <pos>258</pos>
+      <idx>6.51</idx>
+      <text>e</text>
+    </event>
+    <event id="831" type="ins">
+      <time>11.08.2020 15:24:03:865234</time>
+      <pos>259</pos>
+      <idx>6.52</idx>
+      <text>v</text>
+    </event>
+    <event id="832" type="ins">
+      <time>11.08.2020 15:24:03:989078</time>
+      <pos>260</pos>
+      <idx>6.53</idx>
+      <text>a</text>
+    </event>
+    <event id="833" type="ins">
+      <time>11.08.2020 15:24:04:108245</time>
+      <pos>261</pos>
+      <idx>6.54</idx>
+      <text>i</text>
+    </event>
+    <event id="834" type="ins">
+      <time>11.08.2020 15:24:04:288024</time>
+      <pos>262</pos>
+      <idx>6.55</idx>
+      <text>t</text>
+    </event>
+    <event id="835" type="ins">
+      <time>11.08.2020 15:24:04:411165</time>
+      <pos>263</pos>
+      <idx>6.56</idx>
+      <text> </text>
+    </event>
+    <event id="836" type="ins">
+      <time>11.08.2020 15:24:04:537078</time>
+      <pos>264</pos>
+      <idx>6.57</idx>
+      <text>t</text>
+    </event>
+    <event id="837" type="ins">
+      <time>11.08.2020 15:24:04:597968</time>
+      <pos>265</pos>
+      <idx>6.58</idx>
+      <text>o</text>
+    </event>
+    <event id="838" type="ins">
+      <time>11.08.2020 15:24:04:658398</time>
+      <pos>266</pos>
+      <idx>6.59</idx>
+      <text>u</text>
+    </event>
+    <event id="839" type="ins">
+      <time>11.08.2020 15:24:04:738218</time>
+      <pos>267</pos>
+      <idx>6.60</idx>
+      <text>t</text>
+    </event>
+    <event id="840" type="ins">
+      <time>11.08.2020 15:24:04:784323</time>
+      <pos>268</pos>
+      <idx>6.61</idx>
+      <text> </text>
+    </event>
+    <event id="841" type="ins">
+      <time>11.08.2020 15:24:04:874590</time>
+      <pos>269</pos>
+      <idx>6.62</idx>
+      <text>m</text>
+    </event>
+    <event id="842" type="ins">
+      <time>11.08.2020 15:24:04:996007</time>
+      <pos>270</pos>
+      <idx>6.63</idx>
+      <text>a</text>
+    </event>
+    <event id="843" type="ins">
+      <time>11.08.2020 15:24:05:097157</time>
+      <pos>271</pos>
+      <idx>6.64</idx>
+      <text>i</text>
+    </event>
+    <event id="844" type="ins">
+      <time>11.08.2020 15:24:05:186019</time>
+      <pos>272</pos>
+      <idx>6.65</idx>
+      <text>n</text>
+    </event>
+    <event id="845" type="ins">
+      <time>11.08.2020 15:24:05:268018</time>
+      <pos>273</pos>
+      <idx>6.66</idx>
+      <text>t</text>
+    </event>
+    <event id="846" type="ins">
+      <time>11.08.2020 15:24:05:344018</time>
+      <pos>274</pos>
+      <idx>6.67</idx>
+      <text>e</text>
+    </event>
+    <event id="847" type="ins">
+      <time>11.08.2020 15:24:05:508024</time>
+      <pos>275</pos>
+      <idx>6.68</idx>
+      <text>n</text>
+    </event>
+    <event id="848" type="ins">
+      <time>11.08.2020 15:24:05:582629</time>
+      <pos>276</pos>
+      <idx>6.69</idx>
+      <text>i</text>
+    </event>
+    <event id="849" type="ins">
+      <time>11.08.2020 15:24:05:698019</time>
+      <pos>277</pos>
+      <idx>6.70</idx>
+      <text>r</text>
+    </event>
+    <event id="850" type="ins">
+      <time>11.08.2020 15:24:05:793018</time>
+      <pos>278</pos>
+      <idx>6.71</idx>
+      <text> </text>
+    </event>
+    <event id="851" type="ins">
+      <time>11.08.2020 15:24:06:067762</time>
+      <pos>279</pos>
+      <idx>6.72</idx>
+      <text>?</text>
+    </event>
+    <event id="852" type="ins">
+      <time>11.08.2020 15:24:06:153018</time>
+      <pos>280</pos>
+      <idx>6.73</idx>
+      <text> </text>
+    </event>
+    <event id="853" type="ins">
+      <time>11.08.2020 15:24:11:479326</time>
+      <pos>281</pos>
+      <idx>6.74</idx>
+      <text>=</text>
+    </event>
+    <event id="854" type="ins">
+      <time>11.08.2020 15:24:11:624049</time>
+      <pos>282</pos>
+      <idx>6.75</idx>
+      <text>=</text>
+    </event>
+    <event id="855" type="ins">
+      <time>11.08.2020 15:24:12:044455</time>
+      <pos>283</pos>
+      <idx>6.76</idx>
+      <text>&amp;gt;</text>
+    </event>
+    <event id="856" type="ins">
+      <time>11.08.2020 15:24:13:463020</time>
+      <pos>284</pos>
+      <idx>6.77</idx>
+      <text> </text>
+    </event>
+    <event id="857" type="ins">
+      <time>11.08.2020 15:24:14:309347</time>
+      <pos>285</pos>
+      <idx>6.78</idx>
+      <text>r</text>
+    </event>
+    <event id="858" type="ins">
+      <time>11.08.2020 15:24:14:377028</time>
+      <pos>286</pos>
+      <idx>6.79</idx>
+      <text>e</text>
+    </event>
+    <event id="859" type="ins">
+      <time>11.08.2020 15:24:14:557133</time>
+      <pos>287</pos>
+      <idx>6.80</idx>
+      <text>c</text>
+    </event>
+    <event id="860" type="ins">
+      <time>11.08.2020 15:24:14:650016</time>
+      <pos>288</pos>
+      <idx>6.81</idx>
+      <text>h</text>
+    </event>
+    <event id="861" type="ins">
+      <time>11.08.2020 15:24:14:757786</time>
+      <pos>289</pos>
+      <idx>6.82</idx>
+      <text>e</text>
+    </event>
+    <event id="862" type="ins">
+      <time>11.08.2020 15:24:14:835018</time>
+      <pos>290</pos>
+      <idx>6.83</idx>
+      <text>r</text>
+    </event>
+    <event id="863" type="ins">
+      <time>11.08.2020 15:24:14:877954</time>
+      <pos>291</pos>
+      <idx>6.84</idx>
+      <text>c</text>
+    </event>
+    <event id="864" type="ins">
+      <time>11.08.2020 15:24:14:947526</time>
+      <pos>292</pos>
+      <idx>6.85</idx>
+      <text>h</text>
+    </event>
+    <event id="865" type="ins">
+      <time>11.08.2020 15:24:15:004015</time>
+      <pos>293</pos>
+      <idx>6.86</idx>
+      <text>e</text>
+    </event>
+    <event id="866" type="ins">
+      <time>11.08.2020 15:24:15:178020</time>
+      <pos>294</pos>
+      <idx>6.87</idx>
+      <text>s</text>
+    </event>
+    <event id="867" type="ins">
+      <time>11.08.2020 15:24:15:239500</time>
+      <pos>295</pos>
+      <idx>6.88</idx>
+      <text> </text>
+    </event>
+    <event id="868" type="ins">
+      <time>11.08.2020 15:24:15:381015</time>
+      <pos>296</pos>
+      <idx>6.89</idx>
+      <text>s</text>
+    </event>
+    <event id="869" type="ins">
+      <time>11.08.2020 15:24:15:425392</time>
+      <pos>297</pos>
+      <idx>6.90</idx>
+      <text>u</text>
+    </event>
+    <event id="870" type="ins">
+      <time>11.08.2020 15:24:15:596021</time>
+      <pos>298</pos>
+      <idx>6.91</idx>
+      <text>r</text>
+    </event>
+    <event id="871" type="ins">
+      <time>11.08.2020 15:24:15:703609</time>
+      <pos>299</pos>
+      <idx>6.92</idx>
+      <text> </text>
+    </event>
+    <event id="872" type="ins">
+      <time>11.08.2020 15:24:16:636014</time>
+      <pos>300</pos>
+      <idx>6.93</idx>
+      <text>c</text>
+    </event>
+    <event id="873" type="ins">
+      <time>11.08.2020 15:24:16:711015</time>
+      <pos>301</pos>
+      <idx>6.94</idx>
+      <text>o</text>
+    </event>
+    <event id="874" type="ins">
+      <time>11.08.2020 15:24:16:784151</time>
+      <pos>302</pos>
+      <idx>6.95</idx>
+      <text>n</text>
+    </event>
+    <event id="875" type="ins">
+      <time>11.08.2020 15:24:16:999134</time>
+      <pos>303</pos>
+      <idx>6.96</idx>
+      <text>t</text>
+    </event>
+    <event id="876" type="ins">
+      <time>11.08.2020 15:24:17:076560</time>
+      <pos>304</pos>
+      <idx>6.97</idx>
+      <text>e</text>
+    </event>
+    <event id="877" type="ins">
+      <time>11.08.2020 15:24:17:217870</time>
+      <pos>305</pos>
+      <idx>6.98</idx>
+      <text>x</text>
+    </event>
+    <event id="878" type="ins">
+      <time>11.08.2020 15:24:17:293128</time>
+      <pos>306</pos>
+      <idx>6.99</idx>
+      <text>t</text>
+    </event>
+    <event id="879" type="ins">
+      <time>11.08.2020 15:24:17:385324</time>
+      <pos>307</pos>
+      <idx>6.100</idx>
+      <text>e</text>
+    </event>
+    <event id="880" type="ins">
+      <time>11.08.2020 15:24:19:629992</time>
+      <pos>308</pos>
+      <idx>6.101</idx>
+      <text> </text>
+    </event>
+    <event id="881" type="ins">
+      <time>11.08.2020 15:24:19:876258</time>
+      <pos>309</pos>
+      <idx>6.102</idx>
+      <text>s</text>
+    </event>
+    <event id="882" type="ins">
+      <time>11.08.2020 15:24:19:973013</time>
+      <pos>310</pos>
+      <idx>6.103</idx>
+      <text>o</text>
+    </event>
+    <event id="883" type="ins">
+      <time>11.08.2020 15:24:20:065013</time>
+      <pos>311</pos>
+      <idx>6.104</idx>
+      <text>c</text>
+    </event>
+    <event id="884" type="ins">
+      <time>11.08.2020 15:24:20:155015</time>
+      <pos>312</pos>
+      <idx>6.105</idx>
+      <text>i</text>
+    </event>
+    <event id="885" type="ins">
+      <time>11.08.2020 15:24:20:314663</time>
+      <pos>313</pos>
+      <idx>6.106</idx>
+      <text>o</text>
+    </event>
+    <event id="886" type="ins">
+      <time>11.08.2020 15:24:22:525478</time>
+      <pos>314</pos>
+      <idx>6.107</idx>
+      <text>-</text>
+    </event>
+    <event id="887" type="ins">
+      <time>11.08.2020 15:24:23:040306</time>
+      <pos>315</pos>
+      <idx>6.108</idx>
+      <text>p</text>
+    </event>
+    <event id="888" type="ins">
+      <time>11.08.2020 15:24:23:205030</time>
+      <pos>316</pos>
+      <idx>6.109</idx>
+      <text>o</text>
+    </event>
+    <event id="889" type="ins">
+      <time>11.08.2020 15:24:23:212021</time>
+      <pos>317</pos>
+      <idx>6.110</idx>
+      <text>i</text>
+    </event>
+    <event id="890" type="ins">
+      <time>11.08.2020 15:24:23:355015</time>
+      <pos>318</pos>
+      <idx>6.111</idx>
+      <text>l</text>
+    </event>
+    <event id="891" type="ins">
+      <time>11.08.2020 15:24:23:532123</time>
+      <pos>319</pos>
+      <idx>6.112</idx>
+      <text>i</text>
+    </event>
+    <event id="892" type="ins">
+      <time>11.08.2020 15:24:23:613012</time>
+      <pos>320</pos>
+      <idx>6.113</idx>
+      <text>t</text>
+    </event>
+    <event id="893" type="ins">
+      <time>11.08.2020 15:24:23:696076</time>
+      <pos>321</pos>
+      <idx>6.114</idx>
+      <text>i</text>
+    </event>
+    <event id="894" type="ins">
+      <time>11.08.2020 15:24:23:837006</time>
+      <pos>322</pos>
+      <idx>6.115</idx>
+      <text>q</text>
+    </event>
+    <event id="895" type="ins">
+      <time>11.08.2020 15:24:23:884427</time>
+      <pos>323</pos>
+      <idx>6.116</idx>
+      <text>u</text>
+    </event>
+    <event id="896" type="ins">
+      <time>11.08.2020 15:24:24:022284</time>
+      <pos>324</pos>
+      <idx>6.117</idx>
+      <text>e</text>
+    </event>
+    <event id="897" type="ins">
+      <time>11.08.2020 15:24:24:134686</time>
+      <pos>325</pos>
+      <idx>6.118</idx>
+      <text> </text>
+    </event>
+    <event id="898" type="ins">
+      <time>11.08.2020 15:24:24:269104</time>
+      <pos>326</pos>
+      <idx>6.119</idx>
+      <text>d</text>
+    </event>
+    <event id="899" type="ins">
+      <time>11.08.2020 15:24:24:321011</time>
+      <pos>327</pos>
+      <idx>6.120</idx>
+      <text>e</text>
+    </event>
+    <event id="900" type="ins">
+      <time>11.08.2020 15:24:24:450916</time>
+      <pos>328</pos>
+      <idx>6.121</idx>
+      <text> </text>
+    </event>
+    <event id="901" type="ins">
+      <time>11.08.2020 15:24:24:555615</time>
+      <pos>329</pos>
+      <idx>6.122</idx>
+      <text>l</text>
+    </event>
+    <event id="902" type="ins">
+      <time>11.08.2020 15:24:24:560598</time>
+      <pos>330</pos>
+      <idx>6.123</idx>
+      <text>m</text>
+    </event>
+    <event id="903" type="back">
+      <time>11.08.2020 15:24:25:225044</time>
+      <pos>330</pos>
+      <idx>6.123</idx>
+      <text>m</text>
+    </event>
+    <event id="904" type="ins">
+      <time>11.08.2020 15:24:26:039015</time>
+      <pos>330</pos>
+      <idx>6.123</idx>
+      <text>'</text>
+    </event>
+    <event id="905" type="ins">
+      <time>11.08.2020 15:24:26:516010</time>
+      <pos>331</pos>
+      <idx>6.124</idx>
+      <text>é</text>
+    </event>
+    <event id="906" type="ins">
+      <time>11.08.2020 15:24:26:783694</time>
+      <pos>332</pos>
+      <idx>6.125</idx>
+      <text>p</text>
+    </event>
+    <event id="907" type="ins">
+      <time>11.08.2020 15:24:26:840691</time>
+      <pos>333</pos>
+      <idx>6.126</idx>
+      <text>o</text>
+    </event>
+    <event id="908" type="ins">
+      <time>11.08.2020 15:24:26:940065</time>
+      <pos>334</pos>
+      <idx>6.127</idx>
+      <text>q</text>
+    </event>
+    <event id="909" type="ins">
+      <time>11.08.2020 15:24:27:021576</time>
+      <pos>335</pos>
+      <idx>6.128</idx>
+      <text>u</text>
+    </event>
+    <event id="910" type="ins">
+      <time>11.08.2020 15:24:27:131013</time>
+      <pos>336</pos>
+      <idx>6.129</idx>
+      <text>e</text>
+    </event>
+    <event id="911" type="ins">
+      <time>11.08.2020 15:24:27:247180</time>
+      <pos>337</pos>
+      <idx>6.130</idx>
+      <text>*</text>
+    </event>
+    <event id="912" type="back">
+      <time>11.08.2020 15:24:27:786015</time>
+      <pos>337</pos>
+      <idx>6.130</idx>
+      <text>*</text>
+    </event>
+    <event id="913" type="ins">
+      <time>11.08.2020 15:24:28:401481</time>
+      <pos>337</pos>
+      <idx>6.130</idx>
+      <text>.</text>
+    </event>
+    <event id="914" type="ins">
+      <time>11.08.2020 15:24:28:595013</time>
+      <pos>338</pos>
+      <idx>6.131</idx>
+      <text> </text>
+    </event>
+    <event id="915" type="ins">
+      <time>11.08.2020 15:25:52:457980</time>
+      <pos>785</pos>
+      <idx>9.185</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="916" type="ins">
+      <time>11.08.2020 15:25:52:637062</time>
+      <pos>786</pos>
+      <idx>10.0</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="917" type="ins">
+      <time>11.08.2020 15:49:02:239773</time>
+      <pos>45</pos>
+      <idx>1.45</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="918" type="ins">
+      <time>11.08.2020 15:49:02:374523</time>
+      <pos>46</pos>
+      <idx>2.0</idx>
+      <text>&amp;#xa;</text>
+    </event>
+    <event id="919" type="ins">
+      <time>11.08.2020 15:49:04:967819</time>
+      <pos>47</pos>
+      <idx>3.0</idx>
+      <text>1</text>
+    </event>
+    <event id="920" type="ins">
+      <time>11.08.2020 15:49:05:117502</time>
+      <pos>48</pos>
+      <idx>3.1</idx>
+      <text>1</text>
+    </event>
+    <event id="921" type="ins">
+      <time>11.08.2020 15:49:05:535243</time>
+      <pos>49</pos>
+      <idx>3.2</idx>
+      <text>-</text>
+    </event>
+    <event id="922" type="ins">
+      <time>11.08.2020 15:49:06:050456</time>
+      <pos>50</pos>
+      <idx>3.3</idx>
+      <text>0</text>
+    </event>
+    <event id="923" type="ins">
+      <time>11.08.2020 15:49:06:218000</time>
+      <pos>51</pos>
+      <idx>3.4</idx>
+      <text>8</text>
+    </event>
+    <event id="924" type="back">
+      <time>11.08.2020 15:49:08:932480</time>
+      <pos>49</pos>
+      <idx>3.2</idx>
+      <text>-</text>
+    </event>
+    <event id="925" type="ins">
+      <time>11.08.2020 15:49:09:573879</time>
+      <pos>49</pos>
+      <idx>3.2</idx>
+      <text>/</text>
+    </event>
+  </event_log>
+</session>
