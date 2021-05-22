@@ -18,10 +18,10 @@ class App(object):
         self.root.grid_rowconfigure(2, weight=1)
         self.root.grid_columnconfigure(1, weight=1)
 
-        self.frame = tk.Frame(self.root, height=800, width=500, bg="#b3a38e", pady=5, padx=5)
+        self.frame = tk.Frame(self.root, height=800, width=500, bg="#DED6C9", pady=5, padx=5)
         self.frame.grid(row=2, column=0, columnspan=2, sticky="nsew")
         self.frame.grid(row=2, column=0, sticky="nsew", columnspan=4)
-        self.main_text = ScrolledText(self.frame, fg="black", bg="#b3a38e", wrap=tk.WORD)
+        self.main_text = ScrolledText(self.frame, fg="black", bg="#DED6C9", wrap=tk.WORD)
         self.text_tags_init()
 
         self.file_label = tk.Label(self.root)
