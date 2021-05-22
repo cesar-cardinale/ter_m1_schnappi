@@ -69,7 +69,7 @@ class App(object):
 
     #insert in the text widget and self.text
     def insert(self, char, position, direction):
-        print("Ajout : " + char)
+        print("Ajout : " + char + " position : " + str(position))
         char_list = self.text.copy()
 
         if direction == 'forward':
@@ -105,6 +105,7 @@ class App(object):
     def delete(self, char, position, direction):
         print("Suppression : " + char + " position : " + str(position))
         char_list = self.text.copy()
+        print(len(char_list))
         if len(char_list) > position:
             if direction == 'forward':
                 main_text_pos = self.position_forward(position)

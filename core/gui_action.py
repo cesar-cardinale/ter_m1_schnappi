@@ -58,7 +58,8 @@ def read_forward(target):
                 app_gui.delete(c,action.position, 'forward')
 
 def read_backward(target):
-    for action in app_gui.actions_list[target:previous]:
+    sub_action = app_gui.actions_list[target:previous]
+    for action in sub_action[::-1]:
         if action.type == "ins":
             app_gui.delete(action.text, action.position, 'backward')
         elif action.type == "back":
