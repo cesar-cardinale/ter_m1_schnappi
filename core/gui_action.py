@@ -1,3 +1,5 @@
+import tkinter as tk
+
 from core import my_parser
 import threading
 from time import sleep
@@ -39,12 +41,15 @@ def slider_callback(target):
 
 
 def jump(target):
+    old_speed = app_gui.speed
+    app_gui.speed = 0
     target = int(target)
     if target > previous:
         read_forward(target)
     elif target < previous:
         read_backward(target)
-
+    app_gui.main_text.yview(tk.END)
+    app_gui.speed = old_speed
     update_slider(target)
 
 def read_forward(target):
