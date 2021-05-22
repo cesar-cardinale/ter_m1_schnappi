@@ -95,10 +95,10 @@ def update_slider(value):
 def open_file(gui):
     global app_gui
     app_gui = gui
-    update_slider(0)
     app_gui.file_input = filedialog.askopenfilename(initialdir="./", title="Select file",
                                                     filetypes=(("ses files", "*.ses"), ("all files", "*.*")))
     if app_gui.file_input:
+        update_slider(0)
         app_gui.reset()
         app_gui.display_file()
         app_gui.start.configure(state="normal")
