@@ -1,11 +1,11 @@
 import tkinter as tk
+from model.schnappi_string_element import Schnappi_string_element as text_element
 
 
 class App(object):
 
     def __init__(self, gui_action):
-        self.text = ""
-        self.text_deleted = []
+        self.text = []
 
         self.file_input = None
         parent = tk.Tk()
@@ -20,10 +20,12 @@ class App(object):
 
         self.frame = tk.Frame(self.root, height=800, width=500, bg="#b3a38e", pady=5, padx=5)
         self.frame.grid(row=2, column=0, columnspan=2, sticky="nsew")
-        self.main_text = tk.Text(self.frame, fg="black", bg="#b3a38e")
         self.frame.grid(row=2, column=0, sticky="nsew", columnspan=4)
+
+
         scrollbar = tk.Scrollbar(self.frame)
         self.main_text = tk.Text(self.frame, fg="black", bg="#b3a38e", yscrollcommand=scrollbar.set)
+        self.text_tags_init()
         scrollbar.config(command=self.main_text.yview)
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
@@ -59,51 +61,104 @@ class App(object):
         self.reset()
         return self.file_input.strip()
 
-    def insert(self, char, position):
-        print("Ajout : " + char)
-        char_list = self.text
-        if len(char_list) > position:
-            char_list = self.text[:int(position)]+char+self.text[int(position):]
-            #char_list[int(position)] = char
-            self.text = "".join(char_list)
-            for item in self.text_deleted:
-                if item[0] > position:
-                    item[0] += 1
-            self.display_text()
-            # char_list[position] = char
-            # self.reset()
-            # self.main_text.insert(1.0, "".join(char_list))
-        else:
-            self.text += char
-            self.main_text.insert(tk.END, char)
-
     def set_slider_max(self, value):
         self.slider.configure(to=value)
 
     def set_slider_callback(self, function):
         self.slider.configure(command=function)
 
-    def delete(self, char, position):
-        print("Suppression : " + char)
-        char_list = list(self.text)
-        if len(char_list) > position and char_list[position] == char:
-            new_position = position
-            for item in self.text_deleted:
-                if item[0] == new_position:
-                    new_position += 1
-            self.text_deleted.append([new_position, char])
-            char_list.pop(position)
-            self.text = "".join(char_list)
-            self.display_text()
+    def insert(self, char, position, direction):
+        print("Ajout : " + char)
+        char_list = self.text.copy()
+
+        if direction == 'forward':
+            main_text_pos = self.get_text_position(position)
+            element = text_element(char,[])
+            if len(char_list) > position:
+                char_list.insert(position, element)
+                self.main_text.insert(main_text_pos,element.char, 'normal')
+            else:
+                char_list.append(element)
+                self.main_text.insert(main_text_pos, char, 'normal')
+        elif direction == 'backward':
+            main_text_pos = self.position_backward(position, False)
+            if char_list[position-1].del_after:
+               element = char_list[position-1].del_after[-1]
+               char_list[position-1].del_after.pop(-1)
+            else:
+                element = text_element(char,())
+
+            if element.char == '\n':
+                self.main_text.delete(main_text_pos)
+            self.main_text.delete(main_text_pos)
+            self.main_text.insert(main_text_pos,element.char,'normal')
+            if len(char_list) > position:
+                char_list.insert(position, element)
+            else:
+                char_list.append(element)
+        self.text = char_list
+
+
+
+    def delete(self, char, position, direction):
+        print("Suppression : " + char + " position : " + str(position))
+        char_list = self.text.copy()
         if len(char_list) > position:
-            for item in self.text_deleted:
-                if item[0] > position:
-                    item[0] -= 1
+            if direction == 'forward':
+                main_text_pos = self.get_text_position(position)
+                if char_list[position].char == '\n':
+                    self.main_text.delete(main_text_pos)
+                    self.main_text.insert(main_text_pos, '\\n', 'deleted')
+                else:
+                    self.main_text.tag_add('deleted', main_text_pos)
+                char_list[position-1].append_all_after(char_list[position])
+            elif direction == 'backward':
+                main_text_pos = self.position_backward(position, True)
+                self.main_text.delete(main_text_pos)
+
+            char_list.pop(position)
+            self.text = char_list.copy()
+
+
+    def get_text_position(self, pos):
+        line = 1
+        pos_last_new_line = 0
+        offset = 0
+
+        for i, c in enumerate(self.text[:pos]):
+            if c.char == '\n':
+                line += 1
+                pos_last_new_line = i
+                offset = -1
+        for i,c in enumerate(self.text[pos_last_new_line:pos]):
+            offset+= len(c.get_string())-1
+
+
+        print(str(line) + '.' + str(pos + offset - pos_last_new_line))
+        return str(line) + '.' + str(pos + offset - pos_last_new_line)
+
+    def position_backward(self, pos, sup):
+        line = 1
+        pos_last_new_line = 0
+        offset = 0
+        for i, c in enumerate(self.text[:pos]):
+            if c.char == '\n':
+                line += 1
+                pos_last_new_line = i
+                offset = -1
+        for i,c in enumerate(self.text[pos_last_new_line:pos]):
+            offset+= len(c.get_string())-1
+        if self.text[pos-1].del_after and not sup:
+            offset -= len(self.text[pos-1].del_after[-1].get_string())
+            print(len(self.text[pos-1].del_after[-1].get_string()))
+
+
+        print(str(line) + '.' + str(pos + offset - pos_last_new_line))
+        return str(line) + '.' + str(pos + offset - pos_last_new_line)
 
     def reset(self):
-        self.text = ""
+        self.text = []
         self.main_text.delete(1.0, tk.END)
-        self.text_deleted = []
 
     def display_file(self):
         name = self.file_input.split('/')
@@ -117,50 +172,19 @@ class App(object):
         self.slider.set(value)
 
     def init(self):
-        self.main_text.pack(fill="both", expand=1)
+        self.main_text.pack(fill = "both", expand = 1)
+
+    def text_tags_init(self):
+        self.main_text.tag_configure('normal', overstrike = 0)
+        self.main_text.tag_configure('deleted', overstrike = 1)
+
+    def print_text(self):
+        for c in self.text:
+            print(c.char, end=' : ')
+            for d in c.del_after:
+                print(d.get_string())
+            print('')
 
     def on_exit(self):
         self.root.quit()
 
-    def display_text(self):
-        words = []
-        self.text_deleted.reverse()
-        first_deleted = 0
-        last_deleted = 0
-        last_word = ""
-        for i, char in enumerate(self.text_deleted):
-            if i == len(self.text_deleted) - 1:
-                last_word += char[1]
-                words.append([first_deleted, last_word])
-            elif char[0] == last_deleted + 1:
-                last_deleted = char[0]
-                last_word += char[1]
-            else:
-                words.append([first_deleted, last_word])
-                first_deleted = char[0]
-                last_word = char[1]
-                last_deleted = char[0]
-
-        # print(JSONEncoder.encode(JSONEncoder(), self.text_deleted))
-        final_text = []
-        last_deleted = 0
-        for i, char in enumerate(self.text):
-            for word in words:
-                if i == word[0] - 1:
-                    final_text.append("[" + word[1] + "]")
-            # for char2 in self.text_deleted:
-            #     # print(i, last_deleted)
-            #     if i == char2[0]-1 or last_deleted+1 == char2[0]:
-            #         final_text.append('|'+char2[1]+'|')
-            #         last_deleted = char2[0]
-            final_text.append(char)
-        self.text_deleted.reverse()
-        self.main_text.delete(1.0, tk.END)
-        self.main_text.insert(1.0, "".join(final_text))
-
-    # self.chooseFile.pack()
-    # self.fileLabel.pack()
-    # self.frame.pack()
-    # self.start.pack()
-    # self.mainText.pack()
-    # self.slider.pack()

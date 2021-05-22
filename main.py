@@ -4,6 +4,7 @@ from core import my_gui, gui_action
 def main():
     app = my_gui.App(gui_action)
 
+
     app.init()
     app.root.mainloop()
 

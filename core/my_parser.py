@@ -7,12 +7,13 @@ def parse(file_path):
     events = doc.getElementsByTagName("event")
     all_actions = []
     for event in events:
+        action_index = events.index(event)
         action_type = event.getAttribute("type")
         action_time = get_text(event.getElementsByTagName("time")[0].childNodes)
         action_text = get_text(event.getElementsByTagName("text")[0].childNodes)
         action_position = int(get_text(event.getElementsByTagName("pos")[0].childNodes))
 
-        my_action = Action(action_type, action_time, action_text, action_position)
+        my_action = Action(action_index, action_type, action_time, action_text, action_position)
         all_actions.append(my_action)
 
         my_action.to_cli()

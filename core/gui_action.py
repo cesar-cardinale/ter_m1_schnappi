@@ -3,11 +3,12 @@ import threading
 from time import sleep
 from tkinter import filedialog
 
+global previous
+previous = 0
 global app_gui
 global run
 run = threading.Event()
 run.set()
-
 
 def start():
     global run
@@ -31,46 +32,57 @@ def thread_read():
     read_action()
 
 
-def slider_callback(_):
+def slider_callback(target):
     if run.is_set():
-        jump()
+        jump(target)
 
 
-def jump():
-    app_gui.reset()
-    gui_start = app_gui.get_start()
-    for action in app_gui.actions_list[:gui_start]:
+
+def jump(target):
+    target = int(target)
+    if target > previous:
+        read_forward(target)
+    elif target < previous:
+        read_backward(target)
+
+    update_slider(target)
+
+def read_forward(target):
+    for action in app_gui.actions_list[previous:target]:
         if action.type == "ins":
-            app_gui.insert(action.text, action.position)
+            app_gui.insert(action.text, action.position, 'forward')
         elif action.type == "back":
-            app_gui.delete(action.text, action.position)
+            app_gui.delete(action.text, action.position, 'forward')
         elif action.type == "del":
             for c in action.text:
-                app_gui.delete(c,action.position)
+                app_gui.delete(c,action.position, 'forward')
 
+def read_backward(target):
+    for action in app_gui.actions_list[target:previous]:
+        if action.type == "ins":
+            app_gui.delete(action.text, action.position, 'backward')
+        elif action.type == "back":
+            app_gui.insert(action.text, action.position, 'backward')
+        elif action.type == "del":
+            for c in action.text:
+                app_gui.insert(c,action.position, 'backward')
 
 def read_action():
     gui_start = app_gui.get_start()
     for action in app_gui.actions_list[gui_start:]:
-        update_slider(app_gui.actions_list.index(action))
-        if run.is_set():
-            update_slider(app_gui.actions_list.index(action))
-            return
-        if action.type == "ins":
-            app_gui.insert(action.text, action.position)
-        elif action.type == "back":
-            app_gui.delete(action.text, action.position)
-        elif action.type == "del":
-            for c in action.text:
-                app_gui.delete(c,action.position)
+        jump(action.index+1)
+        update_slider(action.index+1)
         sleep(app_gui.speed.get())
-    update_slider(len(app_gui.actions_list))
+        if run.is_set():
+            return
+
     run.set()
     change_button()
 
-
 def update_slider(value):
     app_gui.update_start(value)
+    global previous
+    previous = value
 
 
 def open_file(gui):
