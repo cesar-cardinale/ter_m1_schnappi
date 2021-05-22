@@ -68,7 +68,7 @@ class App(object):
         char_list = self.text.copy()
 
         if direction == 'forward':
-            main_text_pos = self.position_forward(position)
+            main_text_pos = self.get_position_text(position, False)
             element = text_element(char, [])
             if len(char_list) > position:
                 char_list.insert(position, element)
@@ -78,7 +78,7 @@ class App(object):
                 self.main_text.insert(main_text_pos, char, 'normal')
 
         elif direction == 'backward':
-            main_text_pos = self.position_backward(position, False)
+            main_text_pos = self.get_position_text(position, True)
             if char_list[position - 1].del_after:
                 element = char_list[position - 1].del_after[-1]
                 char_list[position - 1].del_after.pop(-1)
@@ -100,10 +100,10 @@ class App(object):
     def delete(self, char, position, direction):
         print("Suppression : " + char + " position : " + str(position))
         char_list = self.text.copy()
-        print(len(char_list))
+        #print(len(char_list))
         if len(char_list) > position:
             if direction == 'forward':
-                main_text_pos = self.position_forward(position)
+                main_text_pos = self.get_position_text(position, False)
                 if char_list[position].char == '\n':
                     self.main_text.delete(main_text_pos)
                     self.main_text.insert(main_text_pos, '\\n', 'deleted')
@@ -111,47 +111,33 @@ class App(object):
                     self.main_text.tag_add('deleted', main_text_pos)
                 char_list[position - 1].append_all_after(char_list[position])
             elif direction == 'backward':
-                main_text_pos = self.position_backward(position, True)
+                main_text_pos = self.get_position_text(position, False)
                 self.main_text.delete(main_text_pos)
 
             char_list.pop(position)
             self.text = char_list.copy()
             self.main_text.yview(tk.END)
 
-    # give the position in the text widget when going forward
-    def position_forward(self, pos):
+
+    # give the position in the text widget
+    def get_position_text(self, pos, sup):
         line = 1
         pos_last_new_line = 0
-        offset = 0
+        index = 0
 
         for i, c in enumerate(self.text[:pos]):
             if c.char == '\n':
                 line += 1
-                pos_last_new_line = i
-                offset = -1
+                pos_last_new_line = i+1
+
         for i, c in enumerate(self.text[pos_last_new_line:pos]):
-            offset += len(c.get_string()) - 1
+            index += len(c.get_string())
 
-        # print(str(line) + '.' + str(pos + offset - pos_last_new_line))
-        return str(line) + '.' + str(pos + offset - pos_last_new_line)
+        if sup and self.text[pos - 1].del_after :
+            index -= len(self.text[pos - 1].del_after[-1].get_string())
 
-    # give the position in the text widget when going backward
-    def position_backward(self, pos, sup):
-        line = 1
-        pos_last_new_line = 0
-        offset = 0
-        for i, c in enumerate(self.text[:pos]):
-            if c.char == '\n':
-                line += 1
-                pos_last_new_line = i
-                offset = -1
-        for i, c in enumerate(self.text[pos_last_new_line:pos]):
-            offset += len(c.get_string()) - 1
-        if self.text[pos - 1].del_after and not sup:
-            offset -= len(self.text[pos - 1].del_after[-1].get_string())
-
-        # print(str(line) + '.' + str(pos + offset - pos_last_new_line))
-        return str(line) + '.' + str(pos + offset - pos_last_new_line)
+        print(line, index)
+        return str(line) + '.' + str(index)
 
     def reset(self):
         self.text = []
