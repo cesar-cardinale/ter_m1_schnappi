@@ -67,12 +67,13 @@ class App(object):
     def set_slider_callback(self, function):
         self.slider.configure(command=function)
 
+    #insert in the text widget and self.text
     def insert(self, char, position, direction):
         print("Ajout : " + char)
         char_list = self.text.copy()
 
         if direction == 'forward':
-            main_text_pos = self.get_text_position(position)
+            main_text_pos = self.position_forward(position)
             element = text_element(char,[])
             if len(char_list) > position:
                 char_list.insert(position, element)
@@ -80,6 +81,7 @@ class App(object):
             else:
                 char_list.append(element)
                 self.main_text.insert(main_text_pos, char, 'normal')
+
         elif direction == 'backward':
             main_text_pos = self.position_backward(position, False)
             if char_list[position-1].del_after:
@@ -99,13 +101,13 @@ class App(object):
         self.text = char_list
 
 
-
+    #delete in the text widget and self.text
     def delete(self, char, position, direction):
         print("Suppression : " + char + " position : " + str(position))
         char_list = self.text.copy()
         if len(char_list) > position:
             if direction == 'forward':
-                main_text_pos = self.get_text_position(position)
+                main_text_pos = self.position_forward(position)
                 if char_list[position].char == '\n':
                     self.main_text.delete(main_text_pos)
                     self.main_text.insert(main_text_pos, '\\n', 'deleted')
@@ -119,8 +121,8 @@ class App(object):
             char_list.pop(position)
             self.text = char_list.copy()
 
-
-    def get_text_position(self, pos):
+    #give the position in the text widget when going forward
+    def position_forward(self, pos):
         line = 1
         pos_last_new_line = 0
         offset = 0
@@ -134,9 +136,10 @@ class App(object):
             offset+= len(c.get_string())-1
 
 
-        print(str(line) + '.' + str(pos + offset - pos_last_new_line))
+        # print(str(line) + '.' + str(pos + offset - pos_last_new_line))
         return str(line) + '.' + str(pos + offset - pos_last_new_line)
 
+    #give the position in the text widget when going backward
     def position_backward(self, pos, sup):
         line = 1
         pos_last_new_line = 0
@@ -150,10 +153,9 @@ class App(object):
             offset+= len(c.get_string())-1
         if self.text[pos-1].del_after and not sup:
             offset -= len(self.text[pos-1].del_after[-1].get_string())
-            print(len(self.text[pos-1].del_after[-1].get_string()))
 
 
-        print(str(line) + '.' + str(pos + offset - pos_last_new_line))
+        # print(str(line) + '.' + str(pos + offset - pos_last_new_line))
         return str(line) + '.' + str(pos + offset - pos_last_new_line)
 
     def reset(self):
@@ -165,10 +167,10 @@ class App(object):
         self.choose_file.configure(text=name[-1])
         self.file_label.configure(text=name[-1])
 
-    def get_start(self):
+    def get_slider_position(self):
         return self.slider.get()
 
-    def update_start(self, value):
+    def update_slider(self, value):
         self.slider.set(value)
 
     def init(self):

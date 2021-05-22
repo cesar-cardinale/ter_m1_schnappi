@@ -68,7 +68,7 @@ def read_backward(target):
                 app_gui.insert(c,action.position, 'backward')
 
 def read_action():
-    gui_start = app_gui.get_start()
+    gui_start = app_gui.get_slider_position()
     for action in app_gui.actions_list[gui_start:]:
         jump(action.index+1)
         update_slider(action.index+1)
@@ -80,7 +80,7 @@ def read_action():
     change_button()
 
 def update_slider(value):
-    app_gui.update_start(value)
+    app_gui.update_slider(value)
     global previous
     previous = value
 
