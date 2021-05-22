@@ -54,7 +54,6 @@ class App(object):
         menubar.add_cascade(label="Speed", menu=submenu, underline=0)
 
     def get_file(self):
-        self.reset()
         return self.file_input.strip()
 
     def set_slider_max(self, value):
